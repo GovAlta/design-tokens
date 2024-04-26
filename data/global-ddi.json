@@ -558,5 +558,24 @@
       "type": "boxShadow",
       "description": "Drop shadow for modals."
     }
+  },
+  "transition": {
+    "duration": {
+      "s": {
+        "value": "100ms",
+        "type": "transition",
+        "description": "Short transition duration."
+      },
+      "m": {
+        "value": "200ms",
+        "type": "transition",
+        "description": "Medium transition duration."
+      },
+      "l": {
+        "value": "300ms",
+        "type": "transition",
+        "description": "Long transition duration."
+      }
+    }
   }
 }
