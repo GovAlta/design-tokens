@@ -1,0 +1,122 @@
+{
+  "callout-border-radius": {
+    "value": "{borderRadius.none}",
+    "type": "borderRadius"
+  },
+  "callout-border-width": {
+    "value": "0px",
+    "type": "borderWidth"
+  },
+  "callout-l-icon-size": {
+    "value": "{iconSize.m}",
+    "type": "sizing"
+  },
+  "callout-l-content-padding": {
+    "value": "{space.l}",
+    "type": "spacing"
+  },
+  "callout-l-content-gap": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
+  "callout-l-statusbar-padding": {
+    "value": "{space.l} {space.s}",
+    "type": "spacing"
+  },
+  "callout-m-icon-size": {
+    "value": "{iconSize.s}",
+    "type": "sizing"
+  },
+  "callout-m-content-padding": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "callout-m-content-gap": {
+    "value": "{space.2xs}",
+    "type": "spacing"
+  },
+  "callout-m-statusbar-padding": {
+    "value": "{space.s} {space.2xs}",
+    "type": "spacing"
+  },
+  "callout-info-color-bg-content": {
+    "value": "{color.greyscale.100}",
+    "type": "color"
+  },
+  "callout-info-color-bg-statusbar": {
+    "value": "{color.information.default}",
+    "type": "color"
+  },
+  "callout-info-icon-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-info-border-color": {
+    "value": "none",
+    "type": "color"
+  },
+  "callout-warning-color-bg-content": {
+    "value": "{color.greyscale.100}",
+    "type": "color"
+  },
+  "callout-warning-color-bg-statusbar": {
+    "value": "{color.warning.default}",
+    "type": "color"
+  },
+  "callout-warning-icon-color": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
+  "callout-warning-border-color": {
+    "value": "none",
+    "type": "color"
+  },
+  "callout-success-color-bg-content": {
+    "value": "{color.greyscale.100}",
+    "type": "color"
+  },
+  "callout-success-color-bg-statusbar": {
+    "value": "{color.success.default}",
+    "type": "color"
+  },
+  "callout-success-icon-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-success-border-color": {
+    "value": "none",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-content": {
+    "value": "{color.greyscale.100}",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-statusbar": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "callout-emergency-icon-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-emergency-border-color": {
+    "value": "none",
+    "type": "color"
+  },
+  "callout-l-heading": {
+    "value": "{typography.heading.m}",
+    "type": "other"
+  },
+  "callout-l-text-size": {
+    "value": "{typography.body.m}",
+    "type": "other"
+  },
+  "callout-m-heading-size": {
+    "value": "{typography.heading.xs}",
+    "type": "other"
+  },
+  "callout-m-text-size": {
+    "value": "{typography.body.s}",
+    "type": "other"
+  }
+}

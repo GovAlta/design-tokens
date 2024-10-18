@@ -1,0 +1,10 @@
+{
+  "table-color-heading": {
+    "value": "{color.text.secondary}",
+    "type": "color"
+  },
+  "table-color-border-heading": {
+    "value": "{color.greyscale.600}",
+    "type": "color"
+  }
+}
