@@ -1,0 +1,26 @@
+{
+  "button-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "button-padding-lr": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "button-padding-lr-compact": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
+  "button-height": {
+    "value": "42px",
+    "type": "sizing"
+  },
+  "button-height-compact": {
+    "value": "32px",
+    "type": "sizing"
+  },
+  "button-text": {
+    "value": "{typography.button.default}",
+    "type": "other"
+  }
+}

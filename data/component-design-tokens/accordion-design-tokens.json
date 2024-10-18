@@ -1,0 +1,54 @@
+{
+  "accordion-color-bg-heading": {
+    "value": "{color.greyscale.100}",
+    "type": "color"
+  },
+  "accordion-color-bg-content": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "accordion-color-heading": {
+    "value": "{color.text.default}",
+    "type": "color"
+  },
+  "accordion-border": {
+    "value": {
+      "color": "{color.greyscale.200}",
+      "width": "{borderWidth.s}",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "accordion-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "accordion-padding-heading": {
+    "value": "{space.s} {space.m}",
+    "type": "spacing"
+  },
+  "accordion-padding-content-wide": {
+    "value": "{space.l} {space.l} {space.xl} 56px",
+    "type": "spacing"
+  },
+  "accordion-padding-content-narrow": {
+    "value": "{space.l}",
+    "type": "spacing"
+  },
+  "accordion-color-bg-heading-hover": {
+    "value": "{color.greyscale.200}",
+    "type": "color"
+  },
+  "accordion-color-heading-hover": {
+    "value": "{color.text.default}",
+    "type": "color"
+  },
+  "accordion-heading-s": {
+    "value": "{typography.heading.s}",
+    "type": "other"
+  },
+  "accordion-heading-m": {
+    "value": "{typography.heading.m}",
+    "type": "other"
+  }
+}

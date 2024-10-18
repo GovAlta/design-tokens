@@ -1,0 +1,46 @@
+{
+  "side-menu-group-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "side-menu-group-padding": {
+    "value": "{space.m} {space.none} {space.l} {space.none}",
+    "type": "spacing"
+  },
+  "side-menu-parent-padding": {
+    "value": "{space.none}",
+    "type": "spacing"
+  },
+  "side-menu-group-border-radius": {
+    "value": "{borderRadius.none}",
+    "type": "borderRadius"
+  },
+  "side-menu-child-border-width": {
+    "value": "4px",
+    "type": "borderWidth"
+  },
+  "side-menu-parent-color-bg-hover": {
+    "value": "#CEDFEE",
+    "type": "color"
+  },
+  "side-menu-child-color-bg-hover": {
+    "value": "{color.information.background}",
+    "type": "color"
+  },
+  "side-menu-child-color-bg-selected": {
+    "value": "{color.information.background}",
+    "type": "color"
+  },
+  "side-menu-child-color-text-selected": {
+    "value": "{color.text.default}",
+    "type": "color"
+  },
+  "goa-side-menu-parent-text": {
+    "value": "{typography.body.m}",
+    "type": "other"
+  },
+  "goa-side-menu-parent-text-active": {
+    "value": "{typography.body.m}",
+    "type": "other"
+  }
+}

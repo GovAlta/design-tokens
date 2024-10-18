@@ -1,0 +1,18 @@
+{
+  "container-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "container-border": {
+    "value": {
+      "color": "{color.greyscale.200}",
+      "width": "{borderWidth.s}",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "container-padding": {
+    "value": "{space.l}",
+    "type": "spacing"
+  }
+}
