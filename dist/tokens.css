@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 18 Oct 2024 17:12:20 GMT
+ * Generated on Sat, 19 Oct 2024 14:57:14 GMT
  */
 
 :root {
@@ -190,8 +190,8 @@
   --goa-accordion-color-bg-content: var(--goa-color-greyscale-white);
   --goa-accordion-color-bg-heading: var(--goa-color-greyscale-100);
   --goa-table-color-heading: var(--goa-color-text-secondary);
-  --goa-goa-side-menu-parent-text-active: var(--goa-typography-body-m);
-  --goa-goa-side-menu-parent-text: var(--goa-typography-body-m);
+  --goa-side-menu-parent-text-active: var(--goa-typography-body-m);
+  --goa-side-menu-parent-text: var(--goa-typography-body-m);
   --goa-side-menu-child-color-text-selected: var(--goa-color-text-default);
   --goa-callout-m-text-size: var(--goa-typography-body-s);
   --goa-callout-m-heading-size: var(--goa-typography-heading-xs);

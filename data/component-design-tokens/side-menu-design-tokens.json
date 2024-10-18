@@ -35,12 +35,11 @@
     "value": "{color.text.default}",
     "type": "color"
   },
-  "goa-side-menu-parent-text": {
+  "side-menu-parent-text": {
     "value": "{typography.body.m}",
     "type": "other"
   },
-  "goa-side-menu-parent-text-active": {
+  "side-menu-parent-text-active": {
     "value": "{typography.body.m}",
     "type": "other"
   }
-}
