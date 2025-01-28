@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Jan 2025 15:34:14 GMT
+ * Generated on Tue, 28 Jan 2025 00:01:32 GMT
  */
 
 :root {
@@ -149,6 +149,11 @@
   --goa-text-input-transition: box-shadow 0.05s ease-in;
   --goa-text-input-color-icon: ;
   --goa-text-input-size-icon: ;
+  --goa-app-header-nav-color-bg-link-item-in-menu: transparent;
+  --goa-app-header-nav-color-bg-link-item-focus: transparent;
+  --goa-app-header-nav-color-bg-link-item-hover: transparent;
+  --goa-app-header-nav-color-bg-link-item: transparent;
+  --goa-app-header-height-nav-item-mobile: 50px;
   --goa-app-header-min-width-service-name: 8rem;
   --goa-app-header-max-width-service-name: 28rem;
   --goa-stepper-line-thickness: 4px;
@@ -353,13 +358,18 @@
   --goa-hero-banner-content-gap: var(--goa-space-l) 0 0;
   --goa-hero-banner-mobile-padding: var(--goa-space-xl) 0;
   --goa-hero-banner-padding: var(--goa-space-2xl) 0;
+  --goa-app-header-nav-color-bg-link-item-in-menu-focus: var(--goa-color-greyscale-100);
+  --goa-app-header-height-nav-item: var(--goa-space-3xl);
   --goa-app-header-space-btw-service-name-nav-items-mobile: var(--goa-space-l);
   --goa-app-header-space-btw-logo-service-name-mobile: var(--goa-space-xs);
   --goa-app-header-space-btw-logo-service-name: var(--goa-space-m);
   --goa-app-header-size-logo-mobile: var(--goa-space-l);
   --goa-app-header-size-logo: var(--goa-space-xl);
   --goa-app-header-padding-tablet: var(--goa-space-xl);
+  --goa-app-header-padding-secondary-nav-item-in-menu: 9px var(--goa-space-m) 9px var(--goa-space-xl);
+  --goa-app-header-padding-secondary-nav-item-in-menu-mobile: 9px var(--goa-space-m) 9px 80px;
   --goa-app-header-padding-nav-item-in-menu: 9px var(--goa-space-m);
+  --goa-app-header-padding-nav-item-with-children: var(--goa-space-m) var(--goa-space-s) var(--goa-space-s);
   --goa-app-header-padding-nav-item: var(--goa-space-m) var(--goa-space-s);
   --goa-app-header-padding-mobile: var(--goa-space-m);
   --goa-app-header-padding-menu-button: var(--goa-space-m) var(--goa-space-s);
@@ -371,7 +381,12 @@
   --goa-app-header-color-text-nav-item-focus: var(--goa-color-interactive-hover);
   --goa-app-header-color-menu-button-hover: var(--goa-color-interactive-hover);
   --goa-app-header-color-menu-button-focus: var(--goa-color-interactive-hover);
+  --goa-app-header-color-bg-nav-item-child-focus: var(--goa-color-greyscale-100);
+  --goa-app-header-color-bg-nav-item-child-hover: var(--goa-color-interactive-hover);
   --goa-app-header-color-bg-nav-item-in-menu-current-hover: var(--goa-color-interactive-hover);
+  --goa-app-header-nav-color-text-link-item-focus: var(--goa-color-interactive-hover);
+  --goa-app-header-nav-color-text-link-item-hover: var(--goa-color-interactive-hover);
+  --goa-app-header-nav-color-text-link-item: var(--goa-color-interactive-default);
   --goa-app-header-color-bg-nav-item-in-menu-current: var(--goa-color-interactive-default);
   --goa-app-header-color-bg-nav-item-hover: var(--goa-color-greyscale-white);
   --goa-app-header-color-bg-nav-item-focus: var(--goa-color-greyscale-white);
@@ -384,10 +399,12 @@
   --goa-app-header-border-nav-item-hover: var(--goa-space-2xs) solid var(--goa-color-interactive-hover);
   --goa-app-header-border-nav-item-focus: var(--goa-space-2xs) solid var(--goa-color-interactive-hover);
   --goa-app-header-border-nav-item-default: var(--goa-space-2xs) solid transparent;
+  --goa-app-header-border-nav-item-current-hover: var(--goa-space-2xs) solid var(--goa-color-interactive-hover);
   --goa-app-header-border-nav-item-current-focus: var(--goa-space-2xs) solid var(--goa-color-interactive-hover);
   --goa-app-header-border-nav-item-current: var(--goa-space-2xs) solid var(--goa-color-interactive-default);
   --goa-app-header-border-focus: var(--goa-border-width-l) solid var(--goa-color-interactive-focus);
   --goa-app-header-border-bottom-menu-item: inset 0 -1px 0 0 var(--goa-color-greyscale-200);
+  --goa-app-header-service-name-border-focus: var(--goa-border-width-l) solid var(--goa-color-interactive-focus);
   --goa-app-header-border-bottom: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-stepper-color-line-active: var(--goa-color-interactive-default);
   --goa-stepper-color-line: var(--goa-color-greyscale-200);
@@ -594,14 +611,14 @@
   --goa-button-compact-icon-size: var(--goa-icon-size-2);
   --goa-button-icon-size: var(--goa-icon-size-3);
   --goa-button-gap: var(--goa-space-xs);
-  --goa-button-text-start: var(--goa-font-weight-bold) var(--goa-font-size-5) var(--goa-line-height-1) var(--goa-font-family-sans);
-  --goa-button-text-compact: var(--goa-font-weight-regular) var(--goa-font-size-4) var(--goa-line-height-05) var(--goa-font-family-sans);
-  --goa-button-text: var(--goa-font-weight-regular) var(--goa-font-size-5) var(--goa-line-height-1) var(--goa-font-family-sans);
+  --goa-button-text-start: var(--goa-font-weight-bold) var(--goa-font-size-5)/var(--goa-line-height-1) var(--goa-font-family-sans);
+  --goa-button-text-compact: var(--goa-font-weight-regular) var(--goa-font-size-4)/var(--goa-line-height-05) var(--goa-font-family-sans);
+  --goa-button-text: var(--goa-font-weight-regular) var(--goa-font-size-5)/var(--goa-line-height-1) var(--goa-font-family-sans);
   --goa-button-padding-lr-start: var(--goa-space-m);
   --goa-button-padding-lr-compact: var(--goa-space-xs);
   --goa-button-padding-lr: var(--goa-space-s);
   --goa-button-border-radius: var(--goa-border-radius-m);
-  --goa-badge-border: inset 0 0 0 var(--goa-border-width-s) rgba(0, 0, 0, 0.5);
+  --goa-badge-border: inset 0 0 var(--goa-border-width-s) 0 rgba(0, 0, 0, 0.5);
   --goa-badge-light-color-bg: var(--goa-color-greyscale-white);
   --goa-badge-midtone-color-bg: var(--goa-color-greyscale-700);
   --goa-badge-dark-color-bg: var(--goa-color-greyscale-black);
@@ -670,6 +687,8 @@
   --goa-hero-banner-heading: var(--goa-typography-heading-xl);
   --goa-app-header-typography-service-name-mobile: var(--goa-typography-body-s);
   --goa-app-header-typography-service-name: var(--goa-typography-body-m);
+  --goa-app-header-typography-link-item: var(--goa-typography-body-m);
+  --goa-app-header-typography-menu-item: var(--goa-typography-body-m);
   --goa-app-header-typography-nav-item: var(--goa-typography-heading-s);
   --goa-app-header-typography-menu-button-mobile: var(--goa-typography-body-s);
   --goa-app-header-typography-menu-button: var(--goa-typography-body-m);

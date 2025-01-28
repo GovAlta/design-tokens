@@ -90,7 +90,7 @@
     "type": "sizing"
   },
   "badge-border": {
-    "value": "inset 0 0 0 {borderWidth.s} rgba(0, 0, 0, 0.5)",
+    "value": "inset 0 0 {borderWidth.s} 0 rgba(0, 0, 0, 0.5)",
     "type": "other"
   }
 }
