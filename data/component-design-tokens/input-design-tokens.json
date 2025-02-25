@@ -72,11 +72,11 @@
     "type": "spacing"
   },
   "text-input-size-icon": {
-    "value": "",
+    "value": "{iconSize.4}",
     "type": "sizing"
   },
   "text-input-color-icon": {
-    "value": "",
+    "value": "{color.greyscale.black}",
     "type": "color"
   },
   "text-input-transition": {

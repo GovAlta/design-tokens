@@ -48,7 +48,7 @@
     "type": "color"
   },
   "dropdown-item-color-bg-disabled": {
-    "value": "",
+    "value": "{color.greyscale.100}",
     "type": "color"
   },
   "dropdown-item-color-bg-hover": {
@@ -68,7 +68,7 @@
     "type": "color"
   },
   "dropdown-item-color-text-disabled": {
-    "value": "",
+    "value": "{color.text.disabled}",
     "type": "color"
   },
   "dropdown-item-color-text-hover": {
