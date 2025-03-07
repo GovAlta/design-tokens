@@ -4,6 +4,7 @@
  */
 
 :root {
+  --force-update: 3;
   --goa-font-weight-bold: 700;
   --goa-font-weight-medium: 500;
   --goa-font-weight-regular: 400;
