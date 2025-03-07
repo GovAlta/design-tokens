@@ -17,7 +17,7 @@
   "devDependencies": {
     "jest": "^29.2.1",
     "rimraf": "^3.0.2",
-    "semantic-release": "^19.0.5"
+    "semantic-release": "^24.2.3"
   },
   "dependencies": {
     "style-dictionary": "^3.7.1"
