@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Feb 2025 04:55:04 GMT
+ * Generated on Fri, 07 Mar 2025 17:29:21 GMT
  */
 
 :root {
+  --force-release: 1;
   --goa-font-weight-bold: 700;
   --goa-font-weight-medium: 500;
   --goa-font-weight-regular: 400;

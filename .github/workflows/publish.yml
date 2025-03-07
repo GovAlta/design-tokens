@@ -20,7 +20,7 @@ jobs:
       - name: Get Latest
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -28,7 +28,7 @@ jobs:
       - name: Configure Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 22
           registry-url: "https://registry.npmjs.org"
           scope: "@abgov"
         env:
