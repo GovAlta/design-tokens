@@ -39,7 +39,7 @@ jobs:
           # git commit --amend -m "$PREVIOUS_MESSAGE"
           # git push origin $CURRENT_BRANCH -f
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v3.1.2
+        uses: cycjimmy/semantic-release-action@v4
         with:
           dry_run: true
         env:
