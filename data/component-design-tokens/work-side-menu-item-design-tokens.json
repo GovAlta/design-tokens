@@ -1,0 +1,26 @@
+{
+    "work-side-menu-item-border-radius": {
+        "value": "8px",
+        "type": "spacing"
+    },
+    "work-side-menu-item-padding": {
+        "value": "{space.xs}",
+        "type": "spacing"
+    },
+    "work-side-menu-item-text-color": {
+        "value": "{color.text.default}",
+        "type": "color"
+    },
+    "work-side-menu-item-color-bg-hover": {
+        "value": "{color.greyscale.100}",
+        "type": "color"
+    },
+    "work-side-menu-item-color-bg-focus": {
+        "value": "{color.greyscale.100}",
+        "type": "color"
+    },
+    "work-side-menu-item-color-bg-current": {
+        "value": "{color.greyscale.100}",
+        "type": "color"
+    }
+  }
