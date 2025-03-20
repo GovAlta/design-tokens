@@ -1,10 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 07 Mar 2025 18:35:56 GMT
+ * Generated on Wed, 19 Mar 2025 18:43:40 GMT
  */
 
 :root {
-  --force-update: 13;
   --goa-font-weight-bold: 700;
   --goa-font-weight-medium: 500;
   --goa-font-weight-regular: 400;
@@ -348,7 +347,7 @@
   --goa-text-input-border-hover: inset 0 0 0 var(--goa-border-width-m) var(--goa-color-interactive-hover);
   --goa-text-input-border-focus: 0 0 0 var(--goa-border-width-l) var(--goa-color-interactive-focus);
   --goa-text-input-border-error: inset 0 0 0 var(--goa-border-width-m) var(--goa-color-interactive-error);
-  --goa-text-input-border-disabled: 1px solid var(--goa-color-greyscale-200);
+  --goa-text-input-border-disabled: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-200);
   --goa-text-input-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-700);
   --goa-icon-button-medium-padding: var(--goa-space-2xs);
   --goa-icon-button-large-padding: var(--goa-space-xs);

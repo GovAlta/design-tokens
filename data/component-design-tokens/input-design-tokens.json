@@ -4,12 +4,8 @@
     "type": "other"
   },
   "text-input-border-disabled": {
-    "value": {
-      "width": "1px",
-      "style": "solid",
-      "color": "{color.greyscale.200}"
-    },
-    "type": "border"
+    "value": "inset 0 0 0 {borderWidth.s} {color.greyscale.200}",
+    "type": "other"
   },
   "text-input-border-error": {
     "value": "inset 0 0 0 {borderWidth.m} {color.interactive.error}",
