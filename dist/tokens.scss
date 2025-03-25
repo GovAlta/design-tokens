@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 19 Mar 2025 18:43:40 GMT
+// Generated on Tue, 25 Mar 2025 15:17:24 GMT
 
 $goa-font-weight-bold: 700;
 $goa-font-weight-medium: 500;
@@ -127,6 +127,13 @@ $goa-color-interactive-error: #ec040b;
 $goa-color-interactive-disabled: #80b7e1;
 $goa-color-interactive-hover: #004f84;
 $goa-color-interactive-default: #0070c4;
+$goa-work-side-menu-item-border-radius: 8px;
+$goa-work-side-menu-account-shadow: 0px 12px 20px -8px rgba(26, 26, 26, 0.2);
+$goa-work-side-menu-toggle-shadow: 0px 1px 0px 0px rgba(26, 26, 26, 0.2);
+$goa-work-side-menu-shadow: 0px 4px 6px -2px rgba(26, 26, 26, 0.2);
+$goa-work-side-menu-width-closed: 49px;
+$goa-work-side-menu-width-open: 245px;
+$goa-work-side-menu-border-radius: 8px;
 $goa-tooltip-max-width: 400px;
 $goa-tab-color-bg-selected: transparent;
 $goa-side-menu-child-color-bg: none;
@@ -216,6 +223,13 @@ $goa-color-text-disabled: $goa-color-greyscale-700;
 $goa-color-text-light: $goa-color-greyscale-white;
 $goa-color-text-secondary: $goa-color-greyscale-700;
 $goa-color-text-default: $goa-color-greyscale-black;
+$goa-work-side-menu-item-color-bg-current: $goa-color-greyscale-100;
+$goa-work-side-menu-item-color-bg-focus: $goa-color-greyscale-100;
+$goa-work-side-menu-item-color-bg-hover: $goa-color-greyscale-100;
+$goa-work-side-menu-item-padding: $goa-space-xs;
+$goa-work-side-menu-border: $goa-border-width-s solid $goa-color-greyscale-200;
+$goa-work-side-menu-toggle-border: $goa-border-width-s solid $goa-color-greyscale-200;
+$goa-work-side-menu-color-bg: $goa-color-greyscale-white;
 $goa-tooltip-padding: 6px $goa-space-m 10px $goa-space-m;
 $goa-tooltip-gap: $goa-space-2xs;
 $goa-tooltip-color-bg: $goa-color-greyscale-700;
@@ -655,6 +669,7 @@ $goa-accordion-divider: $goa-border-width-s solid $goa-color-greyscale-200;
 $goa-accordion-border: $goa-border-width-s solid $goa-color-greyscale-200;
 $goa-accordion-color-bg-content: $goa-color-greyscale-white;
 $goa-accordion-color-bg-heading: $goa-color-greyscale-100;
+$goa-work-side-menu-item-text-color: $goa-color-text-default;
 $goa-tooltip-text-size: $goa-typography-body-m;
 $goa-tooltip-color-text: $goa-color-text-light;
 $goa-text-area-typography-counter: $goa-typography-body-xs;
