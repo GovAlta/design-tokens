@@ -7,27 +7,27 @@
   "drawer-bottom-shadow": {
     "value": {
       "x": "0",
-      "y": "-4",
-      "blur": "12",
+      "y": "-6",
+      "blur": "6",
       "spread": "0",
-      "color": "rgba(0,0,0,0.2)",
+      "color": "rgba(0,0,0,0.16)",
       "type": "dropShadow"
     },
     "type": "boxShadow"
   },
   "drawer-left-shadow": {
     "value": {
-      "x": "4",
+      "x": "6",
       "y": "0",
-      "blur": "12",
+      "blur": "6",
       "spread": "0",
-      "color": "rgba(0,0,0,0.2)",
+      "color": "rgba(0,0,0,0.16)",
       "type": "dropShadow"
     },
     "type": "boxShadow"
   },
   "drawer-transition-time": {
-    "value": "200ms",
+    "value": "0.25s",
     "type": "other"
   },
   "drawer-padding": {
@@ -35,7 +35,14 @@
     "type": "spacing"
   },
   "drawer-right-shadow": {
-    "value": "inset -4 0 12 0 {borderWidth.s} rgba(0,0,0,0.2)",
-    "type": "other"
+    "value": {
+      "x": "-6",
+      "y": "0",
+      "blur": "6",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.16)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
   }
 }

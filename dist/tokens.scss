@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 26 Mar 2025 21:51:56 GMT
+// Generated on Thu, 03 Apr 2025 23:05:05 GMT
 
 $goa-font-weight-bold: 700;
 $goa-font-weight-medium: 500;
@@ -160,9 +160,10 @@ $goa-footer-size-logo-tablet: 155px;
 $goa-footer-size-logo-mobile: 133px;
 $goa-footer-size-logo-desktop: 155px;
 $goa-dropdown-transition: box-shadow 0.05s ease-in;
-$goa-drawer-transition-time: 200ms;
-$goa-drawer-left-shadow: 4px 0px 12px 0px rgba(0,0,0,0.2);
-$goa-drawer-bottom-shadow: 0px -4px 12px 0px rgba(0,0,0,0.2);
+$goa-drawer-right-shadow: -6px 0px 6px 0px rgba(0,0,0,0.16);
+$goa-drawer-transition-time: 0.25s;
+$goa-drawer-left-shadow: 6px 0px 6px 0px rgba(0,0,0,0.16);
+$goa-drawer-bottom-shadow: 0px -6px 6px 0px rgba(0,0,0,0.16);
 $goa-drawer-overlay-color: rgba(0,0,0,0.3);
 $goa-details-text-decoration: underline;
 $goa-details-padding-top: 6px;
@@ -483,7 +484,6 @@ $goa-dropdown-border-focus: 0 0 0 $goa-border-width-l $goa-color-interactive-foc
 $goa-dropdown-border-error: inset 0 0 0 $goa-border-width-m $goa-color-interactive-error;
 $goa-dropdown-border-disabled: inset 0 0 0 $goa-border-width-s $goa-color-greyscale-200;
 $goa-dropdown-border: inset 0 0 0 $goa-border-width-s $goa-color-greyscale-700;
-$goa-drawer-right-shadow: inset -4 0 12 0 $goa-border-width-s rgba(0,0,0,0.2);
 $goa-drawer-padding: $goa-space-m;
 $goa-divider-color: $goa-color-greyscale-200;
 $goa-details-padding-right: $goa-space-s;
