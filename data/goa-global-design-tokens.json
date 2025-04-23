@@ -406,6 +406,11 @@
       "value": "8rem",
       "type": "spacing",
       "description": "128px"
+    },
+    "fill": {
+      "value": "100%",
+      "type": "spacing",
+      "description": "fill the space"
     }
   },
   "iconSize": {
