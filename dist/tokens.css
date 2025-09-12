@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Sep 2025 19:15:54 GMT
+ * Generated on Mon, 15 Sep 2025 15:11:18 GMT
  */
 
 :root {
@@ -172,6 +172,10 @@
   --goa-circular-progress-color-background: rgba(255, 255, 255, 0.9);
   --goa-popover-shadow: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.25));
   --goa-modal-shadow: 6px 6px 6px 6px rgba(0,0,0,0.16);
+  --goa-link-gap-l: 0.3125rem;
+  --goa-link-gap-s: 0.1875rem;
+  --goa-link-gap-xs: 0.1875rem;
+  --goa-link-color-visited: #3f48c0;
   --goa-text-input-transition: box-shadow 0.05s ease-in;
   --goa-app-header-nav-color-bg-link-item-in-menu: transparent;
   --goa-app-header-nav-color-bg-link-item-focus: transparent;
@@ -366,6 +370,13 @@
   --goa-microsite-header-color-bg: var(--goa-color-greyscale-100);
   --goa-microsite-header-beta-badge-color: var(--goa-color-brand-default);
   --goa-microsite-header-alpha-badge-color: var(--goa-color-warning-default);
+  --goa-link-icon-size-l: var(--goa-icon-size-l);
+  --goa-link-icon-size-s: var(--goa-icon-size-s);
+  --goa-link-icon-size-xs: var(--goa-icon-size-xs);
+  --goa-link-icon-size: var(--goa-icon-size-m);
+  --goa-link-gap: var(--goa-space-2xs);
+  --goa-link-color-hover: var(--goa-color-interactive-hover);
+  --goa-link-color-default: var(--goa-color-interactive-default);
   --goa-text-input-color-icon: var(--goa-color-greyscale-black);
   --goa-text-input-size-icon: var(--goa-icon-size-4);
   --goa-text-input-space-btw-icon-text: var(--goa-space-xs);
@@ -721,6 +732,11 @@
   --goa-microsite-header-color-version-number: var(--goa-color-text-secondary);
   --goa-microsite-header-beta-badge-color-text: var(--goa-color-text-light);
   --goa-microsite-header-alpha-badge-color-text: var(--goa-color-text-default);
+  --goa-link-typography-l: var(--goa-typography-body-l);
+  --goa-link-typography-s: var(--goa-typography-body-s);
+  --goa-link-typography-xs: var(--goa-typography-body-xs);
+  --goa-link-typography: var(--goa-typography-body-m);
+  --goa-link-color-light: var(--goa-color-text-light);
   --goa-text-input-typography: var(--goa-typography-body-m);
   --goa-text-input-padding: 7px var(--goa-text-input-padding-lr) 9px;
   --goa-text-input-lt-content-color-text: var(--goa-color-text-default);
