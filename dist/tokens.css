@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 15 Sep 2025 15:11:18 GMT
+ * Generated on Mon, 15 Sep 2025 19:35:37 GMT
  */
 
 :root {
@@ -177,6 +177,8 @@
   --goa-link-gap-xs: 0.1875rem;
   --goa-link-color-visited: #3f48c0;
   --goa-text-input-transition: box-shadow 0.05s ease-in;
+  --goa-text-input-height-compact: 2.25em;
+  --goa-text-input-height: 2.625rem;
   --goa-app-header-nav-color-bg-link-item-in-menu: transparent;
   --goa-app-header-nav-color-bg-link-item-focus: transparent;
   --goa-app-header-nav-color-bg-link-item-hover: transparent;
@@ -386,11 +388,11 @@
   --goa-text-input-color-bg-disabled: var(--goa-color-greyscale-100);
   --goa-text-input-color-bg: var(--goa-color-greyscale-white);
   --goa-text-input-border-radius: var(--goa-border-radius-m);
-  --goa-text-input-border-hover: inset 0 0 0 var(--goa-border-width-m) var(--goa-color-interactive-hover);
-  --goa-text-input-border-focus: 0 0 0 var(--goa-border-width-l) var(--goa-color-interactive-focus);
-  --goa-text-input-border-error: inset 0 0 0 var(--goa-border-width-m) var(--goa-color-interactive-error);
+  --goa-text-input-border-hover: inset 0 0 0 var(--goa-border-width-l) var(--goa-color-greyscale-black);
+  --goa-text-input-border-focus: 0 0 0 var(--goa-border-width-l) var(--goa-color-interactive-default);
+  --goa-text-input-border-error: inset 0 0 0 var(--goa-border-width-l) var(--goa-color-emergency-default);
   --goa-text-input-border-disabled: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-200);
-  --goa-text-input-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-700);
+  --goa-text-input-border: inset 0 0 0 var(--goa-border-width-m) #797676;
   --goa-icon-button-medium-padding: var(--goa-space-2xs);
   --goa-icon-button-large-padding: var(--goa-space-xs);
   --goa-icon-button-medium-border-radius: var(--goa-border-radius-m);
@@ -737,8 +739,10 @@
   --goa-link-typography-xs: var(--goa-typography-body-xs);
   --goa-link-typography: var(--goa-typography-body-m);
   --goa-link-color-light: var(--goa-color-text-light);
+  --goa-text-input-typography-compact: var(--goa-typography-body-m);
   --goa-text-input-typography: var(--goa-typography-body-m);
-  --goa-text-input-padding: 7px var(--goa-text-input-padding-lr) 9px;
+  --goa-text-input-padding-compact: 7px var(--goa-text-input-padding-lr) 9px;
+  --goa-text-input-padding: 11px var(--goa-text-input-padding-lr) 13px;
   --goa-text-input-lt-content-color-text: var(--goa-color-text-default);
   --goa-text-input-color-text-placeholder: var(--goa-color-text-secondary);
   --goa-text-input-color-text-disabled: var(--goa-color-text-secondary);

@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 15 Sep 2025 15:11:18 GMT
+// Generated on Mon, 15 Sep 2025 19:35:37 GMT
 
 $goa-accordion-color-bg-heading: #e9e9e9;
 $goa-accordion-color-bg-content: #ffffff;
@@ -431,11 +431,11 @@ $goa-icon-button-large-border-radius: 0.75rem;
 $goa-icon-button-medium-border-radius: 0.5rem;
 $goa-icon-button-large-padding: 0.5rem;
 $goa-icon-button-medium-padding: 0.25rem;
-$goa-text-input-border: inset 0 0 0 1px #4d4d4d;
+$goa-text-input-border: inset 0 0 0 1.5px #797676;
 $goa-text-input-border-disabled: inset 0 0 0 1px #cdcdcd;
-$goa-text-input-border-error: inset 0 0 0 1.5px #ec040b;
+$goa-text-input-border-error: inset 0 0 0 2px #da291c;
 $goa-text-input-border-focus: 0 0 0 2px #006dcc;
-$goa-text-input-border-hover: inset 0 0 0 1.5px #045092;
+$goa-text-input-border-hover: inset 0 0 0 2px #000000;
 $goa-text-input-border-radius: 0.5rem;
 $goa-text-input-color-bg: #ffffff;
 $goa-text-input-color-bg-disabled: #e9e9e9;
@@ -445,13 +445,17 @@ $goa-text-input-color-text-disabled: #353535;
 $goa-text-input-color-text-placeholder: #353535;
 $goa-text-input-lt-content-color-bg: #e9e9e9;
 $goa-text-input-lt-content-color-text: #000000;
-$goa-text-input-padding: 7px 0.75rem 9px;
+$goa-text-input-padding: 11px 0.75rem 13px;
+$goa-text-input-padding-compact: 7px 0.75rem 9px;
 $goa-text-input-padding-lr: 0.75rem;
+$goa-text-input-height: 2.625rem;
+$goa-text-input-height-compact: 2.25em;
 $goa-text-input-space-btw-icon-text: 0.5rem;
 $goa-text-input-size-icon: 1.5rem;
 $goa-text-input-color-icon: #000000;
 $goa-text-input-transition: box-shadow 0.05s ease-in;
 $goa-text-input-typography: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
+$goa-text-input-typography-compact: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-link-color-default: #006dcc;
 $goa-link-color-hover: #045092;
 $goa-link-color-visited: #3f48c0;
