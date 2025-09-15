@@ -1,0 +1,54 @@
+{
+  "filter-chip-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "filter-chip-border-color": {
+    "value": "#797676",
+    "type": "color"
+  },
+  "filter-chip-border-focus-width": {
+    "value": "{borderWidth.l}",
+    "type": "borderWidth"
+  },
+  "filter-chip-border-focus-color": {
+    "value": "#006dcc",
+    "type": "color"
+  },
+  "filter-chip-background-hover": {
+    "value": "#f2f0f0",
+    "type": "color"
+  },
+  "filter-chip-padding-vertical": {
+    "value": "7px",
+    "type": "spacing"
+  },
+  "filter-chip-padding-horizontal-left": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "filter-chip-padding-horizontal-right": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
+  "filter-chip-gap": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "filter-chip-font-size": {
+    "value": "{fontSize.3}",
+    "type": "fontSizes"
+  },
+  "filter-chip-line-height": {
+    "value": "{lineHeight.3}",
+    "type": "lineHeights"
+  },
+  "filter-chip-min-height": {
+    "value": "{space.xl}",
+    "type": "sizing"
+  },
+  "filter-chip-min-width": {
+    "value": "56px",
+    "type": "sizing"
+  }
+}

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 15 Sep 2025 21:13:35 GMT
+ * Generated on Mon, 15 Sep 2025 21:24:51 GMT
  */
 
 :root {
@@ -196,6 +196,11 @@
   --goa-footer-size-logo-tablet: 155px;
   --goa-footer-size-logo-mobile: 133px;
   --goa-footer-size-logo-desktop: 155px;
+  --goa-filter-chip-min-width: 56px;
+  --goa-filter-chip-padding-vertical: 7px;
+  --goa-filter-chip-background-hover: #f2f0f0;
+  --goa-filter-chip-border-focus-color: #006dcc;
+  --goa-filter-chip-border-color: #797676;
   --goa-dropdown-transition: box-shadow 0.05s ease-in;
   --goa-drawer-right-shadow: -6px 0px 6px 0px rgba(0,0,0,0.16);
   --goa-drawer-transition-time: 0.25s;
@@ -494,6 +499,14 @@
   --goa-footer-color-bg: var(--goa-color-greyscale-100);
   --goa-footer-border-top: var(--goa-border-width-m) solid var(--goa-color-greyscale-200);
   --goa-footer-border-bottom: 1rem solid var(--goa-color-brand-default);
+  --goa-filter-chip-min-height: var(--goa-space-xl);
+  --goa-filter-chip-line-height: var(--goa-line-height-3);
+  --goa-filter-chip-font-size: var(--goa-font-size-3);
+  --goa-filter-chip-gap: var(--goa-space-s);
+  --goa-filter-chip-padding-horizontal-right: var(--goa-space-xs);
+  --goa-filter-chip-padding-horizontal-left: var(--goa-space-s);
+  --goa-filter-chip-border-focus-width: var(--goa-border-width-l);
+  --goa-filter-chip-border-radius: var(--goa-border-radius-xl);
   --goa-file-upload-text-gap: var(--goa-space-m);
   --goa-file-upload-padding: var(--goa-space-xl);
   --goa-file-upload-instruction-color-hover: var(--goa-color-interactive-hover);
