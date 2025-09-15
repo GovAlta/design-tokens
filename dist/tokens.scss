@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 15 Sep 2025 19:35:37 GMT
+// Generated on Mon, 15 Sep 2025 21:13:35 GMT
 
 $goa-accordion-color-bg-heading: #e9e9e9;
 $goa-accordion-color-bg-content: #ffffff;
@@ -416,21 +416,23 @@ $goa-hero-banner-content: 400 1.25rem/1.75rem acumin-variable, helvetica-neue, a
 $goa-icon-button-default-color: #006dcc;
 $goa-icon-button-default-hover-color: #045092;
 $goa-icon-button-default-focus-color: #045092;
-$goa-icon-button-default-hover-color-bg: #e9e9e9;
+$goa-icon-button-default-focus-border: 2px solid #006dcc;
+$goa-icon-button-default-focus-border-radius: 0.625rem;
+$goa-icon-button-default-hover-color-bg: #f2f0f0;
 $goa-icon-button-default-disabled-color: #80b7e1;
 $goa-icon-button-light-color: #ffffff;
 $goa-icon-button-light-hover-color-bg: #4d4d4d;
 $goa-icon-button-light-disabled-color: #808080;
 $goa-icon-button-dark-color: #000000;
-$goa-icon-button-dark-hover-color-bg: #e9e9e9;
+$goa-icon-button-dark-hover-color-bg: #f2f0f0;
 $goa-icon-button-dark-disabled-color-bg: #808080;
 $goa-icon-button-destructive-color: #da291c;
 $goa-icon-button-destructive-hover-color-bg: #fdded9;
 $goa-icon-button-destructive-disabled-color: #f58185;
-$goa-icon-button-large-border-radius: 0.75rem;
+$goa-icon-button-large-border-radius: 0.5rem;
 $goa-icon-button-medium-border-radius: 0.5rem;
-$goa-icon-button-large-padding: 0.5rem;
-$goa-icon-button-medium-padding: 0.25rem;
+$goa-icon-button-large-padding: 0.75rem;
+$goa-icon-button-medium-padding: 0.5rem;
 $goa-text-input-border: inset 0 0 0 1.5px #797676;
 $goa-text-input-border-disabled: inset 0 0 0 1px #cdcdcd;
 $goa-text-input-border-error: inset 0 0 0 2px #da291c;
@@ -455,7 +457,7 @@ $goa-text-input-size-icon: 1.5rem;
 $goa-text-input-color-icon: #000000;
 $goa-text-input-transition: box-shadow 0.05s ease-in;
 $goa-text-input-typography: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
-$goa-text-input-typography-compact: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
+$goa-text-input-typography-compact: 400 1rem/1.375rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-link-color-default: #006dcc;
 $goa-link-color-hover: #045092;
 $goa-link-color-visited: #3f48c0;

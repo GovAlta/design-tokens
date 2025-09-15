@@ -11,8 +11,20 @@
     "value": "{color.interactive.hover}",
     "type": "color"
   },
+  "icon-button-default-focus-border": {
+    "value": {
+      "width": "{borderWidth.l}",
+      "style": "solid",
+      "color": "{color.interactive.default}"
+    },
+    "type": "border"
+  },
+  "icon-button-default-focus-border-radius": {
+    "value": "{borderRadius.l}",
+    "type": "borderRadius"
+  },
   "icon-button-default-hover-color-bg": {
-    "value": "{color.greyscale.100}",
+    "value": "#f2f0f0",
     "type": "color"
   },
   "icon-button-default-disabled-color": {
@@ -36,7 +48,7 @@
     "type": "color"
   },
   "icon-button-dark-hover-color-bg": {
-    "value": "{color.greyscale.100}",
+    "value": "#f2f0f0",
     "type": "color"
   },
   "icon-button-dark-disabled-color-bg": {
@@ -48,7 +60,7 @@
     "type": "color"
   },
   "icon-button-destructive-hover-color-bg": {
-    "value": "{color.emergency.light}",
+    "value": "#fdded9",
     "type": "color"
   },
   "icon-button-destructive-disabled-color": {
@@ -56,7 +68,7 @@
     "type": "color"
   },
   "icon-button-large-border-radius": {
-    "value": "{borderRadius.xl}",
+    "value": "{borderRadius.m}",
     "type": "borderRadius"
   },
   "icon-button-medium-border-radius": {
@@ -64,11 +76,11 @@
     "type": "borderRadius"
   },
   "icon-button-large-padding": {
-    "value": "{space.xs}",
+    "value": "{space.s}",
     "type": "spacing"
   },
   "icon-button-medium-padding": {
-    "value": "{space.2xs}",
+    "value": "{space.xs}",
     "type": "spacing"
   }
 }

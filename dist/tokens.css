@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 15 Sep 2025 19:35:37 GMT
+ * Generated on Mon, 15 Sep 2025 21:13:35 GMT
  */
 
 :root {
@@ -179,6 +179,9 @@
   --goa-text-input-transition: box-shadow 0.05s ease-in;
   --goa-text-input-height-compact: 2.25em;
   --goa-text-input-height: 2.625rem;
+  --goa-icon-button-destructive-hover-color-bg: #fdded9;
+  --goa-icon-button-dark-hover-color-bg: #f2f0f0;
+  --goa-icon-button-default-hover-color-bg: #f2f0f0;
   --goa-app-header-nav-color-bg-link-item-in-menu: transparent;
   --goa-app-header-nav-color-bg-link-item-focus: transparent;
   --goa-app-header-nav-color-bg-link-item-hover: transparent;
@@ -393,21 +396,20 @@
   --goa-text-input-border-error: inset 0 0 0 var(--goa-border-width-l) var(--goa-color-emergency-default);
   --goa-text-input-border-disabled: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-200);
   --goa-text-input-border: inset 0 0 0 var(--goa-border-width-m) #797676;
-  --goa-icon-button-medium-padding: var(--goa-space-2xs);
-  --goa-icon-button-large-padding: var(--goa-space-xs);
+  --goa-icon-button-medium-padding: var(--goa-space-xs);
+  --goa-icon-button-large-padding: var(--goa-space-s);
   --goa-icon-button-medium-border-radius: var(--goa-border-radius-m);
-  --goa-icon-button-large-border-radius: var(--goa-border-radius-xl);
+  --goa-icon-button-large-border-radius: var(--goa-border-radius-m);
   --goa-icon-button-destructive-disabled-color: var(--goa-color-interactive-error-disabled);
-  --goa-icon-button-destructive-hover-color-bg: var(--goa-color-emergency-light);
   --goa-icon-button-destructive-color: var(--goa-color-emergency-default);
   --goa-icon-button-dark-disabled-color-bg: var(--goa-color-greyscale-500);
-  --goa-icon-button-dark-hover-color-bg: var(--goa-color-greyscale-100);
   --goa-icon-button-dark-color: var(--goa-color-greyscale-black);
   --goa-icon-button-light-disabled-color: var(--goa-color-greyscale-500);
   --goa-icon-button-light-hover-color-bg: var(--goa-color-greyscale-700);
   --goa-icon-button-light-color: var(--goa-color-greyscale-white);
   --goa-icon-button-default-disabled-color: var(--goa-color-interactive-disabled);
-  --goa-icon-button-default-hover-color-bg: var(--goa-color-greyscale-100);
+  --goa-icon-button-default-focus-border-radius: var(--goa-border-radius-l);
+  --goa-icon-button-default-focus-border: var(--goa-border-width-l) solid var(--goa-color-interactive-default);
   --goa-icon-button-default-focus-color: var(--goa-color-interactive-hover);
   --goa-icon-button-default-hover-color: var(--goa-color-interactive-hover);
   --goa-icon-button-default-color: var(--goa-color-interactive-default);
@@ -739,7 +741,7 @@
   --goa-link-typography-xs: var(--goa-typography-body-xs);
   --goa-link-typography: var(--goa-typography-body-m);
   --goa-link-color-light: var(--goa-color-text-light);
-  --goa-text-input-typography-compact: var(--goa-typography-body-m);
+  --goa-text-input-typography-compact: var(--goa-typography-body-s);
   --goa-text-input-typography: var(--goa-typography-body-m);
   --goa-text-input-padding-compact: 7px var(--goa-text-input-padding-lr) 9px;
   --goa-text-input-padding: 11px var(--goa-text-input-padding-lr) 13px;
