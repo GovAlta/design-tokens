@@ -28,15 +28,15 @@
     "type": "spacing"
   },
   "notification-banner-important-color-bg": {
-    "value": "{color.warning.default}",
+    "value": "#FFB800",
     "type": "color"
   },
   "notification-banner-important-color-icon": {
-    "value": "{color.greyscale.black}",
+    "value": "#4D3700",
     "type": "color"
   },
   "notification-banner-important-color-text": {
-    "value": "{color.text.default}",
+    "value": "#4D3700",
     "type": "color"
   },
   "notification-banner-information-color-bg": {
@@ -86,5 +86,61 @@
   "notification-banner-custom-color-text": {
     "value": "{color.text.light}",
     "type": "color"
+  },
+  "notification-banner-low-emergency-color-bg": {
+    "value": "{color.emergency.background}",
+    "type": "color"
+  },
+  "notification-banner-low-emergency-color-border": {
+    "value": "#F4C8C5",
+    "type": "color"
+  },
+  "notification-banner-low-emergency-color-icon": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "notification-banner-low-emergency-color-text": {
+    "value": "{color.emergency.dark}",
+    "type": "color"
+  },
+  "notification-banner-low-important-color-bg": {
+    "value": "{color.warning.border}",
+    "type": "color"
+  },
+  "notification-banner-low-important-color-border": {
+    "value": "{color.warning.border}",
+    "type": "color"
+  },
+  "notification-banner-low-important-color-icon": {
+    "value": "#CC9300",
+    "type": "color"
+  },
+  "notification-banner-low-important-color-text": {
+    "value": "#4D3700",
+    "type": "color"
+  },
+  "notification-banner-low-information-color-bg": {
+    "value": "{color.info.light}",
+    "type": "color"
+  },
+  "notification-banner-low-information-color-icon": {
+    "value": "{color.info.default}",
+    "type": "color"
+  },
+  "notification-banner-low-information-color-text": {
+    "value": "{color.info.default}",
+    "type": "color"
+  },
+  "notification-banner-compact-gap": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "notification-banner-compact-padding-tb": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
+  "notification-banner-compact-padding-lr": {
+    "value": "{space.m} {space.s}",
+    "type": "spacing"
   }
 }

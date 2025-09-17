@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 15 Sep 2025 21:24:51 GMT
+// Generated on Wed, 17 Sep 2025 19:15:59 GMT
 
 $goa-accordion-color-bg-heading: #e9e9e9;
 $goa-accordion-color-bg-content: #ffffff;
@@ -143,12 +143,13 @@ $goa-callout-l-text-size: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, a
 $goa-callout-m-heading-size: 700 1.5rem/1.375rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-callout-l-heading-size: 400 2rem/1.75rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-callout-m-text-size: 400 1rem/1.375rem acumin-variable, helvetica-neue, arial, sans-serif;
-$goa-checkbox-border: 1px solid #4d4d4d;
+$goa-checkbox-border: 1.5px solid #797676;
 $goa-checkbox-border-disabled: 1px solid #9f9f9f;
 $goa-checkbox-border-disabled-error: 1.5px solid #F58185;
-$goa-checkbox-border-error: 1.5px solid #ec040b;
+$goa-checkbox-border-error: 1.5px solid #da291c;
+$goa-checkbox-border-error-hover: 1.5px solid #a91a10;
 $goa-checkbox-border-focus: 2px solid #006dcc;
-$goa-checkbox-border-hover: 1.5px solid #045092;
+$goa-checkbox-border-hover: 1.5px solid #000000;
 $goa-checkbox-border-radius: 2px;
 $goa-checkbox-color-bg: #ffffff;
 $goa-checkbox-color-bg-checked: #006dcc;
@@ -156,11 +157,13 @@ $goa-checkbox-color-bg-checked-disabled: #80b7e1;
 $goa-checkbox-color-bg-checked-error: #ec040b;
 $goa-checkbox-color-bg-checked-hover: #045092;
 $goa-checkbox-color-label: #000000;
-$goa-checkbox-color-label-disabled: #808080;
+$goa-checkbox-color-label-disabled: #bab7b7;
 $goa-checkbox-description-font-size: 400 0.875rem/1.25rem acumin-variable, helvetica-neue, arial, sans-serif;
-$goa-checkbox-gap: 0.5rem;
+$goa-checkbox-gap: 0.75rem;
 $goa-checkbox-label-font-size: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-checkbox-size: 1.5rem;
+$goa-checkbox-gap-compact: 0.5rem;
+$goa-checkbox-label-font-size-compact: 400 1rem/1.375rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-container-border-radius: 0.5rem;
 $goa-container-border: 1px solid #cdcdcd;
 $goa-container-padding: 2rem;
@@ -289,7 +292,7 @@ $goa-file-upload-instruction-color-hover: #045092;
 $goa-file-upload-instruction-text: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-file-upload-padding: 2rem;
 $goa-file-upload-text-gap: 1rem;
-$goa-filter-chip-border-radius: 0.75rem;
+$goa-filter-chip-border-radius: 0.5rem;
 $goa-filter-chip-border-color: #797676;
 $goa-filter-chip-border-focus-width: 2px;
 $goa-filter-chip-border-focus-color: #006dcc;
@@ -520,9 +523,9 @@ $goa-notification-banner-event-color-bg: #004a8f;
 $goa-notification-banner-event-color-icon: #ffffff;
 $goa-notification-banner-event-color-text: #ffffff;
 $goa-notification-banner-gap: 1rem;
-$goa-notification-banner-important-color-bg: #f9ce2d;
-$goa-notification-banner-important-color-icon: #000000;
-$goa-notification-banner-important-color-text: #000000;
+$goa-notification-banner-important-color-bg: #FFB800;
+$goa-notification-banner-important-color-icon: #4D3700;
+$goa-notification-banner-important-color-text: #4D3700;
 $goa-notification-banner-information-color-bg: #004a8f;
 $goa-notification-banner-information-color-icon: #ffffff;
 $goa-notification-banner-information-color-text: #ffffff;
@@ -535,6 +538,20 @@ $goa-notification-banner-text-size: 400 1.125rem/1.5rem acumin-variable, helveti
 $goa-notification-banner-custom-color-bg: #004a8f;
 $goa-notification-banner-custom-color-icon: #ffffff;
 $goa-notification-banner-custom-color-text: #ffffff;
+$goa-notification-banner-low-emergency-color-bg: #fff6f6;
+$goa-notification-banner-low-emergency-color-border: #F4C8C5;
+$goa-notification-banner-low-emergency-color-icon: #da291c;
+$goa-notification-banner-low-emergency-color-text: #a91a10;
+$goa-notification-banner-low-important-color-bg: #fde3a1;
+$goa-notification-banner-low-important-color-border: #fde3a1;
+$goa-notification-banner-low-important-color-icon: #CC9300;
+$goa-notification-banner-low-important-color-text: #4D3700;
+$goa-notification-banner-low-information-color-bg: #ebf8ff;
+$goa-notification-banner-low-information-color-icon: #004a8f;
+$goa-notification-banner-low-information-color-text: #004a8f;
+$goa-notification-banner-compact-gap: 0.75rem;
+$goa-notification-banner-compact-padding-tb: 1rem;
+$goa-notification-banner-compact-padding-lr: 1rem 0.75rem;
 $goa-popover-border-focus: 2px solid #006dcc;
 $goa-popover-border-radius: 0.5rem;
 $goa-popover-color-bg: #ffffff;
