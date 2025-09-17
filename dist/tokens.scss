@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 17 Sep 2025 19:15:59 GMT
+// Generated on Wed, 17 Sep 2025 19:21:00 GMT
 
 $goa-accordion-color-bg-heading: #e9e9e9;
 $goa-accordion-color-bg-content: #ffffff;
@@ -562,25 +562,29 @@ $goa-circular-progress-large-margin-top: 2rem;
 $goa-circular-progress-large-text: 400 1.25rem/1.75rem acumin-variable, helvetica-neue, arial, sans-serif;
 $goa-circular-progress-small-margin-top: 1.5rem;
 $goa-circular-progress-small-text: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
-$goa-radio-border: 1px solid #4d4d4d;
+$goa-radio-border: 1.5px solid #797676;
 $goa-radio-border-checked: 7px solid #006dcc;
 $goa-radio-border-checked-disabled: 7px solid #80b7e1;
-$goa-radio-border-checked-error: 7px solid #ec040b;
+$goa-radio-border-checked-error: 7px solid #da291c;
 $goa-radio-border-checked-error-disabled: 7px solid #f58185;
-$goa-radio-border-checked-error-hover: 7px solid #ba0000;
+$goa-radio-border-checked-error-hover: 7px solid #a91a10;
 $goa-radio-border-checked-hover: 7px solid #045092;
 $goa-radio-border-disabled: 1px solid #9f9f9f;
-$goa-radio-border-error: 1.5px solid #ec040b;
+$goa-radio-border-error: 1.5px solid #da291c;
 $goa-radio-border-error-disabled: 1.5px solid #f58185;
-$goa-radio-border-error-hover: 1.5px solid #ba0000;
+$goa-radio-border-error-hover: 1.5px solid #a91a10;
 $goa-radio-border-focus: 2px solid #006dcc;
-$goa-radio-border-hover: 1.5px solid #045092;
+$goa-radio-border-hover: 1.5px solid #000000;
 $goa-radio-color-bg: #ffffff;
 $goa-radio-description: 400 0.875rem/1.25rem acumin-variable, helvetica-neue, arial, sans-serif;
-$goa-radio-group-gap-horizontal: 1.5rem;
+$goa-radio-group-gap-horizontal: 2rem;
+$goa-radio-group-gap-vertical-compact: 0.75rem;
+$goa-radio-group-gap-horizontal-compact: 1.5rem;
+$goa-radio-gap: 0.75rem;
+$goa-radio-gap-compact: 0.5rem;
 $goa-radio-group-gap-vertical: 1rem;
 $goa-radio-label: 400 1.125rem/1.5rem acumin-variable, helvetica-neue, arial, sans-serif;
-$goa-radio-label-color-disabled: #808080;
+$goa-radio-label-color-disabled: #bab7b7;
 $goa-radio-size: 1.5rem;
 $goa-radio-border-radius: 50%;
 $goa-scrollable-padding-desktop: 2rem;

@@ -1,9 +1,9 @@
 {
   "radio-border": {
     "value": {
-      "width": "{borderWidth.s}",
+      "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.greyscale.700}"
+      "color": "#797676"
     },
     "type": "border"
   },
@@ -27,7 +27,7 @@
     "value": {
       "width": "7px",
       "style": "solid",
-      "color": "{color.interactive.error}"
+      "color": "{color.emergency.default}"
     },
     "type": "border"
   },
@@ -35,7 +35,7 @@
     "value": {
       "width": "7px",
       "style": "solid",
-      "color": "#f58185"
+      "color": "{color.interactive.error-disabled}"
     },
     "type": "border"
   },
@@ -43,7 +43,7 @@
     "value": {
       "width": "7px",
       "style": "solid",
-      "color": "#ba0000"
+      "color": "{color.emergency.dark}"
     },
     "type": "border"
   },
@@ -67,7 +67,7 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.interactive.error}"
+      "color": "{color.emergency.default}"
     },
     "type": "border"
   },
@@ -75,7 +75,7 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "#f58185"
+      "color": "{color.interactive.error-disabled}"
     },
     "type": "border"
   },
@@ -83,7 +83,7 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "#ba0000"
+      "color": "{color.emergency.dark}"
     },
     "type": "border"
   },
@@ -91,7 +91,7 @@
     "value": {
       "width": "{borderWidth.l}",
       "style": "solid",
-      "color": "{color.interactive.focus}"
+      "color": "{color.interactive.default}"
     },
     "type": "border"
   },
@@ -99,7 +99,7 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.interactive.hover}"
+      "color": "{color.greyscale.black}"
     },
     "type": "border"
   },
@@ -112,7 +112,23 @@
     "type": "other"
   },
   "radio-group-gap-horizontal": {
+    "value": "{space.xl}",
+    "type": "spacing"
+  },
+  "radio-group-gap-vertical-compact": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "radio-group-gap-horizontal-compact": {
     "value": "{space.l}",
+    "type": "spacing"
+  },
+  "radio-gap": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "radio-gap-compact": {
+    "value": "{space.xs}",
     "type": "spacing"
   },
   "radio-group-gap-vertical": {
@@ -124,7 +140,7 @@
     "type": "other"
   },
   "radio-label-color-disabled": {
-    "value": "{color.greyscale.500}",
+    "value": "#bab7b7",
     "type": "color"
   },
   "radio-size": {
