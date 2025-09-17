@@ -1,9 +1,9 @@
 {
   "checkbox-border": {
     "value": {
-      "width": "{borderWidth.s}",
+      "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.greyscale.700}"
+      "color": "#797676"
     },
     "type": "border"
   },
@@ -27,13 +27,21 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.interactive.error}"
+      "color": "#da291c"
+    },
+    "type": "border"
+  },
+  "checkbox-border-error-hover": {
+    "value": {
+      "width": "{borderWidth.m}",
+      "style": "solid",
+      "color": "{color.emergency.dark}"
     },
     "type": "border"
   },
   "checkbox-border-focus": {
     "value": {
-      "width": "{borderWidth.l}",
+      "width": "2px",
       "style": "solid",
       "color": "{color.interactive.focus}"
     },
@@ -43,7 +51,7 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.interactive.hover}"
+      "color": "{color.greyscale.black}"
     },
     "type": "border"
   },
@@ -69,7 +77,7 @@
     "type": "color"
   },
   "checkbox-color-bg-checked-hover": {
-    "value": "{color.interactive.hover}",
+    "value": "#045092",
     "type": "color"
   },
   "checkbox-color-label": {
@@ -77,7 +85,7 @@
     "type": "color"
   },
   "checkbox-color-label-disabled": {
-    "value": "{color.greyscale.500}",
+    "value": "#bab7b7",
     "type": "color"
   },
   "checkbox-description-font-size": {
@@ -85,7 +93,7 @@
     "type": "other"
   },
   "checkbox-gap": {
-    "value": "{space.xs}",
+    "value": "{space.s}",
     "type": "spacing"
   },
   "checkbox-label-font-size": {
@@ -95,5 +103,13 @@
   "checkbox-size": {
     "value": "{space.l}",
     "type": "sizing"
+  },
+  "checkbox-gap-compact": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
+  "checkbox-label-font-size-compact": {
+    "value": "{typography.body.s}",
+    "type": "other"
   }
 }
