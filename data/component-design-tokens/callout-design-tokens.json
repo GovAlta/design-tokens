@@ -1,14 +1,14 @@
 {
   "callout-border-radius": {
-    "value": "{borderRadius.none}",
+    "value": "{borderRadius.xl}",
     "type": "borderRadius"
   },
   "callout-m-border-width": {
-    "value": "0px",
+    "value": "{borderWidth.s}",
     "type": "borderWidth"
   },
   "callout-l-border-width": {
-    "value": "0px",
+    "value": "{borderWidth.s}",
     "type": "borderWidth"
   },
   "callout-l-icon-size": {
@@ -16,14 +16,14 @@
     "type": "sizing"
   },
   "callout-l-content-padding": {
-    "value": "{space.l}",
+    "value": "{space.none}",
     "type": "spacing"
   },
   "callout-l-content-gap": {
     "value": "{space.m}",
     "type": "spacing"
   },
-  "callout-l-statusbar-padding": {
+  "callout-l-heading-padding": {
     "value": "{space.l} {space.s}",
     "type": "spacing"
   },
@@ -32,22 +32,22 @@
     "type": "sizing"
   },
   "callout-m-content-padding": {
-    "value": "{space.s}",
+    "value": "{space.none}",
     "type": "spacing"
   },
   "callout-m-content-gap": {
     "value": "{space.2xs}",
     "type": "spacing"
   },
-  "callout-m-statusbar-padding": {
+  "callout-m-heading-padding": {
     "value": "{space.s} {space.2xs}",
     "type": "spacing"
   },
   "callout-info-color-bg-content": {
-    "value": "{color.greyscale.100}",
+    "value": "{color.greyscale.white}",
     "type": "color"
   },
-  "callout-info-color-bg-statusbar": {
+  "callout-info-color-bg-heading": {
     "value": "{color.info.default}",
     "type": "color"
   },
@@ -56,14 +56,14 @@
     "type": "color"
   },
   "callout-info-border-color": {
-    "value": "none",
+    "value": "#E1DEDD",
     "type": "color"
   },
   "callout-warning-color-bg-content": {
     "value": "{color.greyscale.100}",
     "type": "color"
   },
-  "callout-warning-color-bg-statusbar": {
+  "callout-warning-color-bg-heading": {
     "value": "{color.warning.default}",
     "type": "color"
   },
@@ -79,7 +79,7 @@
     "value": "{color.greyscale.100}",
     "type": "color"
   },
-  "callout-success-color-bg-statusbar": {
+  "callout-success-color-bg-heading": {
     "value": "{color.success.default}",
     "type": "color"
   },
@@ -95,7 +95,7 @@
     "value": "{color.greyscale.100}",
     "type": "color"
   },
-  "callout-emergency-color-bg-statusbar": {
+  "callout-emergency-color-bg-heading": {
     "value": "{color.emergency.default}",
     "type": "color"
   },
@@ -124,11 +124,195 @@
     "type": "other"
   },
   "callout-l-heading-size": {
-    "value": "{typography.heading.m}",
+    "value": "{typography.heading.s}",
     "type": "other"
   },
   "callout-m-text-size": {
     "value": "{typography.body.s}",
     "type": "other"
+  },
+  "callout-info-border-color-h": {
+    "value": "#98D4EE",
+    "type": "color"
+  },
+  "callout-info-border-color-l": {
+    "value": "#98D4EE",
+    "type": "color"
+  },
+  "callout-important-border-color-h": {
+    "value": "#FDE3A1",
+    "type": "color"
+  },
+  "callout-important-border-color-m": {
+    "value": "#E1DEDD",
+    "type": "color"
+  },
+  "callout-important-border-color-l": {
+    "value": "#FDE3A1",
+    "type": "color"
+  },
+  "callout-success-border-color-h": {
+    "value": "#CCEAE1",
+    "type": "color"
+  },
+  "callout-success-border-color-m": {
+    "value": "#E1DEDD",
+    "type": "color"
+  },
+  "callout-success-border-color-l": {
+    "value": "#CCEAE1",
+    "type": "color"
+  },
+  "callout-emergency-border-color-h": {
+    "value": "#F4C8C5",
+    "type": "color"
+  },
+  "callout-emergency-border-color-m": {
+    "value": "#E1DEDD",
+    "type": "color"
+  },
+  "callout-emergency-border-color-l": {
+    "value": "#F4C8C5",
+    "type": "color"
+  },
+  "callout-info-color-bg-heading-h": {
+    "value": "#0077AD",
+    "type": "color"
+  },
+  "callout-info-color-bg-heading": {
+    "value": "#CBEAF7",
+    "type": "color"
+  },
+  "callout-info-color-bg-heading-l": {
+    "value": "{color.info.light}",
+    "type": "color"
+  },
+  "callout-important-color-bg-heading-h": {
+    "value": "#FFB800",
+    "type": "color"
+  },
+  "callout-important-color-bg-heading": {
+    "value": "#FFF1CC",
+    "type": "color"
+  },
+  "callout-important-color-bg-heading-l": {
+    "value": "{color.warning.background}",
+    "type": "color"
+  },
+  "callout-success-color-bg-heading-h": {
+    "value": "{color.success.default}",
+    "type": "color"
+  },
+  "callout-success-color-bg-heading": {
+    "value": "#D8F7E6",
+    "type": "color"
+  },
+  "callout-success-color-bg-heading-l": {
+    "value": "#EDFCF0",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-heading-h": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-heading": {
+    "value": "#FDDED9",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-heading-l": {
+    "value": "{color.emergency.background}",
+    "type": "color"
+  },
+  "callout-info-color-bg-content-h": {
+    "value": "{color.info.light}",
+    "type": "color"
+  },
+  "callout-info-color-bg-content-l": {
+    "value": "{color.info.light}",
+    "type": "color"
+  },
+  "callout-important-color-bg-content-h": {
+    "value": "{color.warning.background}",
+    "type": "color"
+  },
+  "callout-important-color-bg-content-m": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-important-color-bg-content-l": {
+    "value": "{color.warning.background}",
+    "type": "color"
+  },
+  "callout-success-color-bg-content-h": {
+    "value": "#EDFCF0",
+    "type": "color"
+  },
+  "callout-success-color-bg-content-m": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-success-color-bg-content-l": {
+    "value": "#EDFCF0",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-content-h": {
+    "value": "{color.emergency.background}",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-content-m": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-emergency-color-bg-content-l": {
+    "value": "{color.emergency.background}",
+    "type": "color"
+  },
+  "callout-info-icon-color-h": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-info-icon-color-m": {
+    "value": "#0077AD",
+    "type": "color"
+  },
+  "callout-info-icon-color-l": {
+    "value": "#0077AD",
+    "type": "color"
+  },
+  "callout-important-icon-color-h": {
+    "value": "#333333",
+    "type": "color"
+  },
+  "callout-important-icon-color-m": {
+    "value": "#CC9300",
+    "type": "color"
+  },
+  "callout-important-icon-color-l": {
+    "value": "#CC9300",
+    "type": "color"
+  },
+  "callout-success-icon-color-h": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-success-icon-color-m": {
+    "value": "{color.success.default}",
+    "type": "color"
+  },
+  "callout-success-icon-color-l": {
+    "value": "{color.success.default}",
+    "type": "color"
+  },
+  "callout-emergency-icon-color-h": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "callout-emergency-icon-color-m": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "callout-emergency-icon-color-l": {
+    "value": "{color.emergency.default}",
+    "type": "color"
   }
 }
