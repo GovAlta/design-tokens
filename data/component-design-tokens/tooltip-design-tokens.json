@@ -8,11 +8,11 @@
     "type": "border"
   },
   "tooltip-border-radius": {
-    "value": "{borderRadius.m}",
+    "value": "{borderRadius.xl}",
     "type": "borderRadius"
   },
   "tooltip-color-bg": {
-    "value": "{color.greyscale.700}",
+    "value": "{color.greyscale.600}",
     "type": "color"
   },
   "tooltip-color-text": {
@@ -28,7 +28,7 @@
     "type": "dimension"
   },
   "tooltip-padding": {
-    "value": "6px {space.m} 10px {space.m}",
+    "value": "{space.m}",
     "type": "spacing"
   },
   "tooltip-text-size": {
