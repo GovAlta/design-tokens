@@ -1,6 +1,6 @@
 {
   "accordion-color-bg-heading": {
-    "value": "{color.greyscale.100}",
+    "value": "{color.greyscale.white}",
     "type": "color"
   },
   "accordion-color-bg-content": {
@@ -13,7 +13,7 @@
   },
   "accordion-border": {
     "value": {
-      "color": "{color.greyscale.200}",
+      "color": "{color.greyscale.100}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
@@ -21,22 +21,45 @@
   },
   "accordion-divider": {
     "value": {
-      "color": "{color.greyscale.200}",
+      "color": "{color.greyscale.100}",
+      "width": "{borderWidth.s}",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "accordion-divider-hover": {
+    "value": {
+      "color": "{color.greyscale.black}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
     "type": "border"
   },
   "accordion-border-radius": {
-    "value": "{borderRadius.m}",
+    "value": "{borderRadius.xl}",
     "type": "borderRadius"
   },
+  "accordion-border-radius-focus": {
+    "value": "{borderRadius.xl} {borderRadius.xl} {borderRadius.xs} {borderRadius.xs}",
+    "type": "borderRadius",
+    "description": "when the accordion is focused and open"
+  },
   "accordion-padding-heading-icon-left": {
-    "value": "{space.s} {space.m} {space.s} 0",
+    "value": "{space.xs} {space.m} {space.xs} 0",
     "type": "spacing",
     "description": "padding of accordion heading when icon is positioned on the left"
   },
   "accordion-padding-heading-icon-right": {
+    "value": "{space.xs} 0 {space.xs} {space.m}",
+    "type": "spacing",
+    "description": "padding of accordion heading when icon is positioned on the right"
+  },
+  "accordion-padding-heading-m-icon-left": {
+    "value": "{space.s} {space.m} {space.s} 0",
+    "type": "spacing",
+    "description": "padding of accordion heading when icon is positioned on the left"
+  },
+  "accordion-padding-heading-m-icon-right": {
     "value": "{space.s} 0 {space.s} {space.m}",
     "type": "spacing",
     "description": "padding of accordion heading when icon is positioned on the right"
@@ -50,20 +73,50 @@
     "type": "spacing"
   },
   "accordion-color-bg-heading-hover": {
-    "value": "{color.greyscale.200}",
+    "value": "{color.greyscale.50}",
     "type": "color"
   },
   "accordion-color-heading-hover": {
     "value": "{color.text.default}",
     "type": "color"
   },
-  "accordion-heading-s": {
-    "value": "{typography.heading.s}",
-    "type": "other"
+  "accordion-border-focus": {
+    "value": {
+      "color": "{color.interactive.focus}",
+      "width": "3px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "accordion-border-hover": {
+    "value": {
+      "color": "{color.greyscale.black}",
+      "width": "{borderWidth.s}",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "accordion-heading": {
+    "value": {
+      "fontFamily": "{fontFamily.sans}",
+      "fontWeight": "{fontWeight.medium}",
+      "fontSize": "{fontSize.4}",
+      "lineHeight": "{lineHeight.4}",
+      "letterSpacing": "{letterSpacing.2xs}"
+    },
+    "type": "typography",
+    "description": "Small accordion heading - 16px/22px with -0.5px letter-spacing"
   },
   "accordion-heading-m": {
-    "value": "{typography.heading.m}",
-    "type": "other"
+    "value": {
+      "fontFamily": "{fontFamily.sans}",
+      "fontWeight": "{fontWeight.medium}",
+      "fontSize": "{fontSize.5}",
+      "lineHeight": "{lineHeight.5}",
+      "letterSpacing": "{letterSpacing.2xs}"
+    },
+    "type": "typography",
+    "description": "Medium accordion heading - 18px/24px with -0.5px letter-spacing"
   },
   "accordion-shadow": {
     "value": {
@@ -75,5 +128,33 @@
       "type": "dropShadow"
     },
     "type": "boxShadow"
+  },
+  "accordion-icon-color": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
+  "accordion-icon-color-hover": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
+  "accordion-heading-min-height": {
+    "value": "3rem",
+    "type": "size"
+  },
+  "accordion-heading-m-min-height": {
+    "value": "4rem",
+    "type": "size"
+  },
+  "accordion-heading-secondary-text": {
+    "value": "{typography.body.xs}",
+    "type": "other"
+  },
+  "accordion-heading-m-secondary-text": {
+    "value": "{typography.body.s}",
+    "type": "other"
+  },
+  "accordion-heading-secondary-text-color": {
+    "value": "{color.text.default}",
+    "type": "color"
   }
 }
