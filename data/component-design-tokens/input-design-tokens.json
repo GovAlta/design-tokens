@@ -1,38 +1,38 @@
 {
   "text-input-border": {
-    "value": "inset 0 0 0 {borderWidth.s} {color.greyscale.700}",
+    "value": "inset 0 0 0 {inputs.border-width.default} {inputs.color.border.default}",
     "type": "other"
   },
   "text-input-border-disabled": {
-    "value": "inset 0 0 0 {borderWidth.s} {color.greyscale.200}",
+    "value": "inset 0 0 0 {inputs.border-width.default} {inputs.color.border.disabled}",
     "type": "other"
   },
   "text-input-border-error": {
-    "value": "inset 0 0 0 {borderWidth.m} {color.interactive.error}",
+    "value": "inset 0 0 0 {inputs.border-width.hover} {inputs.color.border.error}",
     "type": "other"
   },
   "text-input-border-focus": {
-    "value": "0 0 0 {borderWidth.l} {color.interactive.focus}",
+    "value": "inset 0 0 0 {inputs.border-width.focus} {inputs.color.border.focus}",
     "type": "other"
   },
   "text-input-border-hover": {
-    "value": "inset 0 0 0 {borderWidth.m} {color.interactive.hover}",
+    "value": "inset 0 0 0 {inputs.border-width.hover} {inputs.color.border.hover}",
     "type": "other"
   },
   "text-input-border-radius": {
-    "value": "{borderRadius.m}",
+    "value": "{inputs.border-radius.input}",
     "type": "borderRadius"
   },
   "text-input-color-bg": {
-    "value": "{color.greyscale.white}",
+    "value": "{inputs.color.background.default}",
     "type": "color"
   },
   "text-input-color-bg-disabled": {
-    "value": "{color.greyscale.100}",
+    "value": "{inputs.color.background.disabled}",
     "type": "color"
   },
   "text-input-color-icon-disabled": {
-    "value": "{color.greyscale.500}",
+    "value": "{inputs.color.text.disabled}",
     "type": "color"
   },
   "text-input-color-text": {
@@ -40,28 +40,31 @@
     "type": "color"
   },
   "text-input-color-text-disabled": {
-    "value": "{color.text.secondary}",
+    "value": "{inputs.color.text.disabled}",
     "type": "color"
   },
   "text-input-color-text-placeholder": {
-    "value": "{color.text.secondary}",
+    "value": "{inputs.color.text.placeholder}",
     "type": "color"
   },
   "text-input-lt-content-color-bg": {
-    "value": "{color.greyscale.100}",
-    "type": "color"
+    "value": "{color.greyscale.150}",
+    "type": "color",
+    "description": "V2: Updated from greyscale.100 to 150"
   },
   "text-input-lt-content-color-text": {
     "value": "{color.text.default}",
     "type": "color"
   },
   "text-input-padding": {
-    "value": "7px {text-input-padding-lr} 9px",
-    "type": "spacing"
+    "value": "9px {text-input-padding-lr} 11px",
+    "type": "spacing",
+    "description": "V2: Updated padding for larger input height"
   },
   "text-input-padding-lr": {
-    "value": "{space.s}",
-    "type": "spacing"
+    "value": "{space.m}",
+    "type": "spacing",
+    "description": "V2: Updated from space.s (12px) to space.m (16px)"
   },
   "text-input-space-btw-icon-text": {
     "value": "{space.xs}",
@@ -82,5 +85,46 @@
   "text-input-typography": {
     "value": "{typography.body.m}",
     "type": "other"
+  },
+  "text-input-height": {
+    "value": "56px",
+    "type": "sizing"
+  },
+  "text-input-height-compact": {
+    "value": "40px",
+    "type": "sizing"
+  },
+  "text-input-padding-compact-lr": {
+    "value": "{space.s}",
+    "type": "spacing",
+    "description": "V2: Updated from space.xs (8px) to space.s (12px)"
+  },
+  "text-input-padding-compact": {
+    "value": "{space.2xs} {text-input-padding-compact-lr}",
+    "type": "spacing",
+    "description": "V2: Updated to use space.2xs (4px) vertical, space.s (12px) horizontal"
+  },
+  "text-input-typography-compact": {
+    "value": "{typography.body.s}",
+    "type": "other"
+  },
+  "text-input-space-btw-icon-text-compact": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
+  "text-input-border-readonly": {
+    "value": "inset 0 0 0 {inputs.border-width.default} {inputs.color.border.readonly}",
+    "type": "other",
+    "description": "V2: Read-only border"
+  },
+  "text-input-color-bg-readonly": {
+    "value": "{inputs.color.background.readonly}",
+    "type": "color",
+    "description": "V2: Read-only input field background"
+  },
+  "text-input-lt-content-color-bg-readonly": {
+    "value": "{inputs.color.background.readonly-content}",
+    "type": "color",
+    "description": "V2: Read-only leading/trailing content background"
   }
 }
