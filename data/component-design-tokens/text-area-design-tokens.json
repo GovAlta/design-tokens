@@ -1,58 +1,58 @@
 {
   "text-area-border": {
-    "value": "inset 0 0 0 {inputs.border-width.default} {inputs.color.border.default}",
+    "value": "inset 0 0 0 {input.border-width.default} {input.color.border.default}",
     "type": "other"
   },
   "text-area-border-disabled": {
-    "value": "inset 0 0 0 {inputs.border-width.default} {inputs.color.border.disabled}",
+    "value": "inset 0 0 0 {input.border-width.default} {input.color.border.disabled}",
     "type": "other"
   },
   "text-area-border-error": {
-    "value": "inset 0 0 0 {inputs.border-width.hover} {inputs.color.border.error}",
+    "value": "inset 0 0 0 {input.border-width.hover} {input.color.border.error}",
     "type": "other"
   },
   "text-area-border-focus": {
-    "value": "inset 0 0 0 {inputs.border-width.focus} {inputs.color.border.focus}",
+    "value": "inset 0 0 0 {input.border-width.focus} {input.color.border.focus}",
     "type": "other"
   },
   "text-area-border-hover": {
-    "value": "inset 0 0 0 {inputs.border-width.hover} {inputs.color.border.hover}",
+    "value": "inset 0 0 0 {input.border-width.hover} {input.color.border.hover}",
     "type": "other"
   },
   "text-area-border-radius": {
-    "value": "{inputs.border-radius.input}",
+    "value": "{input.border-radius.input}",
     "type": "borderRadius"
   },
   "text-area-color-bg": {
-    "value": "{inputs.color.background.default}",
+    "value": "{input.color.background.default}",
     "type": "color"
   },
   "text-area-color-bg-disabled": {
-    "value": "{inputs.color.background.disabled}",
+    "value": "{input.color.background.disabled}",
     "type": "color"
   },
   "text-area-color-bg-readonly": {
-    "value": "{inputs.color.background.readonly}",
+    "value": "{input.color.background.readonly}",
     "type": "color"
   },
   "text-area-color-text": {
-    "value": "{inputs.color.text.secondary}",
+    "value": "{input.color.text.secondary}",
     "type": "color"
   },
   "text-area-color-text-counter": {
-    "value": "{inputs.color.text.secondary}",
+    "value": "{input.color.text.secondary}",
     "type": "color"
   },
   "text-area-color-text-counter-error": {
-    "value": "{inputs.color.border.error}",
+    "value": "{input.color.border.error}",
     "type": "color"
   },
   "text-area-color-text-disabled": {
-    "value": "{inputs.color.text.disabled}",
+    "value": "{input.color.text.disabled}",
     "type": "color"
   },
   "text-area-color-text-placeholder": {
-    "value": "{inputs.color.text.placeholder}",
+    "value": "{input.color.text.placeholder}",
     "type": "color"
   },
   "text-area-padding": {
