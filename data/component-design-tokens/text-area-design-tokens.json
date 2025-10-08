@@ -1,26 +1,26 @@
 {
   "text-area-border": {
-    "value": "inset 0 0 0 {input.border-width.default} {input.color.border.default}",
+    "value": "inset 0 0 0 {input.borderWidth.default} {input.color.border.default}",
     "type": "other"
   },
   "text-area-border-disabled": {
-    "value": "inset 0 0 0 {input.border-width.default} {input.color.border.disabled}",
+    "value": "inset 0 0 0 {input.borderWidth.default} {input.color.border.disabled}",
     "type": "other"
   },
   "text-area-border-error": {
-    "value": "inset 0 0 0 {input.border-width.hover} {input.color.border.error}",
+    "value": "inset 0 0 0 {input.borderWidth.hover} {input.color.border.error}",
     "type": "other"
   },
   "text-area-border-focus": {
-    "value": "inset 0 0 0 {input.border-width.focus} {input.color.border.focus}",
+    "value": "inset 0 0 0 {input.borderWidth.focus} {input.color.border.focus}",
     "type": "other"
   },
   "text-area-border-hover": {
-    "value": "inset 0 0 0 {input.border-width.hover} {input.color.border.hover}",
+    "value": "inset 0 0 0 {input.borderWidth.hover} {input.color.border.hover}",
     "type": "other"
   },
   "text-area-border-radius": {
-    "value": "{input.border-radius.input}",
+    "value": "{input.borderRadius.input}",
     "type": "borderRadius"
   },
   "text-area-color-bg": {
