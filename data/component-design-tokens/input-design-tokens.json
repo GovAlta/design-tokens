@@ -51,10 +51,6 @@
     "value": "{color.greyscale.150}",
     "type": "color"
   },
-  "text-input-lt-content-color-text": {
-    "value": "{color.text.default}",
-    "type": "color"
-  },
   "text-input-padding": {
     "value": "9px {text-input-padding-lr} 11px",
     "type": "spacing"
@@ -66,14 +62,6 @@
   "text-input-space-btw-icon-text": {
     "value": "{space.xs}",
     "type": "spacing"
-  },
-  "text-input-size-icon": {
-    "value": "{iconSize.4}",
-    "type": "sizing"
-  },
-  "text-input-color-icon": {
-    "value": "{color.greyscale.black}",
-    "type": "color"
   },
   "text-input-transition": {
     "value": "box-shadow 0.05s ease-in",
