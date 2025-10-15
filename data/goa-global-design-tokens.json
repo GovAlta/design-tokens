@@ -130,6 +130,36 @@
         "type": "color"
       }
     },
+    "important": {
+      "default": {
+        "value": "#f9ce2d",
+        "type": "color"
+      },
+      "light": {
+        "value": "#fef2c8",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#c28900",
+        "type": "color"
+      },
+      "background": {
+        "value": "#fde3a1",
+        "type": "color"
+      },
+      "border": {
+        "value": "#fde3a1",
+        "type": "color"
+      },
+      "text": {
+        "value": "#8d6500",
+        "type": "color"
+      },
+      "text-dark": {
+        "value": "#4d3700",
+        "type": "color"
+      }
+    },
     "emergency": {
       "default": {
         "value": "#da291c",
