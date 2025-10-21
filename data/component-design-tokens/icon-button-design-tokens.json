@@ -1,13 +1,41 @@
 {
+  "icon-button-small-padding": {
+    "value": "{space.2xs}",
+    "type": "spacing"
+  },
+  "icon-button-medium-padding": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
+  "icon-button-large-padding": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "icon-button-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "icon-button-focus-border-width": {
+    "value": "{input.borderWidth.focus}",
+    "type": "borderWidth"
+  },
+  "icon-button-focus-border-color": {
+    "value": "{input.color.border.focus}",
+    "type": "color"
+  },
+  "icon-button-medium-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "icon-button-large-border-radius": {
+    "value": "{borderRadius.xl}",
+    "type": "borderRadius"
+  },
   "icon-button-default-color": {
     "value": "{color.interactive.default}",
     "type": "color"
   },
   "icon-button-default-hover-color": {
-    "value": "{color.interactive.hover}",
-    "type": "color"
-  },
-  "icon-button-default-focus-color": {
     "value": "{color.interactive.hover}",
     "type": "color"
   },
@@ -24,7 +52,7 @@
     "type": "color"
   },
   "icon-button-light-hover-color-bg": {
-    "value": "{color.greyscale.700}",
+    "value": "{color.greyscale.600}",
     "type": "color"
   },
   "icon-button-light-disabled-color": {
@@ -39,7 +67,7 @@
     "value": "{color.greyscale.100}",
     "type": "color"
   },
-  "icon-button-dark-disabled-color-bg": {
+  "icon-button-dark-disabled-color": {
     "value": "{color.greyscale.500}",
     "type": "color"
   },
@@ -52,23 +80,7 @@
     "type": "color"
   },
   "icon-button-destructive-disabled-color": {
-    "value": "{color.interactive.error-disabled}",
+    "value": "{color.greyscale.500}",
     "type": "color"
-  },
-  "icon-button-large-border-radius": {
-    "value": "{borderRadius.xl}",
-    "type": "borderRadius"
-  },
-  "icon-button-medium-border-radius": {
-    "value": "{borderRadius.m}",
-    "type": "borderRadius"
-  },
-  "icon-button-large-padding": {
-    "value": "{space.xs}",
-    "type": "spacing"
-  },
-  "icon-button-medium-padding": {
-    "value": "{space.2xs}",
-    "type": "spacing"
   }
 }
