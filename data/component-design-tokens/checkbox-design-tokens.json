@@ -1,17 +1,17 @@
 {
   "checkbox-border": {
     "value": {
-      "width": "{borderWidth.s}",
+      "width": "{input.borderWidth.default}",
       "style": "solid",
-      "color": "{color.greyscale.700}"
+      "color": "{input.color.border.default}"
     },
     "type": "border"
   },
   "checkbox-border-disabled": {
     "value": {
-      "width": "{borderWidth.s}",
+      "width": "{input.borderWidth.default}",
       "style": "solid",
-      "color": "{color.greyscale.400}"
+      "color": "{input.color.border.default}"
     },
     "type": "border"
   },
@@ -27,7 +27,7 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.interactive.error}"
+      "color": "{input.color.border.error}"
     },
     "type": "border"
   },
@@ -35,7 +35,7 @@
     "value": {
       "width": "{borderWidth.l}",
       "style": "solid",
-      "color": "{color.interactive.focus}"
+      "color": "{input.color.border.focus}"
     },
     "type": "border"
   },
@@ -43,17 +43,16 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.interactive.hover}"
+      "color": "{input.color.border.hover}"
     },
     "type": "border"
   },
   "checkbox-border-radius": {
-    "value": "2px",
-    "type": "borderRadius",
-    "description": "2px"
+    "value": "{input.borderRadius.checkbox}",
+    "type": "borderRadius"
   },
   "checkbox-color-bg": {
-    "value": "{color.greyscale.white}",
+    "value": "{input.color.background.default}",
     "type": "color"
   },
   "checkbox-color-bg-checked": {
@@ -61,7 +60,7 @@
     "type": "color"
   },
   "checkbox-color-bg-checked-disabled": {
-    "value": "{color.interactive.disabled}",
+    "value": "{color.greyscale.300}",
     "type": "color"
   },
   "checkbox-color-bg-checked-error": {
@@ -73,11 +72,11 @@
     "type": "color"
   },
   "checkbox-color-label": {
-    "value": "{color.text.default}",
+    "value": "{input.color.text.default}",
     "type": "color"
   },
   "checkbox-color-label-disabled": {
-    "value": "{color.greyscale.500}",
+    "value": "{input.color.text.disabled}",
     "type": "color"
   },
   "checkbox-description-font-size": {
@@ -85,7 +84,7 @@
     "type": "other"
   },
   "checkbox-gap": {
-    "value": "{space.xs}",
+    "value": "{space.s}",
     "type": "spacing"
   },
   "checkbox-label-font-size": {
