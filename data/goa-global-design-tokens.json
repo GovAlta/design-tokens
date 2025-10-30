@@ -102,6 +102,14 @@
       "text": {
         "value": "#0077ad",
         "type": "color"
+      },
+      "textDark": {
+        "value": "#00527c",
+        "type": "color"
+      },
+      "textInverse": {
+        "value": "#ebf8ff",
+        "type": "color"
       }
     },
     "warning": {
@@ -127,6 +135,10 @@
       },
       "text": {
         "value": "#8d6500",
+        "type": "color"
+      },
+      "textDark": {
+        "value": "#4d3700",
         "type": "color"
       }
     },
@@ -154,6 +166,14 @@
       "text": {
         "value": "#a91a10",
         "type": "color"
+      },
+      "textDark": {
+        "value": "#8e1515",
+        "type": "color"
+      },
+      "textInverse": {
+        "value": "#fff6f6",
+        "type": "color"
       }
     },
     "success": {
@@ -179,6 +199,14 @@
       },
       "text": {
         "value": "#3a8050",
+        "type": "color"
+      },
+      "textDark": {
+        "value": "#355147",
+        "type": "color"
+      },
+      "textInverse": {
+        "value": "#edfcf0",
         "type": "color"
       }
     },
@@ -251,6 +279,10 @@
         "border": {
           "value": "#bff0ee",
           "type": "color"
+        },
+        "text": {
+          "value": "#093937",
+          "type": "color"
         }
       },
       "pasture": {
@@ -264,6 +296,10 @@
         },
         "border": {
           "value": "#dee563",
+          "type": "color"
+        },
+        "text": {
+          "value": "#174c38",
           "type": "color"
         }
       },
@@ -279,6 +315,10 @@
         "border": {
           "value": "#f5ddad",
           "type": "color"
+        },
+        "text": {
+          "value": "#7a141a",
+          "type": "color"
         }
       },
       "dawn": {
@@ -292,6 +332,10 @@
         },
         "border": {
           "value": "#e9b8d5",
+          "type": "color"
+        },
+        "text": {
+          "value": "#310c46",
           "type": "color"
         }
       },
@@ -307,6 +351,10 @@
         "border": {
           "value": "#e2d2fd",
           "type": "color"
+        },
+        "text": {
+          "value": "#151d83",
+          "type": "color"
         }
       },
       "prairie": {
@@ -320,6 +368,10 @@
         },
         "border": {
           "value": "#ecd386",
+          "type": "color"
+        },
+        "text": {
+          "value": "#47372a",
           "type": "color"
         }
       }
