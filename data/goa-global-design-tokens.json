@@ -456,6 +456,11 @@
       "type": "borderRadius",
       "description": "16px"
     },
+    "3xl": {
+      "value": "1.5rem",
+      "type": "borderRadius",
+      "description": "24px"
+    },
     "round": {
       "value": "64rem",
       "type": "borderRadius",
