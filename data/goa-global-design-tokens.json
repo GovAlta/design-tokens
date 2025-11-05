@@ -660,16 +660,29 @@
       "type": "boxShadow"
     },
     "modal": {
-      "value": {
-        "x": "6",
-        "y": "6",
-        "blur": "6",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.16)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "description": "Drop shadow for modals"
+      "value": "0px 0px 4px 0px rgba(0,0,0,0.1), 0px 8px 40px 0px rgba(0,0,0,0.2)",
+      "type": "other",
+      "description": "Layered shadow with deep elevation"
+    },
+    "raised-light": {
+      "value": "0px 12px 16px -4px rgba(16,29,40,0.08), 0px 4px 6px -2px rgba(16,29,40,0.03)",
+      "type": "other",
+      "description": "Subtle layered shadow with light elevation"
+    },
+    "raised-heavy": {
+      "value": "0px 0px 1px 0px rgba(0,0,0,0.2), 0px 16px 32px -20px rgba(0,0,0,0.22)",
+      "type": "other",
+      "description": "Layered shadow with pronounced elevation"
+    },
+    "shallow-above": {
+      "value": "0px -2px 16px 0px rgba(0,0,0,0.1)",
+      "type": "other",
+      "description": "Upward shadow with negative vertical offset"
+    },
+    "shallow-below": {
+      "value": "0px 1px 8px 0px rgba(0,0,0,0.07)",
+      "type": "other",
+      "description": "Downward shadow with positive vertical offset"
     }
   },
   "lineHeight": {
