@@ -1,23 +1,15 @@
 {
+  "app-header-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
   "app-header-border-bottom": {
     "value": {
       "width": "{borderWidth.s}",
       "style": "solid",
-      "color": "{color.greyscale.200}"
+      "color": "{color.greyscale.150}"
     },
     "type": "border"
-  },
-  "app-header-service-name-border-focus": {
-    "value": {
-      "width": "{borderWidth.l}",
-      "style": "solid",
-      "color": "{color.interactive.focus}"
-    },
-    "type": "border"
-  },
-  "app-header-border-bottom-menu-item": {
-    "value": "inset 0 -1px 0 0 {color.greyscale.200}",
-    "type": "other"
   },
   "app-header-border-focus": {
     "value": {
@@ -27,108 +19,223 @@
     },
     "type": "border"
   },
-  "app-header-border-nav-item-current": {
-    "value": {
-      "width": "{space.2xs}",
-      "style": "solid",
-      "color": "{color.interactive.default}"
-    },
-    "type": "border"
+  "app-header-padding-h-desktop": {
+    "value": "{space.2xl}",
+    "type": "spacing",
+    "description": "Header horizontal padding on desktop"
   },
-  "app-header-border-nav-item-current-focus": {
-    "value": {
-      "width": "{space.2xs}",
-      "style": "solid",
-      "color": "{color.interactive.hover}"
-    },
-    "type": "border"
+  "app-header-padding-h-mobile": {
+    "value": "{space.m}",
+    "type": "spacing",
+    "description": "Header horizontal padding on mobile"
   },
-  "app-header-border-nav-item-current-hover": {
-    "value": {
-      "width": "{space.2xs}",
-      "style": "solid",
-      "color": "{color.interactive.hover}"
-    },
-    "type": "border"
+  "app-header-padding-v": {
+    "value": "{space.s}",
+    "type": "spacing",
+    "description": "Header vertical padding"
   },
-  "app-header-color-text-nav-item-in-menu-current": {
-    "value": "{color.text.light}",
+  "app-header-padding-desktop": {
+    "value": "{space.2xl}",
+    "type": "spacing"
+  },
+  "app-header-padding-mobile": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
+  "app-header-padding-tablet": {
+    "value": "{space.xl}",
+    "type": "spacing"
+  },
+  "app-header-logo-desktop-height": {
+    "value": "{space.xl}",
+    "type": "sizing",
+    "description": "Desktop logo height (width scales proportionally)"
+  },
+  "app-header-logo-mobile-size": {
+    "value": "{space.xl}",
+    "type": "sizing",
+    "description": "Mobile square logo size"
+  },
+  "app-header-logo-service-gap": {
+    "value": "{space.2xl}",
+    "type": "spacing",
+    "description": "Gap between logo and service name (32px)"
+  },
+  "app-header-logo-service-gap-small-screen": {
+    "value": "{space.l}",
+    "type": "spacing",
+    "description": "Gap between logo and service name on small screen (24px)"
+  },
+  "app-header-color-service-name": {
+    "value": "{color.text.default}",
     "type": "color"
   },
-  "app-header-color-text-nav-item-in-menu-current-hover": {
-    "value": "{color.text.light}",
+  "app-header-typography-service-name": {
+    "value": "{typography.heading.xs}",
+    "type": "other"
+  },
+  "app-header-typography-service-name-mobile": {
+    "value": {
+      "fontFamily": "{fontFamily.sans}",
+      "fontWeight": "{fontWeight.semiBold}",
+      "fontSize": "{fontSize.3}",
+      "lineHeight": "{lineHeight.1}",
+      "letterSpacing": "{letterSpacing.3xs}"
+    },
+    "type": "typography"
+  },
+  "app-header-service-name-border-focus": {
+    "value": {
+      "width": "{borderWidth.l}",
+      "style": "solid",
+      "color": "{color.interactive.focus}"
+    },
+    "type": "border"
+  },
+  "app-header-max-width-service-name": {
+    "value": "40rem",
+    "type": "dimension"
+  },
+  "app-header-min-width-service-name": {
+    "value": "13rem",
+    "type": "dimension"
+  },
+  "app-header-subline-color": {
+    "value": "{color.text.secondary}",
+    "type": "color",
+    "description": "Subline text color"
+  },
+  "app-header-subline-typography-desktop": {
+    "value": "{typography.body.s}",
+    "type": "other",
+    "description": "Subline typography on desktop"
+  },
+  "app-header-subline-typography-mobile": {
+    "value": "{typography.body.xs}",
+    "type": "other",
+    "description": "Subline typography on mobile"
+  },
+  "app-header-service-name-subline-gap": {
+    "value": "{space.3xs}",
+    "type": "spacing",
+    "description": "Vertical gap between service name and subline"
+  },
+  "app-header-service-phase-gap-horizontal": {
+    "value": "{space.m}",
+    "type": "spacing",
+    "description": "Horizontal gap between service name and phase badge (desktop)"
+  },
+  "app-header-service-phase-gap-vertical": {
+    "value": "6px",
+    "type": "spacing",
+    "description": "Vertical gap between service name and phase badge (mobile)"
+  },
+  "app-header-service-phase-row-gap": {
+    "value": "{space.xs}",
+    "type": "spacing",
+    "description": "Vertical gap when service name and phase badge wrap to multiple rows"
+  },
+  "app-header-utilities-gap": {
+    "value": "{space.s}",
+    "type": "spacing",
+    "description": "Gap between utility items"
+  },
+  "app-header-nav-bar-bg": {
+    "value": "{color.greyscale.50}",
+    "type": "color",
+    "description": "Navigation bar background color"
+  },
+  "app-header-nav-item-gap": {
+    "value": "{space.m}",
+    "type": "spacing",
+    "description": "Gap between navigation items in the nav bar"
+  },
+  "app-header-color-text-nav-item": {
+    "value": "{color.text.secondary}",
     "type": "color"
+  },
+  "app-header-color-text-nav-item-current": {
+    "value": "{color.text.secondary}",
+    "type": "color"
+  },
+  "app-header-nav-text-color": {
+    "value": "{color.text.secondary}",
+    "type": "color",
+    "description": "Navigation item text color"
+  },
+  "app-header-typography-nav-item": {
+    "value": {
+      "fontFamily": "{fontFamily.sans}",
+      "fontWeight": "{fontWeight.medium}",
+      "fontSize": "{fontSize.3}",
+      "lineHeight": "{lineHeight.2}",
+      "letterSpacing": "{letterSpacing.3xs}"
+    },
+    "type": "typography"
+  },
+  "app-header-padding-nav-item": {
+    "value": "{space.2xs} {space.2xs} 0 {space.2xs}",
+    "type": "spacing",
+    "description": "Navigation item padding (4px 4px 0 4px)"
+  },
+  "app-header-height-nav-item": {
+    "value": "{space.2xl}",
+    "type": "dimension"
   },
   "app-header-border-nav-item-default": {
     "value": {
-      "width": "{space.2xs}",
+      "width": "{borderWidth.xl}",
       "style": "solid",
       "color": "transparent"
     },
     "type": "border"
   },
-  "app-header-border-nav-item-focus": {
-    "value": {
-      "width": "{space.2xs}",
-      "style": "solid",
-      "color": "{color.interactive.hover}"
-    },
-    "type": "border"
-  },
   "app-header-border-nav-item-hover": {
     "value": {
-      "width": "{space.2xs}",
+      "width": "{borderWidth.xl}",
       "style": "solid",
-      "color": "{color.interactive.hover}"
+      "color": "{color.greyscale.200}"
     },
     "type": "border"
   },
-  "app-header-border-top-menu-item": {
-    "value": "inset 0 1px 0 0 {color.greyscale.200}",
-    "type": "other"
+  "app-header-border-nav-item-current": {
+    "value": {
+      "width": "{borderWidth.xl}",
+      "style": "solid",
+      "color": "{color.interactive.default}"
+    },
+    "type": "border"
   },
-  "app-header-color-bg": {
-    "value": "{color.greyscale.white}",
+  "app-header-nav-active-indicator-color": {
+    "value": "{color.interactive.default}",
+    "type": "color",
+    "description": "Active navigation indicator color"
+  },
+  "app-header-nav-hover-indicator-color": {
+    "value": "{color.greyscale.200}",
+    "type": "color",
+    "description": "Hover navigation indicator color"
+  },
+  "app-header-padding-nav-item-in-menu": {
+    "value": "{space.xs}",
+    "type": "spacing",
+    "description": "Padding around the menu container (not individual items)"
+  },
+  "app-header-padding-secondary-nav-item-in-menu": {
+    "value": "{space.s} {space.xs} {space.s} {space.l}",
+    "type": "spacing",
+    "description": "Padding for child items in More menu (12px 8px 12px 24px)"
+  },
+  "app-header-color-text-nav-item-in-menu-current": {
+    "value": "{color.text.secondary}",
     "type": "color"
   },
-  "app-header-color-bg-menu-button-focus": {
-    "value": "{color.greyscale.100}",
-    "type": "color"
-  },
-  "app-header-color-bg-menu-button-hover": {
-    "value": "{color.greyscale.100}",
-    "type": "color"
-  },
-  "app-header-color-bg-nav-item": {
-    "value": "{color.greyscale.white}",
-    "type": "color"
-  },
-  "app-header-color-bg-nav-item-current": {
-    "value": "{color.greyscale.white}",
-    "type": "color"
-  },
-  "app-header-color-bg-nav-item-focus": {
-    "value": "{color.greyscale.white}",
-    "type": "color"
-  },
-  "app-header-color-bg-nav-item-hover": {
-    "value": "{color.greyscale.white}",
+  "app-header-color-text-nav-item-in-menu-current-hover": {
+    "value": "{color.text.secondary}",
     "type": "color"
   },
   "app-header-color-bg-nav-item-in-menu-current": {
     "value": "{color.interactive.default}",
-    "type": "color"
-  },
-  "app-header-nav-color-text-link-item": {
-    "value": "{color.interactive.default}",
-    "type": "color"
-  },
-  "app-header-nav-color-text-link-item-hover": {
-    "value": "{color.interactive.hover}",
-    "type": "color"
-  },
-  "app-header-nav-color-text-link-item-focus": {
-    "value": "{color.interactive.hover}",
     "type": "color"
   },
   "app-header-color-bg-nav-item-in-menu-current-hover": {
@@ -139,172 +246,19 @@
     "value": "{color.greyscale.100}",
     "type": "color"
   },
-  "app-header-color-bg-nav-item-child-focus": {
-    "value": "{color.greyscale.100}",
-    "type": "color"
+  "app-header-nav-menu-dropdown-shadow": {
+    "value": "drop-shadow(0px 12px 16px rgba(16,29,40,0.08)) drop-shadow(0px 4px 6px rgba(16,29,40,0.03))",
+    "type": "other",
+    "description": "Shadow for navigation dropdown menus (uses filter: drop-shadow)"
   },
-  "app-header-color-menu-button": {
-    "value": "{color.text.default}",
-    "type": "color"
+  "app-header-nav-menu-dropdown-border": {
+    "value": "{borderWidth.2xs} solid {color.greyscale.150}",
+    "type": "other",
+    "description": "Border for navigation dropdown menus"
   },
-  "app-header-color-menu-button-focus": {
-    "value": "{color.interactive.hover}",
-    "type": "color"
-  },
-  "app-header-color-menu-button-hover": {
-    "value": "{color.interactive.hover}",
-    "type": "color"
-  },
-  "app-header-color-service-name": {
-    "value": "{color.text.default}",
-    "type": "color"
-  },
-  "app-header-color-text-nav-item": {
-    "value": "{color.text.default}",
-    "type": "color"
-  },
-  "app-header-color-text-nav-item-current": {
-    "value": "{color.text.default}",
-    "type": "color"
-  },
-  "app-header-color-text-nav-item-focus": {
-    "value": "{color.interactive.hover}",
-    "type": "color"
-  },
-  "app-header-color-text-nav-item-hover": {
-    "value": "{color.interactive.hover}",
-    "type": "color"
-  },
-  "app-header-max-width-service-name": {
-    "value": "28rem",
-    "type": "dimension"
-  },
-  "app-header-min-width-service-name": {
-    "value": "8rem",
-    "type": "dimension"
-  },
-  "app-header-padding-desktop": {
-    "value": "{space.3xl}",
-    "type": "spacing"
-  },
-  "app-header-padding-link-item": {
-    "value": "{space.m}",
-    "type": "spacing"
-  },
-  "app-header-padding-logo": {
-    "value": "14px {space.xl} {space.m} 0px",
-    "type": "spacing"
-  },
-  "app-header-padding-logo-mobile": {
-    "value": "{space.s} {space.m}",
-    "type": "spacing"
-  },
-  "app-header-padding-menu-button": {
-    "value": "{space.m} {space.s}",
-    "type": "spacing"
-  },
-  "app-header-padding-mobile": {
-    "value": "{space.m}",
-    "type": "spacing"
-  },
-  "app-header-padding-nav-item": {
-    "value": "{space.m} {space.s}",
-    "type": "spacing"
-  },
-  "app-header-padding-nav-item-with-children": {
-    "value": "{space.m} {space.s} {space.s}",
-    "type": "spacing"
-  },
-  "app-header-padding-nav-item-in-menu": {
-    "value": "9px {space.m}",
-    "type": "spacing"
-  },
-  "app-header-padding-secondary-nav-item-in-menu-mobile": {
-    "value": "9px {space.m} 9px 80px",
-    "type": "spacing"
-  },
-  "app-header-padding-secondary-nav-item-in-menu": {
-    "value": "9px {space.m} 9px {space.xl}",
-    "type": "spacing"
-  },
-  "app-header-padding-tablet": {
-    "value": "{space.xl}",
-    "type": "spacing"
-  },
-  "app-header-size-logo": {
-    "value": "{space.xl}",
-    "type": "sizing"
-  },
-  "app-header-size-logo-mobile": {
-    "value": "{space.l}",
-    "type": "sizing"
-  },
-  "app-header-space-btw-logo-service-name": {
-    "value": "{space.m}",
-    "type": "spacing"
-  },
-  "app-header-space-btw-logo-service-name-mobile": {
-    "value": "{space.xs}",
-    "type": "spacing"
-  },
-  "app-header-space-btw-service-name-nav-items-mobile": {
-    "value": "{space.l}",
-    "type": "spacing"
-  },
-  "app-header-typography-menu-button": {
-    "value": "{typography.body.m}",
-    "type": "other"
-  },
-  "app-header-typography-menu-button-mobile": {
-    "value": "{typography.body.s}",
-    "type": "other"
-  },
-  "app-header-typography-nav-item": {
-    "value": "{typography.heading.s}",
-    "type": "other"
-  },
-  "app-header-typography-menu-item": {
-    "value": "{typography.body.m}",
-    "type": "other"
-  },
-  "app-header-typography-link-item": {
-    "value": "{typography.body.m}",
-    "type": "other"
-  },
-  "app-header-typography-service-name": {
-    "value": "{typography.body.m}",
-    "type": "other"
-  },
-  "app-header-typography-service-name-mobile": {
-    "value": "{typography.body.s}",
-    "type": "other"
-  },
-  "app-header-height-nav-item": {
-    "value": "{space.3xl}",
-    "type": "dimension"
-  },
-  "app-header-height-nav-item-mobile": {
-    "value": "50px",
-    "type": "dimension"
-  },
-  "app-header-nav-color-bg-link-item": {
-    "value": "transparent",
-    "type": "color"
-  },
-  "app-header-nav-color-bg-link-item-hover": {
-    "value": "transparent",
-    "type": "color"
-  },
-  "app-header-nav-color-bg-link-item-focus": {
-    "value": "transparent",
-    "type": "color"
-  },
-  "app-header-nav-color-bg-link-item-in-menu": {
-    "value": "transparent",
-    "type": "color"
-  },
-  "app-header-nav-color-bg-link-item-in-menu-focus": {
-    "value": "{color.greyscale.100}",
-    "type": "color"
+  "app-header-nav-menu-dropdown-gap": {
+    "value": "3px",
+    "type": "spacing",
+    "description": "Gap between nav button and dropdown menu"
   }
 }
