@@ -1,15 +1,19 @@
 {
   "filter-chip-border-radius": {
-    "value": "{borderRadius.xl}",
+    "value": "{borderRadius.2xl}",
     "type": "borderRadius"
   },
   "filter-chip-border": {
     "value": {
-      "color": "{color.greyscale.500}",
+      "color": "{color.greyscale.300}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
     "type": "border"
+  },
+  "filter-chip-border-color-hover": {
+    "value": "{color.greyscale.500}",
+    "type": "color"
   },
   "filter-chip-text-color": {
     "value": "{color.text.default}",
@@ -24,6 +28,10 @@
     "type": "color"
   },
   "filter-chip-text-color-error": {
+    "value": "{input.color.border.error}",
+    "type": "color"
+  },
+  "filter-chip-text-color-error-hover": {
     "value": "{input.color.text.error}",
     "type": "color"
   },
@@ -39,8 +47,28 @@
     "value": "{input.color.border.error}",
     "type": "color"
   },
+  "filter-chip-border-color-error-hover": {
+    "value": "{input.color.border.error-hover}",
+    "type": "color"
+  },
+  "filter-chip-icon-color-error": {
+    "value": "{input.color.border.error}",
+    "type": "color"
+  },
+  "filter-chip-icon-color-error-hover": {
+    "value": "{input.color.text.error}",
+    "type": "color"
+  },
+  "filter-chip-leading-icon-color": {
+    "value": "{color.greyscale.600}",
+    "type": "color"
+  },
+  "filter-chip-secondary-text-color": {
+    "value": "{color.greyscale.600}",
+    "type": "color"
+  },
   "filter-chip-padding-vertical": {
-    "value": "7px",
+    "value": "5px",
     "type": "spacing"
   },
   "filter-chip-padding-horizontal-left": {
@@ -53,6 +81,10 @@
   },
   "filter-chip-gap": {
     "value": "{space.s}",
+    "type": "spacing"
+  },
+  "filter-chip-label-gap": {
+    "value": "6px",
     "type": "spacing"
   },
   "filter-chip-typography": {
@@ -88,8 +120,8 @@
     "value": "{color.greyscale.700}",
     "type": "color"
   },
-  "filter-chip-icon-color-error": {
-    "value": "{color.emergency.default}",
+  "filter-chip-icon-color-hover": {
+    "value": "{color.greyscale.black}",
     "type": "color"
   }
 }
