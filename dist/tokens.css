@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 17 Nov 2025 23:50:34 GMT
+ * Generated on Tue, 25 Nov 2025 19:32:54 GMT
  */
 
 :root {
@@ -261,7 +261,11 @@
   --goa-footer-size-logo-tablet: 155px;
   --goa-footer-size-logo-mobile: 133px;
   --goa-footer-size-logo-desktop: 155px;
+  --goa-filter-chip-min-width: 56px;
+  --goa-filter-chip-padding-vertical: 7px;
+  --goa-dropdown-compact-height: 40px;
   --goa-dropdown-transition: box-shadow 0.05s ease-in;
+  --goa-dropdown-height: 56px;
   --goa-drawer-transition-time: 0.25s;
   --goa-drawer-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.10), 0 8px 40px 0 rgba(0, 0, 0, 0.20);
   --goa-drawer-overlay-color: rgba(51, 51, 51, 0.5);
@@ -272,7 +276,6 @@
   --goa-date-input-day-color-bg: transparent;
   --goa-date-input-day-size: 2.5rem;
   --goa-date-input-calendar-width: 280px;
-  --goa-checkbox-border-radius: 2px;
   --goa-callout-l-with-heading-body-padding: 0 1.25rem 1.25rem;
   --goa-callout-body-padding: 1.25rem;
   --goa-button-tertiary-text-decoration: none;
@@ -701,6 +704,21 @@
   --goa-footer-color-bg: var(--goa-color-greyscale-100);
   --goa-footer-border-top: var(--goa-border-width-m) solid var(--goa-color-greyscale-200);
   --goa-footer-border-bottom: 1rem solid var(--goa-color-brand-default);
+  --goa-filter-chip-icon-color-error: var(--goa-color-emergency-default);
+  --goa-filter-chip-icon-color-default: var(--goa-color-greyscale-700);
+  --goa-filter-chip-min-height: var(--goa-space-xl);
+  --goa-filter-chip-border-focus-color: var(--goa-color-interactive-focus);
+  --goa-filter-chip-border-focus-offset: var(--goa-space-3xs);
+  --goa-filter-chip-border-focus-width: var(--goa-border-width-l);
+  --goa-filter-chip-line-height: var(--goa-line-height-2);
+  --goa-filter-chip-gap: var(--goa-space-s);
+  --goa-filter-chip-padding-horizontal-right: var(--goa-space-xs);
+  --goa-filter-chip-padding-horizontal-left: var(--goa-space-s);
+  --goa-filter-chip-color-bg-error-hover: var(--goa-input-color-background-error-hover);
+  --goa-filter-chip-color-bg-hover: var(--goa-color-greyscale-100);
+  --goa-filter-chip-color-bg: var(--goa-color-greyscale-white);
+  --goa-filter-chip-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-500);
+  --goa-filter-chip-border-radius: var(--goa-border-radius-xl);
   --goa-file-upload-text-gap: var(--goa-space-m);
   --goa-file-upload-padding: var(--goa-space-xl);
   --goa-file-upload-instruction-color-hover: var(--goa-color-interactive-hover);
@@ -720,24 +738,20 @@
   --goa-file-upload-border-drag: var(--goa-border-width-m) solid var(--goa-color-interactive-hover);
   --goa-file-upload-border-active: var(--goa-border-width-m) solid var(--goa-color-interactive-hover);
   --goa-file-upload-border: var(--goa-border-width-m) dashed var(--goa-color-interactive-default);
+  --goa-dropdown-compact-item-padding: 0 var(--goa-space-xs);
+  --goa-dropdown-compact-padding: 0 var(--goa-space-s);
+  --goa-dropdown-menu-margin: var(--goa-space-xs);
   --goa-dropdown-space-icon-text: var(--goa-space-s);
   --goa-dropdown-padding-lr: var(--goa-space-s);
-  --goa-dropdown-item-color-text-selected-hover: var(--goa-color-greyscale-white);
+  --goa-dropdown-padding-vertical: var(--goa-space-m);
+  --goa-dropdown-padding: var(--goa-space-m) var(--goa-space-s);
+  --goa-dropdown-item-border-radius: var(--goa-border-radius-s);
+  --goa-dropdown-item-padding: var(--goa-space-s) var(--goa-space-xs);
   --goa-dropdown-item-color-text-selected: var(--goa-color-greyscale-white);
-  --goa-dropdown-item-color-text-hover: var(--goa-color-interactive-hover);
   --goa-dropdown-item-color-bg-selected-hover: var(--goa-color-interactive-hover);
   --goa-dropdown-item-color-bg-selected: var(--goa-color-interactive-default);
   --goa-dropdown-item-color-bg-hover: var(--goa-color-greyscale-100);
-  --goa-dropdown-item-color-bg-disabled: var(--goa-color-greyscale-100);
-  --goa-dropdown-item-color-bg: var(--goa-color-greyscale-white);
-  --goa-dropdown-color-bg-disabled: var(--goa-color-greyscale-100);
-  --goa-dropdown-color-bg: var(--goa-color-greyscale-white);
-  --goa-dropdown-border-radius: var(--goa-border-radius-m);
-  --goa-dropdown-border-hover: inset 0 0 0 var(--goa-border-width-m) var(--goa-color-interactive-hover);
-  --goa-dropdown-border-focus: 0 0 0 var(--goa-border-width-l) var(--goa-color-interactive-focus);
-  --goa-dropdown-border-error: inset 0 0 0 var(--goa-border-width-m) var(--goa-color-interactive-error);
-  --goa-dropdown-border-disabled: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-200);
-  --goa-dropdown-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-700);
+  --goa-dropdown-color-bg-error-hover: var(--goa-input-color-background-error-hover);
   --goa-drawer-padding: var(--goa-space-m);
   --goa-drawer-actions-padding-bottom: var(--goa-space-l);
   --goa-drawer-actions-padding-top: var(--goa-space-m);
@@ -796,18 +810,15 @@
   --goa-container-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-container-border-radius: var(--goa-border-radius-m);
   --goa-checkbox-size: var(--goa-space-l);
-  --goa-checkbox-gap: var(--goa-space-xs);
-  --goa-checkbox-color-label-disabled: var(--goa-color-greyscale-500);
+  --goa-checkbox-gap: var(--goa-space-s);
   --goa-checkbox-color-bg-checked-hover: var(--goa-color-interactive-hover);
   --goa-checkbox-color-bg-checked-error: var(--goa-color-interactive-error);
+  --goa-checkbox-color-bg-checked-disabled: var(--goa-color-greyscale-300);
   --goa-checkbox-color-bg-checked: var(--goa-color-interactive-default);
-  --goa-checkbox-color-bg: var(--goa-color-greyscale-white);
-  --goa-checkbox-border-hover: var(--goa-border-width-m) solid var(--goa-color-interactive-hover);
-  --goa-checkbox-border-focus: var(--goa-border-width-l) solid var(--goa-color-interactive-focus);
-  --goa-checkbox-border-error: var(--goa-border-width-m) solid var(--goa-color-interactive-error);
+  --goa-checkbox-border-hover: var(--goa-border-width-m) solid var(--goa-input-color-border-hover);
+  --goa-checkbox-border-focus: var(--goa-border-width-l) solid var(--goa-input-color-border-focus);
+  --goa-checkbox-border-error: var(--goa-border-width-m) solid var(--goa-input-color-border-error);
   --goa-checkbox-border-disabled-error: var(--goa-border-width-m) solid #F58185;
-  --goa-checkbox-border-disabled: var(--goa-border-width-s) solid var(--goa-color-greyscale-400);
-  --goa-checkbox-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-700);
   --goa-callout-h-emergency-icon-color: var(--goa-color-greyscale-white);
   --goa-callout-emergency-icon-color: var(--goa-color-emergency-default);
   --goa-callout-h-success-icon-color: var(--goa-color-greyscale-white);
@@ -1068,16 +1079,37 @@
   --goa-form-item-error-message-color: var(--goa-input-color-text-error);
   --goa-footer-color-links-secondary: var(--goa-color-text-secondary);
   --goa-footer-color-links: var(--goa-color-text-default);
+  --goa-filter-chip-typography: var(--goa-typography-body-s);
+  --goa-filter-chip-border-color-error: var(--goa-input-color-border-error);
+  --goa-filter-chip-color-bg-error: var(--goa-input-color-background-error);
+  --goa-filter-chip-text-color-error: var(--goa-input-color-text-error);
+  --goa-filter-chip-text-color: var(--goa-color-text-default);
   --goa-file-upload-instruction-text: var(--goa-typography-body-m);
   --goa-file-upload-help-text: var(--goa-typography-body-s);
+  --goa-dropdown-compact-item-typography: var(--goa-typography-body-s);
+  --goa-dropdown-compact-typography: var(--goa-typography-body-s);
+  --goa-dropdown-menu-border-radius: var(--goa-input-border-radius-input);
+  --goa-dropdown-helper-typography: var(--goa-typography-body-xs);
+  --goa-dropdown-label-typography: var(--goa-typography-body-m);
   --goa-dropdown-typography: var(--goa-typography-body-m);
-  --goa-dropdown-padding: 6px var(--goa-dropdown-padding-lr) 8px;
-  --goa-dropdown-item-padding: 7px var(--goa-dropdown-padding-lr) 9px;
+  --goa-dropdown-item-color-text-selected-hover: var(--goa-color-text-light);
+  --goa-dropdown-item-color-text-hover: var(--goa-color-text-default);
   --goa-dropdown-item-color-text-disabled: var(--goa-color-text-disabled);
   --goa-dropdown-item-color-text: var(--goa-color-text-default);
-  --goa-dropdown-color-text-placeholder: var(--goa-color-text-secondary);
-  --goa-dropdown-color-text-disabled: var(--goa-color-text-disabled);
-  --goa-dropdown-color-text: var(--goa-color-text-default);
+  --goa-dropdown-item-color-bg-disabled: var(--goa-input-color-background-disabled);
+  --goa-dropdown-item-color-bg: var(--goa-input-color-background-default);
+  --goa-dropdown-color-text-error: var(--goa-input-color-text-error);
+  --goa-dropdown-color-text-disabled: var(--goa-input-color-text-disabled);
+  --goa-dropdown-color-bg-error: var(--goa-input-color-background-error);
+  --goa-dropdown-color-bg-disabled: var(--goa-input-color-background-disabled);
+  --goa-dropdown-color-bg: var(--goa-input-color-background-default);
+  --goa-dropdown-border-radius: var(--goa-input-border-radius-input);
+  --goa-dropdown-border-error-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error-hover);
+  --goa-dropdown-border-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-hover);
+  --goa-dropdown-border-focus: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-focus);
+  --goa-dropdown-border-error: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error);
+  --goa-dropdown-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
+  --goa-dropdown-border: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-default);
   --goa-drawer-heading-typography: undefined undefined/undefined undefined;
   --goa-details-typography: var(--goa-typography-body-m);
   --goa-date-input-day-color-text-disabled: var(--goa-color-text-secondary);
@@ -1098,8 +1130,11 @@
   --goa-container-heading: var(--goa-typography-heading-s);
   --goa-checkbox-label-font-size: var(--goa-typography-body-m);
   --goa-checkbox-description-font-size: var(--goa-typography-body-xs);
-  --goa-checkbox-color-label: var(--goa-color-text-default);
-  --goa-checkbox-color-bg-checked-disabled: var(--goa-color-interactive-disabled);
+  --goa-checkbox-color-label-disabled: var(--goa-input-color-text-disabled);
+  --goa-checkbox-color-bg: var(--goa-input-color-background-default);
+  --goa-checkbox-border-radius: var(--goa-input-border-radius-checkbox);
+  --goa-checkbox-border-disabled: var(--goa-input-border-width-default) solid var(--goa-input-color-border-default);
+  --goa-checkbox-border: var(--goa-input-border-width-default) solid var(--goa-input-color-border-default);
   --goa-callout-h-emergency-heading-color: var(--goa-color-text-light);
   --goa-callout-h-success-heading-color: var(--goa-color-text-light);
   --goa-callout-h-important-heading-color: var(--goa-color-text-default);
@@ -1130,4 +1165,7 @@
   --goa-accordion-color-heading-hover: var(--goa-color-text-default);
   --goa-accordion-color-heading: var(--goa-color-text-default);
   --goa-text-input-color-text: var(--goa-input-color-text-default);
+  --goa-dropdown-color-text-placeholder: var(--goa-input-color-text-default);
+  --goa-dropdown-color-text: var(--goa-input-color-text-default);
+  --goa-checkbox-color-label: var(--goa-input-color-text-default);
 }
