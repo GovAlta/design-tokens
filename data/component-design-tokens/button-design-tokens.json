@@ -54,7 +54,7 @@
     "description": "8px"
   },
   "button-outline-offset": {
-    "value": "3px",
+    "value": "2px",
     "type": "sizing"
   },
   "button-compact-gap": {
@@ -213,7 +213,7 @@
     "type": "border"
   },
   "button-secondary-destructive-color-text": {
-    "value": "{color.emergency.default}",
+    "value": "{color.emergency.dark}",
     "type": "color"
   },
   "button-secondary-destructive-color-bg": {
@@ -357,7 +357,7 @@
     "type": "border"
   },
   "button-tertiary-destructive-color-border": {
-    "value": "{color.emergency.default}",
+    "value": "{color.emergency.border}",
     "type": "color"
   },
   "button-tertiary-destructive-color-text": {

@@ -93,11 +93,23 @@
     "type": "color"
   },
   "link-color-light-hover": {
-    "value": "{color.greyscale.100}",
+    "value": "{color.greyscale.150}",
     "type": "color"
   },
   "link-color-light-visited": {
-    "value": "{color.greyscale.300}",
+    "value": "#9D8EBB",
     "type": "color"
+  },
+  "link-border-radius-focus": {
+    "value": "{borderRadius.s}",
+    "type": "borderRadius"
+  },
+  "link-border-focus": {
+    "value": "{borderWidth.l} solid {color.interactive.focus}",
+    "type": "other"
+  },
+  "link-focus-offset": {
+    "value": "{space.3xs}",
+    "type": "spacing"
   }
 }

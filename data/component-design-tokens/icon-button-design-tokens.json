@@ -75,6 +75,10 @@
     "value": "{color.emergency.default}",
     "type": "color"
   },
+  "icon-button-destructive-hover-color": {
+    "value": "{color.emergency.dark}",
+    "type": "color"
+  },
   "icon-button-destructive-hover-color-bg": {
     "value": "{color.emergency.light}",
     "type": "color"
