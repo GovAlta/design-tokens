@@ -3,12 +3,20 @@
     "value": "280px",
     "type": "dimension"
   },
+  "date-input-calendar-border": {
+    "value": {
+      "color": "{input.color.border.default}",
+      "width": "{input.borderWidth.default}",
+      "style": "solid"
+    },
+    "type": "border"
+  },
   "date-input-calendar-border-radius": {
-    "value": "{borderRadius.m}",
+    "value": "{input.borderRadius.input}",
     "type": "borderRadius"
   },
   "date-input-day-of-week-font": {
-    "value": "{typography.heading.xs}",
+    "value": "{typography.heading.2xs}",
     "type": "other"
   },
   "date-input-day-font": {
@@ -20,13 +28,13 @@
     "type": "spacing"
   },
   "date-input-day-font-today": {
-    "value": "{typography.heading.xs}",
+    "value": "{typography.heading.2xs}",
     "type": "other"
   },
   "date-input-day-underline-today": {
     "value": {
       "color": "{color.interactive.default}",
-      "width": "{borderWidth.l}",
+      "width": "{borderWidth.xl}",
       "style": "solid"
     },
     "type": "border"
@@ -44,7 +52,7 @@
     "type": "border"
   },
   "date-input-day-border-radius": {
-    "value": "{borderRadius.m}",
+    "value": "{borderRadius.xs}",
     "type": "borderRadius"
   },
   "date-input-day-size": {
@@ -52,7 +60,7 @@
     "type": "dimension"
   },
   "date-input-day-color-text": {
-    "value": "{color.text.default}",
+    "value": "{input.color.text.default}",
     "type": "color"
   },
   "date-input-day-color-bg": {
@@ -60,11 +68,11 @@
     "type": "color"
   },
   "date-input-day-color-text-hover": {
-    "value": "{color.text.default}",
+    "value": "{input.color.text.default}",
     "type": "color"
   },
   "date-input-day-color-bg-hover": {
-    "value": "{color.greyscale.200}",
+    "value": "{color.greyscale.150}",
     "type": "color"
   },
   "date-input-day-border-focus": {
@@ -74,6 +82,10 @@
       "style": "solid"
     },
     "type": "border"
+  },
+  "date-input-day-today-outline-offset": {
+    "value": "{space.3xs}",
+    "type": "spacing"
   },
   "date-input-day-color-text-selected": {
     "value": "{color.text.light}",
@@ -92,11 +104,15 @@
     "type": "color"
   },
   "date-input-day-color-text-other-month": {
-    "value": "{color.text.secondary}",
+    "value": "{input.color.text.disabled}",
     "type": "color"
   },
   "date-input-day-color-text-disabled": {
-    "value": "{color.text.secondary}",
+    "value": "{input.color.text.disabled}",
     "type": "color"
+  },
+  "date-input-cursor": {
+    "value": "pointer",
+    "type": "other"
   }
 }
