@@ -94,17 +94,5 @@
   "text-input-space-btw-icon-text-compact": {
     "value": "{space.xs}",
     "type": "spacing"
-  },
-  "text-input-border-readonly": {
-    "value": "inset 0 0 0 {input.borderWidth.default} {input.color.border.readonly}",
-    "type": "other"
-  },
-  "text-input-color-bg-readonly": {
-    "value": "{input.color.background.readonly}",
-    "type": "color"
-  },
-  "text-input-lt-content-color-bg-readonly": {
-    "value": "{input.color.background.readonly-content}",
-    "type": "color"
   }
 }
