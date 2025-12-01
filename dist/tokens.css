@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 23 Apr 2025 19:08:20 GMT
+ * Generated on Mon, 01 Dec 2025 17:49:10 GMT
  */
 
 :root {
@@ -147,6 +147,7 @@
   --goa-circular-progress-color-background: rgba(255, 255, 255, 0.9);
   --goa-popover-shadow: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.25));
   --goa-modal-shadow: 6px 6px 6px 6px rgba(0,0,0,0.16);
+  --goa-linear-progress-percentage-width: 4ch;
   --goa-text-input-transition: box-shadow 0.05s ease-in;
   --goa-app-header-nav-color-bg-link-item-in-menu: transparent;
   --goa-app-header-nav-color-bg-link-item-focus: transparent;
@@ -337,6 +338,11 @@
   --goa-microsite-header-color-bg: var(--goa-color-greyscale-100);
   --goa-microsite-header-beta-badge-color: var(--goa-color-brand-default);
   --goa-microsite-header-alpha-badge-color: var(--goa-color-warning-default);
+  --goa-linear-progress-percentage-gap: var(--goa-space-xs);
+  --goa-linear-progress-color-indicator: var(--goa-color-info-default);
+  --goa-linear-progress-color-track: var(--goa-color-greyscale-200);
+  --goa-linear-progress-border-radius: var(--goa-border-radius-m);
+  --goa-linear-progress-height: var(--goa-space-2xs);
   --goa-text-input-color-icon: var(--goa-color-greyscale-black);
   --goa-text-input-size-icon: var(--goa-icon-size-4);
   --goa-text-input-space-btw-icon-text: var(--goa-space-xs);
@@ -692,6 +698,8 @@
   --goa-microsite-header-color-version-number: var(--goa-color-text-secondary);
   --goa-microsite-header-beta-badge-color-text: var(--goa-color-text-light);
   --goa-microsite-header-alpha-badge-color-text: var(--goa-color-text-default);
+  --goa-linear-progress-percentage-text: var(--goa-typography-body-xs);
+  --goa-linear-progress-percentage-color: var(--goa-color-text-secondary);
   --goa-text-input-typography: var(--goa-typography-body-m);
   --goa-text-input-padding: 7px var(--goa-text-input-padding-lr) 9px;
   --goa-text-input-lt-content-color-text: var(--goa-color-text-default);
