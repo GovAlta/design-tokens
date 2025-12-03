@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Nov 2025 19:32:54 GMT
+ * Generated on Wed, 03 Dec 2025 17:32:42 GMT
  */
 
 :root {
@@ -203,7 +203,8 @@
   --goa-table-padding-cell-badge-relaxed: 20px;
   --goa-table-padding-cell-form-field-relaxed: 11px;
   --goa-table-padding-cell-form-field: 3px;
-  --goa-table-padding-cell-checkbox-relaxed: 10px;
+  --goa-table-padding-cell-checkbox-relaxed: 17px;
+  --goa-table-padding-cell-checkbox: 9px;
   --goa-table-padding-cell-text-relaxed: 20px;
   --goa-table-height-data-relaxed: 64px;
   --goa-table-height-data: 48px;
@@ -394,7 +395,6 @@
   --goa-table-sort-header-gap: var(--goa-space-xs);
   --goa-table-padding-cell-text-supporting-relaxed: var(--goa-space-xs);
   --goa-table-padding-cell-badge: var(--goa-space-s);
-  --goa-table-padding-cell-checkbox: var(--goa-space-3xs);
   --goa-table-padding-cell-text: var(--goa-space-s);
   --goa-table-padding-data-relaxed: 18px var(--goa-space-m) 18px var(--goa-space-m);
   --goa-table-padding-data: var(--goa-space-s) var(--goa-space-m) var(--goa-space-s) var(--goa-space-m);
@@ -406,7 +406,7 @@
   --goa-table-heading-border: var(--goa-border-width-m) solid var(--goa-color-greyscale-150);
   --goa-table-color-bg-data: var(--goa-color-greyscale-white);
   --goa-table-color-bg-heading: var(--goa-color-greyscale-50);
-  --goa-table-color-bg-heading-hover: var(--goa-color-greyscale-100);
+  --goa-table-color-bg-heading-hover: var(--goa-color-greyscale-150);
   --goa-table-color-heading-hover: var(--goa-color-interactive-hover);
   --goa-table-color-heading: var(--goa-color-greyscale-600);
   --goa-skeleton-loading-color-bg: var(--goa-color-greyscale-100);

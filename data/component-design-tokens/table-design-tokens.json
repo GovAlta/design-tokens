@@ -10,7 +10,7 @@
     "description": "Header text color on hover"
   },
   "table-color-bg-heading-hover": {
-    "value": "{color.greyscale.100}",
+    "value": "{color.greyscale.150}",
     "type": "color",
     "description": "Header background color on hover"
   },
@@ -112,14 +112,14 @@
     "description": "Vertical padding for text-only cells in relaxed variant (20px for 64px height)"
   },
   "table-padding-cell-checkbox": {
-    "value": "{space.3xs}",
+    "value": "9px",
     "type": "spacing",
-    "description": "Vertical padding for checkbox cells in normal variant (2px for 48px height)"
+    "description": "Vertical padding for checkbox cells in normal variant"
   },
   "table-padding-cell-checkbox-relaxed": {
-    "value": "10px",
+    "value": "17px",
     "type": "spacing",
-    "description": "Vertical padding for checkbox cells in relaxed variant (10px for 64px height)"
+    "description": "Vertical padding for checkbox cells in relaxed variant"
   },
   "table-padding-cell-form-field": {
     "value": "3px",
