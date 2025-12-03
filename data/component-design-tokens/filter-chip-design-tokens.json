@@ -100,12 +100,6 @@
   },
   "filter-chip-close-button-error-hover-bg-color": {
     "value": "{input.color.background.error-hover}",
-  "filter-chip-icon-color-default": {
-    "value": "{color.greyscale.700}",
-    "type": "color"
-  },
-  "filter-chip-icon-color-error": {
-    "value": "{color.emergency.default}",
     "type": "color"
   }
 }
