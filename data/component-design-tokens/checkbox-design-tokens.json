@@ -47,6 +47,14 @@
     },
     "type": "border"
   },
+  "checkbox-border-error-hover": {
+    "value": {
+      "width": "{borderWidth.m}",
+      "style": "solid",
+      "color": "{input.color.border.error-hover}"
+    },
+    "type": "border"
+  },
   "checkbox-border-radius": {
     "value": "{input.borderRadius.checkbox}",
     "type": "borderRadius"
@@ -71,8 +79,12 @@
     "value": "{color.interactive.hover}",
     "type": "color"
   },
+  "checkbox-color-bg-checked-error-hover": {
+    "value": "{color.interactive.error-hover}",
+    "type": "color"
+  },
   "checkbox-color-label": {
-    "value": "{input.color.text.default}",
+    "value": "{input.color.text.secondary}",
     "type": "color"
   },
   "checkbox-color-label-disabled": {
@@ -87,8 +99,16 @@
     "value": "{space.s}",
     "type": "spacing"
   },
+  "checkbox-gap-compact": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
   "checkbox-label-font-size": {
     "value": "{typography.body.m}",
+    "type": "other"
+  },
+  "checkbox-label-font-size-compact": {
+    "value": "{typography.body.s}",
     "type": "other"
   },
   "checkbox-size": {
