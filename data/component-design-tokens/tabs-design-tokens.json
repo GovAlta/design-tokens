@@ -132,5 +132,10 @@
   "tabs-padding-bottom-small-screen": {
     "value": "{space.m}",
     "type": "spacing"
+  },
+  "tabs-margin-bottom": {
+    "value": "{space.xl}",
+    "type": "spacing",
+    "description": "Margin below the tabs container (desktop)"
   }
 }
