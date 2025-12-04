@@ -31,6 +31,11 @@
     "value": "{input.color.background.disabled}",
     "type": "color"
   },
+  "text-input-color-icon": {
+    "value": "{color.greyscale.600}",
+    "type": "color",
+    "description": "Color for leading/trailing icons in input fields"
+  },
   "text-input-color-icon-disabled": {
     "value": "{input.color.text.disabled}",
     "type": "color"
