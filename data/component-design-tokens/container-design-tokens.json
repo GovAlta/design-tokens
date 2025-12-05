@@ -1,15 +1,19 @@
 {
   "container-border-radius": {
-    "value": "{borderRadius.m}",
+    "value": "{borderRadius.xl}",
     "type": "borderRadius"
   },
   "container-border": {
     "value": {
-      "color": "{color.greyscale.200}",
+      "color": "{color.greyscale.150}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
     "type": "border"
+  },
+  "container-shadow": {
+    "value": "{shadow.200}",
+    "type": "other"
   },
   "container-padding": {
     "value": "{space.xl}",
@@ -20,11 +24,11 @@
     "type": "spacing"
   },
   "container-heading": {
-    "value": "{typography.heading.s}",
+    "value": "{typography.heading.xs}",
     "type": "other"
   },
   "container-heading-padding": {
-    "value": "{space.xs}",
+    "value": "{space.s}",
     "type": "spacing"
   },
   "container-heading-gap": {
@@ -62,11 +66,11 @@
     "type": "border"
   },
   "container-non-interactive-bg-color": {
-    "value": "{color.greyscale.100}",
+    "value": "{color.greyscale.50}",
     "type": "color"
   },
   "container-non-interactive-heading-bg-color": {
-    "value": "{color.greyscale.100}",
+    "value": "{color.greyscale.50}",
     "type": "color"
   },
   "container-non-interactive-heading-text-color": {
@@ -77,7 +81,7 @@
     "value": {
       "width": "{borderWidth.s}",
       "style": "solid",
-      "color": "{color.greyscale.200}"
+      "color": "{color.greyscale.150}"
     },
     "type": "border"
   },
@@ -97,7 +101,7 @@
     "value": {
       "width": "{borderWidth.s}",
       "style": "solid",
-      "color": "{color.info.default}"
+      "color": "{color.info.border}"
     },
     "type": "border"
   },
@@ -117,7 +121,7 @@
     "value": {
       "width": "{borderWidth.s}",
       "style": "solid",
-      "color": "{color.emergency.default}"
+      "color": "{color.emergency.border}"
     },
     "type": "border"
   },
@@ -137,7 +141,7 @@
     "value": {
       "width": "{borderWidth.s}",
       "style": "solid",
-      "color": "{color.success.default}"
+      "color": "{color.success.border}"
     },
     "type": "border"
   },
@@ -155,7 +159,7 @@
   },
   "container-important-border": {
     "value": {
-      "color": "{color.warning.default}",
+      "color": "{color.warning.border}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
