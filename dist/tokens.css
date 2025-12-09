@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 23 Dec 2025 22:26:06 GMT
+ * Generated on Tue, 20 Jan 2026 21:40:17 GMT
  */
 
 :root {
@@ -130,6 +130,14 @@
   --goa-color-interactive-disabled: #80b7e1;
   --goa-color-interactive-hover: #004f84;
   --goa-color-interactive-default: #0070c4;
+  --goa-work-side-menu-item-min-height: 2.5rem;
+  --goa-work-side-menu-item-icon-display: flex;
+  --goa-goa-work-side-menu-group-item-min-height: 1.75rem;
+  --goa-work-side-menu-group-padding: 0 0 0 0.75rem;
+  --goa-work-side-menu-account-shadow: 0px 12px 20px -8px rgba(26, 26, 26, 0.24);
+  --goa-work-side-menu-color-bg: transparent;
+  --goa-work-side-menu-width-closed: 4.5rem;
+  --goa-work-side-menu-width-open: 17.5rem;
   --goa-tooltip-max-width: 400px;
   --goa-tab-color-bg-selected: transparent;
   --goa-side-menu-child-color-bg: none;
@@ -222,6 +230,22 @@
   --goa-color-text-light: var(--goa-color-greyscale-white);
   --goa-color-text-secondary: var(--goa-color-greyscale-700);
   --goa-color-text-default: var(--goa-color-greyscale-black);
+  --goa-work-side-menu-item-text-color: var(--goa-color-greyscale-600);
+  --goa-work-side-menu-item-padding: var(--goa-space-xs) var(--goa-space-xs) var(--goa-space-xs) 0.625rem;
+  --goa-work-side-menu-item-color-bg-hover: var(--goa-color-greyscale-100);
+  --goa-work-side-menu-item-color-bg-current: var(--goa-color-greyscale-100);
+  --goa-work-side-menu-item-border-radius: var(--goa-border-radius-m);
+  --goa-work-side-menu-item-badge-text-size: var(--goa-font-size-2);
+  --goa-work-side-menu-item-badge-success-background-color: var(--goa-color-success-default);
+  --goa-work-side-menu-item-badge-emergency-background-color: var(--goa-color-emergency-default);
+  --goa-work-side-menu-item-badge-background-color: var(--goa-color-success-default);
+  --goa-goa-work-side-menu-group-item-padding: var(--goa-space-2xs) var(--goa-space-xs);
+  --goa-work-side-menu-group-margin: var(--goa-space-xs) 0 0.375rem 1.125rem;
+  --goa-work-side-menu-group-border: var(--goa-border-width-xl) solid var(--goa-color-greyscale-100);
+  --goa-work-side-menu-mobile-bg: var(--goa-color-greyscale-50);
+  --goa-work-side-menu-text-color: var(--goa-color-greyscale-600);
+  --goa-work-side-menu-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
+  --goa-work-side-menu-border-radius: var(--goa-border-radius-m);
   --goa-tooltip-padding: 6px var(--goa-space-m) 10px var(--goa-space-m);
   --goa-tooltip-gap: var(--goa-space-2xs);
   --goa-tooltip-color-bg: var(--goa-color-greyscale-700);
@@ -302,7 +326,7 @@
   --goa-push-drawer-actions-padding-top: var(--goa-space-m);
   --goa-push-drawer-content-padding-vertical: var(--goa-space-m);
   --goa-push-drawer-content-padding-horizontal: var(--goa-space-l);
-  --goa-push-drawer-border-radius: var(--goa-border-radius-3xl);
+  --goa-push-drawer-border-radius: var(--goa-border-radius-none);
   --goa-circular-progress-small-margin-top: var(--goa-space-l);
   --goa-circular-progress-large-margin-top: var(--goa-space-xl);
   --goa-popover-padding: var(--goa-space-s);
@@ -671,6 +695,10 @@
   --goa-accordion-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-color-bg-content: var(--goa-color-greyscale-white);
   --goa-accordion-color-bg-heading: var(--goa-color-greyscale-100);
+  --goa-work-side-menu-item-text-size: var(--goa-typography-body-s);
+  --goa-work-side-menu-item-text-color-hover: var(--goa-color-text-default);
+  --goa-work-side-menu-item-text-color-current: var(--goa-color-text-default);
+  --goa-goa-work-side-menu-group-item-text-size: var(--goa-typography-body-xs);
   --goa-tooltip-text-size: var(--goa-typography-body-m);
   --goa-tooltip-color-text: var(--goa-color-text-light);
   --goa-text-area-typography-counter: var(--goa-typography-body-xs);

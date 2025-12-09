@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 23 Dec 2025 22:26:06 GMT
+// Generated on Tue, 20 Jan 2026 21:40:17 GMT
 
 $goa-accordion-color-bg-heading: #f1f1f1;
 $goa-accordion-color-bg-content: #ffffff;
@@ -518,7 +518,7 @@ $goa-circular-progress-large-margin-top: 2rem;
 $goa-circular-progress-large-text: 400 1.5rem/2rem acumin-pro-semi-condensed, helvetica-neue, arial, sans-serif;
 $goa-circular-progress-small-margin-top: 1.5rem;
 $goa-circular-progress-small-text: 400 1.125rem/1.75rem acumin-pro-semi-condensed, helvetica-neue, arial, sans-serif;
-$goa-push-drawer-border-radius: 0.75rem;
+$goa-push-drawer-border-radius: 0;
 $goa-push-drawer-content-padding-horizontal: 1.5rem;
 $goa-push-drawer-content-padding-vertical: 1rem;
 $goa-push-drawer-actions-padding-top: 1rem;
@@ -636,6 +636,34 @@ $goa-tooltip-gap: 0.25rem;
 $goa-tooltip-max-width: 400px;
 $goa-tooltip-padding: 6px 1rem 10px 1rem;
 $goa-tooltip-text-size: 400 1.125rem/1.75rem acumin-pro-semi-condensed, helvetica-neue, arial, sans-serif;
+$goa-work-side-menu-width-open: 17.5rem;
+$goa-work-side-menu-width-closed: 4.5rem;
+$goa-work-side-menu-color-bg: transparent;
+$goa-work-side-menu-border-radius: 0.25rem;
+$goa-work-side-menu-border: 1px solid #dcdcdc;
+$goa-work-side-menu-account-shadow: 0px 12px 20px -8px rgba(26, 26, 26, 0.24);
+$goa-work-side-menu-text-color: #858585;
+$goa-work-side-menu-mobile-bg: #f8f8f8;
+$goa-work-side-menu-group-border: 4px solid #f1f1f1;
+$goa-work-side-menu-group-margin: 0.5rem 0 0.375rem 1.125rem;
+$goa-work-side-menu-group-padding: 0 0 0 0.75rem;
+$goa-goa-work-side-menu-group-item-padding: 0.25rem 0.5rem;
+$goa-goa-work-side-menu-group-item-min-height: 1.75rem;
+$goa-goa-work-side-menu-group-item-text-size: 400 0.875rem/1.25rem acumin-pro-semi-condensed, helvetica-neue, arial, sans-serif;
+$goa-work-side-menu-item-badge-background-color: #006f4c;
+$goa-work-side-menu-item-badge-emergency-background-color: #da291c;
+$goa-work-side-menu-item-badge-success-background-color: #006f4c;
+$goa-work-side-menu-item-badge-text-size: 0.875rem;
+$goa-work-side-menu-item-border-radius: 0.25rem;
+$goa-work-side-menu-item-color-bg-current: #f1f1f1;
+$goa-work-side-menu-item-color-bg-hover: #f1f1f1;
+$goa-work-side-menu-item-icon-display: flex;
+$goa-work-side-menu-item-min-height: 2.5rem;
+$goa-work-side-menu-item-padding: 0.5rem 0.5rem 0.5rem 0.625rem;
+$goa-work-side-menu-item-text-color: #858585;
+$goa-work-side-menu-item-text-color-current: #333333;
+$goa-work-side-menu-item-text-color-hover: #333333;
+$goa-work-side-menu-item-text-size: 400 1rem/1.5rem acumin-pro-semi-condensed, helvetica-neue, arial, sans-serif;
 $goa-color-interactive-default: #0070c4;
 $goa-color-interactive-hover: #004f84;
 $goa-color-interactive-disabled: #80b7e1;

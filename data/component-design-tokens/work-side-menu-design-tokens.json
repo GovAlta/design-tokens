@@ -1,0 +1,34 @@
+{
+  "work-side-menu-width-open": {
+    "value": "17.5rem",
+    "type": "spacing"
+  },
+  "work-side-menu-width-closed": {
+    "value": "4.5rem",
+    "type": "spacing"
+  },
+  "work-side-menu-color-bg": {
+    "value": "transparent",
+    "type": "color"
+  },
+  "work-side-menu-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "work-side-menu-border": {
+    "value": "{borderWidth.s} solid {color.greyscale.200}",
+    "type": "other"
+  },
+  "work-side-menu-account-shadow": {
+    "value": "0px 12px 20px -8px rgba(26, 26, 26, 0.24)",
+    "type": "other"
+  },
+  "work-side-menu-text-color": {
+    "value": "{color.greyscale.600}",
+    "type": "color"
+  },
+  "work-side-menu-mobile-bg": {
+    "value": "{color.greyscale.50}",
+    "type": "color"
+  }
+}
