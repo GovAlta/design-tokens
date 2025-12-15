@@ -142,9 +142,9 @@
     "description": "Vertical padding for badge cells in relaxed variant (20px for 64px height)"
   },
   "table-padding-cell-actions": {
-    "value": "7px",
+    "value": "3px",
     "type": "spacing",
-    "description": "Vertical padding for action cells (buttons, icon buttons, links) in normal variant (7px for 48px height)"
+    "description": "Vertical padding for action cells (buttons, icon buttons, links) in normal variant"
   },
   "table-padding-cell-actions-relaxed": {
     "value": "14px",
