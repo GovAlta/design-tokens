@@ -61,7 +61,7 @@
   },
   "temporary-notification-typography": {
     "value": "{typography.body.m}",
-    "type": "typography",
+    "type": "other",
     "description": "Typography for notification message text"
   },
   "temporary-notification-max-width": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 17 Dec 2025 18:21:44 GMT
+ * Generated on Thu, 18 Dec 2025 23:43:53 GMT
  */
 
 :root {
@@ -228,7 +228,7 @@
   --goa-modal-content-margin-mobile: 0;
   --goa-modal-content-margin: 0;
   --goa-modal-pane-width: 90%;
-  --goa-modal-shadow: undefinedpx undefinedpx undefinedpx undefinedpx undefined;
+  --goa-modal-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1), 0px 8px 40px 0px rgba(0,0,0,0.2);
   --goa-modal-content-gap-small-screen: 0;
   --goa-modal-content-gap: 0;
   --goa-link-color-light-visited: #9D8EBB;
@@ -267,10 +267,13 @@
   --goa-drawer-transition-time: 0.25s;
   --goa-drawer-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.10), 0 8px 40px 0 rgba(0, 0, 0, 0.20);
   --goa-drawer-overlay-color: rgba(51, 51, 51, 0.5);
+  --goa-details-heading-width: fit-content;
   --goa-details-text-decoration: underline;
   --goa-details-padding-top: 6px;
   --goa-details-content-padding-left: 19px;
-  --goa-details-content-margin-left: 17px;
+  --goa-details-content-margin-left: 19px;
+  --goa-details-color-bg-hover: transparent;
+  --goa-date-input-cursor: pointer;
   --goa-date-input-day-color-bg: transparent;
   --goa-date-input-day-size: 2.5rem;
   --goa-date-input-calendar-width: 280px;
@@ -756,55 +759,56 @@
   --goa-drawer-offset: var(--goa-space-m);
   --goa-drawer-border-radius: var(--goa-border-radius-3xl);
   --goa-divider-color: var(--goa-color-greyscale-200);
+  --goa-details-icon-color-hover: var(--goa-color-interactive-hover);
+  --goa-details-typography: var(--goa-font-weight-semi-bold) var(--goa-font-size-4)/var(--goa-line-height-4) var(--goa-font-family-sans);
   --goa-details-padding-right: var(--goa-space-s);
   --goa-details-padding-left: var(--goa-space-xs);
   --goa-details-padding-bottom: var(--goa-space-xs);
   --goa-details-margin-bottom: var(--goa-space-xs);
-  --goa-details-focus-border: var(--goa-border-width-l) solid var(--goa-color-interactive-focus);
+  --goa-details-focus-border: var(--goa-border-width-xl) solid var(--goa-color-interactive-focus);
   --goa-details-content-padding-top: var(--goa-space-s);
   --goa-details-content-padding-right: var(--goa-space-m);
   --goa-details-content-padding-bottom: var(--goa-space-s);
-  --goa-details-content-left-border: 4px solid var(--goa-color-greyscale-200);
+  --goa-details-content-left-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-details-color-text-hover: var(--goa-color-interactive-hover);
-  --goa-details-color-text: var(--goa-color-interactive-default);
-  --goa-details-color-bg-hover: var(--goa-color-greyscale-100);
   --goa-details-border-radius: var(--goa-border-radius-m);
   --goa-date-input-day-color-bg-selected-hover: var(--goa-color-interactive-hover);
   --goa-date-input-day-color-bg-selected: var(--goa-color-interactive-default);
+  --goa-date-input-day-today-outline-offset: var(--goa-space-3xs);
   --goa-date-input-day-border-focus: var(--goa-border-width-l) solid var(--goa-color-interactive-focus);
-  --goa-date-input-day-color-bg-hover: var(--goa-color-greyscale-200);
-  --goa-date-input-day-border-radius: var(--goa-border-radius-m);
+  --goa-date-input-day-color-bg-hover: var(--goa-color-greyscale-150);
+  --goa-date-input-day-border-radius: var(--goa-border-radius-xs);
   --goa-date-input-day-underline-today-selected: var(--goa-border-width-l) solid var(--goa-color-greyscale-white);
   --goa-date-input-day-underline-today-width: var(--goa-space-l);
-  --goa-date-input-day-underline-today: var(--goa-border-width-l) solid var(--goa-color-interactive-default);
+  --goa-date-input-day-underline-today: var(--goa-border-width-xl) solid var(--goa-color-interactive-default);
   --goa-date-input-day-of-week-margin: var(--goa-space-xs) 0;
-  --goa-date-input-calendar-border-radius: var(--goa-border-radius-m);
-  --goa-container-important-border: var(--goa-border-width-s) solid var(--goa-color-warning-default);
+  --goa-container-important-border: var(--goa-border-width-s) solid var(--goa-color-warning-border);
   --goa-container-important-heading-bg-color: var(--goa-color-warning-default);
   --goa-container-important-bg-color: var(--goa-color-warning-background);
-  --goa-container-success-border: var(--goa-border-width-s) solid var(--goa-color-success-default);
+  --goa-container-success-border: var(--goa-border-width-s) solid var(--goa-color-success-border);
   --goa-container-success-heading-bg-color: var(--goa-color-success-default);
   --goa-container-success-bg-color: var(--goa-color-success-background);
-  --goa-container-error-border: var(--goa-border-width-s) solid var(--goa-color-emergency-default);
+  --goa-container-error-border: var(--goa-border-width-s) solid var(--goa-color-emergency-border);
   --goa-container-error-heading-bg-color: var(--goa-color-emergency-default);
   --goa-container-error-bg-color: var(--goa-color-emergency-background);
-  --goa-container-info-border: var(--goa-border-width-s) solid var(--goa-color-info-default);
+  --goa-container-info-border: var(--goa-border-width-s) solid var(--goa-color-info-border);
   --goa-container-info-heading-bg-color: var(--goa-color-info-default);
   --goa-container-info-bg-color: var(--goa-color-info-background);
-  --goa-container-non-interactive-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
-  --goa-container-non-interactive-heading-bg-color: var(--goa-color-greyscale-100);
-  --goa-container-non-interactive-bg-color: var(--goa-color-greyscale-100);
+  --goa-container-non-interactive-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);
+  --goa-container-non-interactive-heading-bg-color: var(--goa-color-greyscale-50);
+  --goa-container-non-interactive-bg-color: var(--goa-color-greyscale-50);
   --goa-container-interactive-border: var(--goa-border-width-s) solid var(--goa-color-brand-default);
   --goa-container-interactive-heading-bg-color: var(--goa-color-brand-default);
   --goa-container-interactive-bg-color: var(--goa-color-greyscale-white);
   --goa-container-accent-thin-height: var(--goa-space-xs);
   --goa-container-accent-thick-height: var(--goa-space-m);
   --goa-container-heading-gap: var(--goa-space-l);
-  --goa-container-heading-padding: var(--goa-space-xs);
+  --goa-container-heading-padding: var(--goa-space-s);
   --goa-container-padding-compact: var(--goa-space-m);
   --goa-container-padding: var(--goa-space-xl);
-  --goa-container-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
-  --goa-container-border-radius: var(--goa-border-radius-m);
+  --goa-container-shadow: var(--goa-shadow-200);
+  --goa-container-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);
+  --goa-container-border-radius: var(--goa-border-radius-xl);
   --goa-checkbox-size: var(--goa-space-l);
   --goa-checkbox-gap-compact: var(--goa-space-xs);
   --goa-checkbox-gap: var(--goa-space-s);
@@ -1001,7 +1005,7 @@
   --goa-text-area-border-error: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-error);
   --goa-text-area-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
   --goa-text-area-border: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-default);
-  --goa-temporary-notification-typography: undefined undefined/undefined undefined;
+  --goa-temporary-notification-typography: var(--goa-typography-body-m);
   --goa-temporary-notification-color-text: var(--goa-color-text-light);
   --goa-tab-color-text-hover: var(--goa-color-text-default);
   --goa-tab-color-text: var(--goa-color-text-default);
@@ -1111,24 +1115,26 @@
   --goa-dropdown-border-error: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error);
   --goa-dropdown-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
   --goa-dropdown-border: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-default);
-  --goa-drawer-heading-typography: undefined undefined/undefined undefined;
-  --goa-details-typography: var(--goa-typography-body-m);
-  --goa-date-input-day-color-text-disabled: var(--goa-color-text-secondary);
-  --goa-date-input-day-color-text-other-month: var(--goa-color-text-secondary);
+  --goa-drawer-heading-typography: var(--goa-typography-heading-s);
+  --goa-details-icon-color: var(--goa-color-text-default);
+  --goa-details-content-typography: var(--goa-typography-body-m);
+  --goa-details-color-text: var(--goa-color-text-default);
+  --goa-date-input-day-color-text-disabled: var(--goa-input-color-text-disabled);
+  --goa-date-input-day-color-text-other-month: var(--goa-input-color-text-disabled);
   --goa-date-input-day-color-text-selected-hover: var(--goa-color-text-light);
   --goa-date-input-day-color-text-selected: var(--goa-color-text-light);
-  --goa-date-input-day-color-text-hover: var(--goa-color-text-default);
-  --goa-date-input-day-color-text: var(--goa-color-text-default);
-  --goa-date-input-day-font-today: var(--goa-typography-heading-xs);
+  --goa-date-input-day-font-today: var(--goa-typography-heading-2xs);
   --goa-date-input-day-font: var(--goa-typography-body-s);
-  --goa-date-input-day-of-week-font: var(--goa-typography-heading-xs);
+  --goa-date-input-day-of-week-font: var(--goa-typography-heading-2xs);
+  --goa-date-input-calendar-border-radius: var(--goa-input-border-radius-input);
+  --goa-date-input-calendar-border: var(--goa-input-border-width-default) solid var(--goa-input-color-border-default);
   --goa-container-important-heading-text-color: var(--goa-color-text-default);
   --goa-container-success-heading-text-color: var(--goa-color-text-light);
   --goa-container-error-heading-text-color: var(--goa-color-text-light);
   --goa-container-info-heading-text-color: var(--goa-color-text-light);
   --goa-container-non-interactive-heading-text-color: var(--goa-color-text-default);
   --goa-container-interactive-heading-text-color: var(--goa-color-text-light);
-  --goa-container-heading: var(--goa-typography-heading-s);
+  --goa-container-heading: var(--goa-typography-heading-xs);
   --goa-checkbox-label-font-size-compact: var(--goa-typography-body-s);
   --goa-checkbox-label-font-size: var(--goa-typography-body-m);
   --goa-checkbox-description-font-size: var(--goa-typography-body-xs);
@@ -1170,4 +1176,6 @@
   --goa-text-input-color-text: var(--goa-input-color-text-default);
   --goa-dropdown-color-text-placeholder: var(--goa-input-color-text-default);
   --goa-dropdown-color-text: var(--goa-input-color-text-default);
+  --goa-date-input-day-color-text-hover: var(--goa-input-color-text-default);
+  --goa-date-input-day-color-text: var(--goa-input-color-text-default);
 }
