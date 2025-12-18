@@ -36,7 +36,7 @@
   },
   "drawer-heading-typography": {
     "value": "{typography.heading.s}",
-    "type": "typography",
+    "type": "other",
     "description": "Typography for drawer heading"
   },
   "drawer-shadow": {

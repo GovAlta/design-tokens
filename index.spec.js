@@ -21,11 +21,13 @@ describe("GoA Design Tokens", () => {
     SC.generate("./tmp");
     const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
     expect(raw).not.toContain("[object Object]");
+    expect(raw).not.toContain("undefined");
   });
   it("should create valid scss output", async () => {
     SC.generate("./tmp");
     const raw = fs.readFileSync("./tmp/dist/tokens.scss", { encoding: "utf8" });
     expect(raw).not.toContain("[object Object]");
+    expect(raw).not.toContain("undefined");
   });
 
   it("should not contain double goa prefixes", async () => {
