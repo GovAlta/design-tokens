@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Dec 2025 17:49:10 GMT
+ * Generated on Tue, 23 Dec 2025 22:26:06 GMT
  */
 
 :root {
@@ -144,6 +144,7 @@
   --goa-radio-border-radius: 50%;
   --goa-radio-border-checked-error-hover: 7px solid #ba0000;
   --goa-radio-border-checked-error-disabled: 7px solid #f58185;
+  --goa-push-drawer-transition-time: 0.25s;
   --goa-circular-progress-color-background: rgba(255, 255, 255, 0.9);
   --goa-popover-shadow: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.25));
   --goa-modal-shadow: 6px 6px 6px 6px rgba(0,0,0,0.16);
@@ -296,6 +297,12 @@
   --goa-radio-border-checked-disabled: 7px solid var(--goa-color-interactive-disabled);
   --goa-radio-border-checked: 7px solid var(--goa-color-interactive-default);
   --goa-radio-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-700);
+  --goa-push-drawer-padding: var(--goa-space-m);
+  --goa-push-drawer-actions-padding-bottom: var(--goa-space-l);
+  --goa-push-drawer-actions-padding-top: var(--goa-space-m);
+  --goa-push-drawer-content-padding-vertical: var(--goa-space-m);
+  --goa-push-drawer-content-padding-horizontal: var(--goa-space-l);
+  --goa-push-drawer-border-radius: var(--goa-border-radius-3xl);
   --goa-circular-progress-small-margin-top: var(--goa-space-l);
   --goa-circular-progress-large-margin-top: var(--goa-space-xl);
   --goa-popover-padding: var(--goa-space-s);
@@ -685,6 +692,7 @@
   --goa-side-menu-color-menu-item: var(--goa-color-text-default);
   --goa-radio-label: var(--goa-typography-body-m);
   --goa-radio-description: var(--goa-typography-body-xs);
+  --goa-push-drawer-heading-typography: var(--goa-typography-heading-s);
   --goa-circular-progress-small-text: var(--goa-typography-body-m);
   --goa-circular-progress-large-text: var(--goa-typography-body-l);
   --goa-notification-banner-custom-color-text: var(--goa-color-text-light);
