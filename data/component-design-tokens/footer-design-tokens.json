@@ -1,7 +1,7 @@
 {
   "footer-border-bottom": {
     "value": {
-      "width": "1rem",
+      "width": "{borderWidth.none}",
       "style": "solid",
       "color": "{color.brand.default}"
     },
@@ -11,7 +11,7 @@
     "value": {
       "width": "{borderWidth.m}",
       "style": "solid",
-      "color": "{color.greyscale.200}"
+      "color": "{color.greyscale.150}"
     },
     "type": "border"
   },
@@ -20,7 +20,7 @@
     "type": "color"
   },
   "footer-color-links": {
-    "value": "{color.text.default}",
+    "value": "{color.greyscale.black}",
     "type": "color"
   },
   "footer-color-links-hover": {
@@ -43,40 +43,36 @@
     },
     "type": "border"
   },
+  "footer-link-focus-border-radius": {
+    "value": "{borderRadius.s}",
+    "type": "borderRadius"
+  },
   "footer-padding-large-screen": {
-    "value": "{space.2xl} {space.3xl}",
+    "value": "{space.l} {space.3xl}",
     "type": "spacing"
   },
   "footer-padding-medium-screen": {
-    "value": "{space.2xl} {space.xl}",
+    "value": "{space.l} {space.xl}",
     "type": "spacing"
   },
   "footer-padding-small-screen": {
-    "value": "{space.xl} {space.m}",
+    "value": "{space.l} {space.m}",
     "type": "spacing"
-  },
-  "footer-size-logo-desktop": {
-    "value": "155px",
-    "type": "sizing"
-  },
-  "footer-size-logo-mobile": {
-    "value": "133px",
-    "type": "sizing"
-  },
-  "footer-size-logo-tablet": {
-    "value": "155px",
-    "type": "sizing"
   },
   "footer-typography-small-screen": {
     "value": "{fontSize.3}",
     "type": "other"
   },
   "footer-meta-links-gap": {
-    "value": "{space.l}",
+    "value": "{space.xl}",
     "type": "spacing"
   },
   "footer-meta-links-gap-small-screen": {
     "value": "20px",
+    "type": "spacing"
+  },
+  "footer-meta-links-margin": {
+    "value": "{space.none}",
     "type": "spacing"
   }
 }
