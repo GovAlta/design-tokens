@@ -7,7 +7,7 @@
     "value": "{color.greyscale.600}",
     "type": "color"
   },
-  "goa-table-header-padding": {
+  "table-header-padding": {
     "value": "{space.m}",
     "type": "sizing"
   }

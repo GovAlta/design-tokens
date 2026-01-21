@@ -27,4 +27,16 @@ describe("GoA Design Tokens", () => {
     const raw = fs.readFileSync("./tmp/dist/tokens.scss", { encoding: "utf8" });
     expect(raw).not.toContain("[object Object]");
   });
+
+  it("should not contain double goa prefixes", async () => {
+    SC.generate("./tmp");
+    const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
+    expect(raw).not.toContain("--goa-goa");
+  });
+
+  it("should not contain undefined values", async () => {
+    SC.generate("./tmp");
+    const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
+    expect(raw.toLowerCase()).not.toContain("undefined");
+  });
 });
