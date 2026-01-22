@@ -5,22 +5,36 @@
       "style": "solid",
       "color": "{color.interactive.focus}"
     },
-    "type": "border"
+    "type": "border",
+    "description": "Focus outline for popover target button"
   },
   "popover-border-radius": {
-    "value": "{borderRadius.m}",
-    "type": "borderRadius"
+    "value": "{borderRadius.xl}",
+    "type": "borderRadius",
+    "description": "Container corner radius"
   },
   "popover-color-bg": {
     "value": "{color.greyscale.white}",
-    "type": "color"
+    "type": "color",
+    "description": "Background color for popover container"
   },
   "popover-padding": {
-    "value": "{space.s}",
-    "type": "spacing"
+    "value": "{space.xs}",
+    "type": "spacing",
+    "description": "Content padding inside popover"
   },
-  "popover-shadow": {
-    "value": "drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.25))",
-    "type": "other"
+  "popover-box-shadow": {
+    "value": "{shadow.raised-light}",
+    "type": "other",
+    "description": "Shadow for popover container"
+  },
+  "popover-border": {
+    "value": {
+      "width": "{borderWidth.2xs}",
+      "style": "solid",
+      "color": "{color.greyscale.150}"
+    },
+    "type": "border",
+    "description": "Container border"
   }
 }

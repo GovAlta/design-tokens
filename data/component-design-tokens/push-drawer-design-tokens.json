@@ -1,6 +1,6 @@
 {
   "push-drawer-border-radius": {
-    "value": "{borderRadius.none}",
+    "value": "{borderRadius.3xl}",
     "type": "borderRadius",
     "description": "Border radius for drawer corners"
   },
