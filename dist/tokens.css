@@ -1,20 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 22:45:47 GMT
+ * Generated on Mon, 26 Jan 2026 22:54:47 GMT
  */
 
 :root {
-  --goa-motion-duration-long-04: 20000ms;
-  --goa-motion-duration-long-03: 1000ms;
-  --goa-motion-duration-long-02: 500ms;
-  --goa-motion-duration-long-01: 400ms;
-  --goa-motion-duration-medium-03: 350ms;
-  --goa-motion-duration-medium-02: 300ms;
-  --goa-motion-duration-medium-01: 250ms;
-  --goa-motion-duration-short-04: 180ms;
-  --goa-motion-duration-short-03: 100ms;
-  --goa-motion-duration-short-02: 70ms;
-  --goa-motion-duration-short-01: 15ms;
+  --goa-motion-duration-long-4: 20000ms;
+  --goa-motion-duration-long-3: 1000ms;
+  --goa-motion-duration-long-2: 500ms;
+  --goa-motion-duration-long-1: 400ms;
+  --goa-motion-duration-medium-3: 350ms;
+  --goa-motion-duration-medium-2: 300ms;
+  --goa-motion-duration-medium-1: 250ms;
+  --goa-motion-duration-short-4: 180ms;
+  --goa-motion-duration-short-3: 100ms;
+  --goa-motion-duration-short-2: 70ms;
+  --goa-motion-duration-short-1: 15ms;
   --goa-motion-curve-expressive-transform: cubic-bezier(0.42, 0, 0.58, 1);
   --goa-motion-curve-expressive-reveal: cubic-bezier(0.7, 0, 0.25, 1);
   --goa-motion-curve-expressive-exit: cubic-bezier(0.42, 0, 1, 1);
@@ -217,8 +217,8 @@
   --goa-button-height: 2.625rem;
   --goa-badge-height: 22px;
   --goa-accordion-shadow: 0px 0px 0px 0px #000000;
-  --goa-transition-page-fade: opacity var(--goa-motion-duration-short-01) var(--goa-motion-curve-expressive);
-  --goa-transition-content-move-fade: opacity var(--goa-motion-duration-short-02) var(--goa-motion-curve-expressive), transform var(--goa-motion-duration-short-02) var(--goa-motion-curve-expressive);
+  --goa-transition-page-fade: opacity var(--goa-motion-duration-short-1) var(--goa-motion-curve-expressive);
+  --goa-transition-content-move-fade: opacity var(--goa-motion-duration-short-2) var(--goa-motion-curve-expressive), transform var(--goa-motion-duration-short-2) var(--goa-motion-curve-expressive);
   --goa-border-none: var(--goa-border-width-none) solid rgba(0,0,0,0);
   --goa-typography-mobile-number-l: var(--goa-font-weight-medium) var(--goa-font-size-6)/var(--goa-line-height-4) var(--goa-font-family-number);
   --goa-typography-mobile-number-m: var(--goa-font-weight-medium) var(--goa-font-size-4)/var(--goa-line-height-3) var(--goa-font-family-number);
