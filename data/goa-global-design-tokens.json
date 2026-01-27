@@ -272,6 +272,18 @@
     }
   },
   "opacity": {
+    "page": {
+      "transparent": {
+        "value": "0",
+        "type": "opacity",
+        "description": "0% for initial state of page/content load in or final state of page/content load out"
+      },
+      "full": {
+        "value": "100%",
+        "type": "opacity",
+        "description": "100% for initial state of page/content load out or final state of page/content load in"
+      }
+    },
     "background": {
       "modal": {
         "value": "50%",
@@ -910,6 +922,20 @@
       "style": "solid"
     },
     "type": "border"
+  },
+  "translate": {
+    "default": {
+      "value": "translateY(0)",
+      "type": "translate"
+    },
+    "moveIn": {
+      "value": "translateY(12px)",
+      "type": "translate"
+    },
+    "moveOut": {
+      "value": "translateY(-12px)",
+      "type": "translate"
+    }
   },
   "motionCurve": {
     "expressive": {

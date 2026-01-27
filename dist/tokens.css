@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Jan 2026 22:54:47 GMT
+ * Generated on Tue, 27 Jan 2026 19:34:17 GMT
  */
 
 :root {
@@ -20,6 +20,9 @@
   --goa-motion-curve-expressive-exit: cubic-bezier(0.42, 0, 1, 1);
   --goa-motion-curve-productive: cubic-bezier(0, 0, 1, 1);
   --goa-motion-curve-expressive: cubic-bezier(0, 0, 0.58, 1);
+  --goa-translate-move-out: translateY(-12px);
+  --goa-translate-move-in: translateY(12px);
+  --goa-translate-default: translateY(0);
   --goa-font-weight-bold: 700;
   --goa-font-weight-medium: 500;
   --goa-font-weight-regular: 400;
@@ -88,6 +91,8 @@
   --goa-border-radius-none: 0;
   --goa-opacity-background-loading: 90%;
   --goa-opacity-background-modal: 50%;
+  --goa-opacity-page-full: 100%;
+  --goa-opacity-page-transparent: 0;
   --goa-color-extended-yellow: #fce796;
   --goa-color-extended-violet: #d4c2ff;
   --goa-color-extended-red: #ed948d;

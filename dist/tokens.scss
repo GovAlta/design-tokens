@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 26 Jan 2026 22:54:47 GMT
+// Generated on Tue, 27 Jan 2026 19:34:17 GMT
 
 $goa-accordion-color-bg-heading: #f1f1f1;
 $goa-accordion-color-bg-content: #ffffff;
@@ -726,6 +726,8 @@ $goa-color-extended-pink: #ff8fc5;
 $goa-color-extended-red: #ed948d;
 $goa-color-extended-violet: #d4c2ff;
 $goa-color-extended-yellow: #fce796;
+$goa-opacity-page-transparent: 0;
+$goa-opacity-page-full: 100%;
 $goa-opacity-background-modal: 50%;
 $goa-opacity-background-loading: 90%;
 $goa-border-radius-none: 0;
@@ -819,6 +821,9 @@ $goa-typography-mobile-number-s: 500 1rem/1.5rem roboto-mono, monospace;
 $goa-typography-mobile-number-m: 500 1.125rem/1.75rem roboto-mono, monospace;
 $goa-typography-mobile-number-l: 500 1.375rem/2rem roboto-mono, monospace;
 $goa-border-none: 0px solid rgba(0,0,0,0);
+$goa-translate-default: translateY(0);
+$goa-translate-move-in: translateY(12px);
+$goa-translate-move-out: translateY(-12px);
 $goa-motion-curve-expressive: cubic-bezier(0, 0, 0.58, 1);
 $goa-motion-curve-productive: cubic-bezier(0, 0, 1, 1);
 $goa-motion-curve-expressive-exit: cubic-bezier(0.42, 0, 1, 1);
