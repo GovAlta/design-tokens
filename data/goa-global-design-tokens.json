@@ -272,6 +272,18 @@
     }
   },
   "opacity": {
+    "page": {
+      "transparent": {
+        "value": "0",
+        "type": "opacity",
+        "description": "0% for initial state of page/content load in or final state of page/content load out"
+      },
+      "full": {
+        "value": "100%",
+        "type": "opacity",
+        "description": "100% for initial state of page/content load out or final state of page/content load in"
+      }
+    },
     "background": {
       "modal": {
         "value": "50%",
@@ -910,5 +922,97 @@
       "style": "solid"
     },
     "type": "border"
+  },
+  "translate": {
+    "default": {
+      "value": "translateY(0)",
+      "type": "translate"
+    },
+    "moveIn": {
+      "value": "translateY(12px)",
+      "type": "translate"
+    },
+    "moveOut": {
+      "value": "translateY(-12px)",
+      "type": "translate"
+    }
+  },
+  "motionCurve": {
+    "expressive": {
+      "value": "cubic-bezier(0, 0, 0.58, 1)",
+      "type": "motionCurve"
+    },
+    "productive": {
+      "value": "cubic-bezier(0, 0, 1, 1)",
+      "type": "motionCurve"
+    },
+    "expressive-exit": {
+      "value": "cubic-bezier(0.42, 0, 1, 1)",
+      "type": "motionCurve"
+    },
+    "expressive-reveal": {
+      "value": "cubic-bezier(0.7, 0, 0.25, 1)",
+      "type": "motionCurve"
+    },
+    "expressive-transform": {
+      "value": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "type": "motionCurve"
+    }
+  },
+  "motionDuration": {
+    "short-1": {
+      "value": "15ms",
+      "type": "motionDuration"
+    },
+    "short-2": {
+      "value": "70ms",
+      "type": "motionDuration"
+    },
+    "short-3": {
+      "value": "100ms",
+      "type": "motionDuration"
+    },
+    "short-4": {
+      "value": "180ms",
+      "type": "motionDuration"
+    },
+    "medium-1": {
+      "value": "250ms",
+      "type": "motionDuration"
+    },
+    "medium-2": {
+      "value": "300ms",
+      "type": "motionDuration"
+    },
+    "medium-3": {
+      "value": "350ms",
+      "type": "motionDuration"
+    },
+    "long-1": {
+      "value": "400ms",
+      "type": "motionDuration"
+    },
+    "long-2": {
+      "value": "500ms",
+      "type": "motionDuration"
+    },
+    "long-3": {
+      "value": "1000ms",
+      "type": "motionDuration"
+    },
+    "long-4": {
+      "value": "20000ms",
+      "type": "motionDuration"
+    }
+  },
+  "transition": {
+    "contentMoveFade": {
+      "value": "opacity {motionDuration.short-2} {motionCurve.expressive}, transform {motionDuration.short-2} {motionCurve.expressive}",
+      "type": "transition"
+    },
+    "pageFade": {
+      "value": "opacity {motionDuration.short-1} {motionCurve.expressive}",
+      "type": "transition"
+    }
   }
 }
