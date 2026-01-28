@@ -1,9 +1,28 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Jan 2026 20:50:36 GMT
+ * Generated on Tue, 27 Jan 2026 19:34:17 GMT
  */
 
 :root {
+  --goa-motion-duration-long-4: 20000ms;
+  --goa-motion-duration-long-3: 1000ms;
+  --goa-motion-duration-long-2: 500ms;
+  --goa-motion-duration-long-1: 400ms;
+  --goa-motion-duration-medium-3: 350ms;
+  --goa-motion-duration-medium-2: 300ms;
+  --goa-motion-duration-medium-1: 250ms;
+  --goa-motion-duration-short-4: 180ms;
+  --goa-motion-duration-short-3: 100ms;
+  --goa-motion-duration-short-2: 70ms;
+  --goa-motion-duration-short-1: 15ms;
+  --goa-motion-curve-expressive-transform: cubic-bezier(0.42, 0, 0.58, 1);
+  --goa-motion-curve-expressive-reveal: cubic-bezier(0.7, 0, 0.25, 1);
+  --goa-motion-curve-expressive-exit: cubic-bezier(0.42, 0, 1, 1);
+  --goa-motion-curve-productive: cubic-bezier(0, 0, 1, 1);
+  --goa-motion-curve-expressive: cubic-bezier(0, 0, 0.58, 1);
+  --goa-translate-move-out: translateY(-12px);
+  --goa-translate-move-in: translateY(12px);
+  --goa-translate-default: translateY(0);
   --goa-input-color-background-error-hover: #f4c8c5;
   --goa-input-color-border-readonly: #e1dedd;
   --goa-letter-spacing-mobile-2xl: -1.5;
@@ -102,6 +121,8 @@
   --goa-border-radius-none: 0;
   --goa-opacity-background-loading: 90%;
   --goa-opacity-background-modal: 50%;
+  --goa-opacity-page-full: 100%;
+  --goa-opacity-page-transparent: 0;
   --goa-color-extended-prairie-text: #47372a;
   --goa-color-extended-prairie-border: #ecd386;
   --goa-color-extended-prairie-light: #fff2c8;
@@ -299,6 +320,8 @@
   --goa-accordion-heading-m-min-height: 4rem;
   --goa-accordion-heading-min-height: 3rem;
   --goa-accordion-shadow: 0px 0px 0px 0px #000000;
+  --goa-transition-page-fade: opacity var(--goa-motion-duration-short-1) var(--goa-motion-curve-expressive);
+  --goa-transition-content-move-fade: opacity var(--goa-motion-duration-short-2) var(--goa-motion-curve-expressive), transform var(--goa-motion-duration-short-2) var(--goa-motion-curve-expressive);
   --goa-border-none: var(--goa-border-width-none) solid rgba(0,0,0,0);
   --goa-input-border-radius-input: var(--goa-border-radius-m);
   --goa-input-border-radius-checkbox: var(--goa-border-radius-xs);
