@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Jan 2026 20:50:36 GMT
+ * Generated on Wed, 04 Feb 2026 18:08:00 GMT
  */
 
 :root {
@@ -949,6 +949,12 @@
   --goa-button-padding-compact: 0 var(--goa-space-m);
   --goa-button-padding: 0 var(--goa-space-xl);
   --goa-button-border-radius: var(--goa-border-radius-m);
+  --goa-badge-dawn-subtle-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-extended-dawn-border);
+  --goa-badge-sunset-subtle-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-extended-sunset-border);
+  --goa-badge-pasture-subtle-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-extended-pasture-border);
+  --goa-badge-lilac-subtle-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-extended-lilac-border);
+  --goa-badge-prairie-subtle-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-extended-prairie-border);
+  --goa-badge-sky-subtle-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-extended-sky-border);
   --goa-badge-archived-subtle-border: inset 0 0 0 var(--goa-border-width-s) var(--goa-color-greyscale-200);
   --goa-badge-archived-subtle-color-bg: var(--goa-color-greyscale-white);
   --goa-badge-archived-color-content: var(--goa-color-greyscale-800);
