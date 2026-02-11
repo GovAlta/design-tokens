@@ -39,4 +39,15 @@ describe("GoA Design Tokens", () => {
     const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
     expect(raw.toLowerCase()).not.toContain("undefined");
   });
+
+  it("should include dark mode color overrides", async () => {
+    SC.generate("./tmp");
+    const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
+    // Check that dark mode section includes media query and expected dark color values
+    expect(raw).toContain("@media (prefers-color-scheme: dark)");
+    // Verify greyscale black becomes white in dark mode
+    expect(raw).toMatch(/@media.*dark.*--goa-color-greyscale-black:\s*#ffffff/s);
+    // Verify greyscale white becomes dark in dark mode
+    expect(raw).toMatch(/@media.*dark.*--goa-color-greyscale-white:\s*#1a1a1a/s);
+  });
 });
