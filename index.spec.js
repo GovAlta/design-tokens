@@ -40,16 +40,10 @@ describe("GoA Design Tokens", () => {
     expect(raw.toLowerCase()).not.toContain("undefined");
   });
 
-  it("should include dark mode media query in CSS", async () => {
-    SC.generate("./tmp");
-    const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
-    expect(raw).toContain("@media (prefers-color-scheme: dark)");
-  });
-
   it("should include dark mode color overrides", async () => {
     SC.generate("./tmp");
     const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
-    // Check that dark mode section includes some expected dark color values
+    // Check that dark mode section includes media query and expected dark color values
     expect(raw).toContain("@media (prefers-color-scheme: dark)");
     // Verify greyscale black becomes white in dark mode
     expect(raw).toMatch(/@media.*dark.*--goa-color-greyscale-black:\s*#ffffff/s);
