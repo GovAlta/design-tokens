@@ -181,5 +181,29 @@
   "badge-archived-subtle-border": {
     "value": "inset 0 0 0 {borderWidth.s} {color.greyscale.200}",
     "type": "dropShadow"
+  },
+  "badge-sky-subtle-border": {
+    "value": "inset 0 0 0 {borderWidth.s} {color.extended.sky.border}",
+    "type": "dropShadow"
+  },
+  "badge-prairie-subtle-border": {
+    "value": "inset 0 0 0 {borderWidth.s} {color.extended.prairie.border}",
+    "type": "dropShadow"
+  },
+  "badge-lilac-subtle-border": {
+    "value": "inset 0 0 0 {borderWidth.s} {color.extended.lilac.border}",
+    "type": "dropShadow"
+  },
+  "badge-pasture-subtle-border": {
+    "value": "inset 0 0 0 {borderWidth.s} {color.extended.pasture.border}",
+    "type": "dropShadow"
+  },
+  "badge-sunset-subtle-border": {
+    "value": "inset 0 0 0 {borderWidth.s} {color.extended.sunset.border}",
+    "type": "dropShadow"
+  },
+  "badge-dawn-subtle-border": {
+    "value": "inset 0 0 0 {borderWidth.s} {color.extended.dawn.border}",
+    "type": "dropShadow"
   }
 }
