@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 04 Feb 2026 18:08:00 GMT
+ * Generated on Fri, 20 Feb 2026 17:40:16 GMT
  */
 
 :root {
@@ -697,7 +697,7 @@
   --goa-app-header-utilities-gap: var(--goa-space-s);
   --goa-app-header-service-phase-row-gap: var(--goa-space-xs);
   --goa-app-header-service-phase-gap-horizontal: var(--goa-space-m);
-  --goa-app-header-service-name-subline-gap: var(--goa-space-3xs);
+  --goa-app-header-service-name-secondary-text-gap: var(--goa-space-3xs);
   --goa-app-header-service-name-border-focus: var(--goa-border-width-l) solid var(--goa-color-interactive-focus);
   --goa-app-header-typography-service-name-mobile: var(--goa-font-weight-semi-bold) var(--goa-font-size-3)/var(--goa-line-height-1) var(--goa-font-family-sans);
   --goa-app-header-logo-service-gap-small-screen: var(--goa-space-l);
@@ -1119,9 +1119,9 @@
   --goa-app-header-nav-text-color: var(--goa-color-text-secondary);
   --goa-app-header-color-text-nav-item-current: var(--goa-color-text-secondary);
   --goa-app-header-color-text-nav-item: var(--goa-color-text-secondary);
-  --goa-app-header-subline-typography-mobile: var(--goa-typography-body-xs);
-  --goa-app-header-subline-typography-desktop: var(--goa-typography-body-s);
-  --goa-app-header-subline-color: var(--goa-color-text-secondary);
+  --goa-app-header-secondary-text-typography-mobile: var(--goa-typography-body-xs);
+  --goa-app-header-secondary-text-typography-desktop: var(--goa-typography-body-s);
+  --goa-app-header-secondary-text-color: var(--goa-color-text-secondary);
   --goa-app-header-typography-service-name: var(--goa-typography-heading-xs);
   --goa-app-header-color-service-name: var(--goa-color-text-default);
   --goa-step-typography-sublabel: var(--goa-typography-body-xs);
