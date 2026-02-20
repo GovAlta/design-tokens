@@ -100,25 +100,25 @@
     "value": "13rem",
     "type": "dimension"
   },
-  "app-header-subline-color": {
+  "app-header-secondary-text-color": {
     "value": "{color.text.secondary}",
     "type": "color",
-    "description": "Subline text color"
+    "description": "Secondary text color"
   },
-  "app-header-subline-typography-desktop": {
+  "app-header-secondary-text-typography-desktop": {
     "value": "{typography.body.s}",
     "type": "other",
-    "description": "Subline typography on desktop"
+    "description": "Secondary text typography on desktop"
   },
-  "app-header-subline-typography-mobile": {
+  "app-header-secondary-text-typography-mobile": {
     "value": "{typography.body.xs}",
     "type": "other",
-    "description": "Subline typography on mobile"
+    "description": "Secondary text typography on mobile"
   },
-  "app-header-service-name-subline-gap": {
+  "app-header-service-name-secondary-text-gap": {
     "value": "{space.3xs}",
     "type": "spacing",
-    "description": "Vertical gap between service name and subline"
+    "description": "Vertical gap between service name and secondary text"
   },
   "app-header-service-phase-gap-horizontal": {
     "value": "{space.m}",
