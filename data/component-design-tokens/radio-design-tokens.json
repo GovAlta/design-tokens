@@ -131,6 +131,10 @@
     "value": "{space.s}",
     "type": "spacing"
   },
+  "radio-gap-label-compact": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
   "radio-group-gap-horizontal": {
     "value": "{space.xl}",
     "type": "spacing"
@@ -196,5 +200,21 @@
   "radio-size": {
     "value": "{space.l}",
     "type": "sizing"
+  },
+  "radio-reveal-margin": {
+    "value": "{space.2xs} 0 0 calc({space.s} - 1px)",
+    "type": "spacing"
+  },
+  "radio-reveal-padding": {
+    "value": "{space.m} {space.l}",
+    "type": "spacing"
+  },
+  "radio-reveal-border": {
+    "value": {
+      "width": "{borderWidth.s}",
+      "style": "solid",
+      "color": "{color.greyscale.200}"
+    },
+    "type": "border"
   }
 }
