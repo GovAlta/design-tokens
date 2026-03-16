@@ -13,7 +13,7 @@
   },
   "accordion-border": {
     "value": {
-      "color": "{color.greyscale.100}",
+      "color": "{color.greyscale.200}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
@@ -21,7 +21,7 @@
   },
   "accordion-divider": {
     "value": {
-      "color": "{color.greyscale.100}",
+      "color": "{color.greyscale.200}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
