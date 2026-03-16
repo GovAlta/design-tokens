@@ -5,7 +5,7 @@
   },
   "container-border": {
     "value": {
-      "color": "{color.greyscale.150}",
+      "color": "{color.greyscale.200}",
       "width": "{borderWidth.s}",
       "style": "solid"
     },
@@ -81,7 +81,7 @@
     "value": {
       "width": "{borderWidth.s}",
       "style": "solid",
-      "color": "{color.greyscale.150}"
+      "color": "{color.greyscale.200}"
     },
     "type": "border"
   },

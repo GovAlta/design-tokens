@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Mar 2026 22:06:46 GMT
+ * Generated on Mon, 23 Mar 2026 18:41:04 GMT
  */
 
 :root {
@@ -843,7 +843,7 @@
   --goa-container-info-border: var(--goa-border-width-s) solid var(--goa-color-info-border);
   --goa-container-info-heading-bg-color: var(--goa-color-info-default);
   --goa-container-info-bg-color: var(--goa-color-info-background);
-  --goa-container-non-interactive-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);
+  --goa-container-non-interactive-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-container-non-interactive-heading-bg-color: var(--goa-color-greyscale-50);
   --goa-container-non-interactive-bg-color: var(--goa-color-greyscale-50);
   --goa-container-interactive-border: var(--goa-border-width-s) solid var(--goa-color-brand-default);
@@ -856,7 +856,7 @@
   --goa-container-padding-compact: var(--goa-space-m);
   --goa-container-padding: var(--goa-space-xl);
   --goa-container-shadow: var(--goa-shadow-200);
-  --goa-container-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);
+  --goa-container-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-container-border-radius: var(--goa-border-radius-xl);
   --goa-checkbox-size: var(--goa-space-l);
   --goa-checkbox-gap-compact: var(--goa-space-xs);
@@ -1036,8 +1036,8 @@
   --goa-accordion-border-radius-focus: var(--goa-border-radius-xl) var(--goa-border-radius-xl) var(--goa-border-radius-xs) var(--goa-border-radius-xs);
   --goa-accordion-border-radius: var(--goa-border-radius-xl);
   --goa-accordion-divider-hover: var(--goa-border-width-s) solid var(--goa-color-greyscale-black);
-  --goa-accordion-divider: var(--goa-border-width-s) solid var(--goa-color-greyscale-100);
-  --goa-accordion-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-100);
+  --goa-accordion-divider: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
+  --goa-accordion-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-color-bg-content: var(--goa-color-greyscale-white);
   --goa-accordion-color-bg-heading: var(--goa-color-greyscale-white);
   --goa-input-color-text-default: var(--goa-color-text-default);
