@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Mar 2026 18:41:04 GMT
+ * Generated on Mon, 23 Mar 2026 20:16:44 GMT
  */
 
 :root {
@@ -25,22 +25,22 @@
   --goa-translate-default: translateY(0);
   --goa-input-color-background-error-hover: #f4c8c5;
   --goa-input-color-border-readonly: #e1dedd;
-  --goa-letter-spacing-mobile-2xl: -1.5;
-  --goa-letter-spacing-mobile-xl: -1.5;
-  --goa-letter-spacing-mobile-l: -1.25;
-  --goa-letter-spacing-mobile-m: -1;
-  --goa-letter-spacing-mobile-s: -0.75;
-  --goa-letter-spacing-mobile-xs: -0.75;
-  --goa-letter-spacing-mobile-2xs: -0.5;
-  --goa-letter-spacing-mobile-3xs: -0.5;
-  --goa-letter-spacing-2xl: -1.5;
-  --goa-letter-spacing-xl: -1.5;
-  --goa-letter-spacing-l: -1.25;
-  --goa-letter-spacing-m: -1;
-  --goa-letter-spacing-s: -0.75;
-  --goa-letter-spacing-xs: -0.75;
-  --goa-letter-spacing-2xs: -0.5;
-  --goa-letter-spacing-3xs: -0.5;
+  --goa-letter-spacing-mobile-2xl: -0.09375rem;
+  --goa-letter-spacing-mobile-xl: -0.09375rem;
+  --goa-letter-spacing-mobile-l: -0.078125rem;
+  --goa-letter-spacing-mobile-m: -0.0625rem;
+  --goa-letter-spacing-mobile-s: -0.046875rem;
+  --goa-letter-spacing-mobile-xs: -0.046875rem;
+  --goa-letter-spacing-mobile-2xs: -0.03125rem;
+  --goa-letter-spacing-mobile-3xs: -0.03125rem;
+  --goa-letter-spacing-2xl: -0.09375rem;
+  --goa-letter-spacing-xl: -0.09375rem;
+  --goa-letter-spacing-l: -0.078125rem;
+  --goa-letter-spacing-m: -0.0625rem;
+  --goa-letter-spacing-s: -0.046875rem;
+  --goa-letter-spacing-xs: -0.046875rem;
+  --goa-letter-spacing-2xs: -0.03125rem;
+  --goa-letter-spacing-3xs: -0.03125rem;
   --goa-font-weight-bold: 700;
   --goa-font-weight-semi-bold: 600;
   --goa-font-weight-medium: 500;
@@ -352,12 +352,19 @@
   --goa-typography-mobile-body-m: var(--goa-font-weight-regular) var(--goa-font-size-4)/var(--goa-line-height-3) var(--goa-font-family-sans);
   --goa-typography-mobile-body-s: var(--goa-font-weight-regular) var(--goa-font-size-3)/var(--goa-line-height-2) var(--goa-font-family-sans);
   --goa-typography-mobile-body-xs: var(--goa-font-weight-regular) var(--goa-font-size-2)/var(--goa-line-height-1) var(--goa-font-family-sans);
+  --goa-typography-mobile-heading-2xl-letter-spacing: var(--goa-letter-spacing-mobile-2xl);
   --goa-typography-mobile-heading-2xl: var(--goa-font-weight-bold) var(--goa-font-size-9)/var(--goa-line-height-7) var(--goa-font-family-sans);
+  --goa-typography-mobile-heading-xl-letter-spacing: var(--goa-letter-spacing-mobile-xl);
   --goa-typography-mobile-heading-xl: var(--goa-font-weight-bold) var(--goa-font-size-8)/var(--goa-line-height-6) var(--goa-font-family-sans);
+  --goa-typography-mobile-heading-l-letter-spacing: var(--goa-letter-spacing-mobile-l);
   --goa-typography-mobile-heading-l: var(--goa-font-weight-bold) var(--goa-font-size-8)/var(--goa-line-height-6) var(--goa-font-family-sans);
+  --goa-typography-mobile-heading-m-letter-spacing: var(--goa-letter-spacing-mobile-m);
   --goa-typography-mobile-heading-m: var(--goa-font-weight-bold) var(--goa-font-size-7)/var(--goa-line-height-5) var(--goa-font-family-sans);
+  --goa-typography-mobile-heading-s-letter-spacing: var(--goa-letter-spacing-mobile-s);
   --goa-typography-mobile-heading-s: var(--goa-font-weight-semi-bold) var(--goa-font-size-6)/var(--goa-line-height-4) var(--goa-font-family-sans);
+  --goa-typography-mobile-heading-xs-letter-spacing: var(--goa-letter-spacing-mobile-xs);
   --goa-typography-mobile-heading-xs: var(--goa-font-weight-semi-bold) var(--goa-font-size-5)/var(--goa-line-height-3) var(--goa-font-family-sans);
+  --goa-typography-mobile-heading-2xs-letter-spacing: var(--goa-letter-spacing-mobile-2xs);
   --goa-typography-mobile-heading-2xs: var(--goa-font-weight-semi-bold) var(--goa-font-size-3)/var(--goa-line-height-2) var(--goa-font-family-sans);
   --goa-typography-number-l: var(--goa-font-weight-medium) var(--goa-line-height-4)/var(--goa-font-size-7) var(--goa-font-family-number);
   --goa-typography-number-m: var(--goa-font-weight-medium) var(--goa-font-size-4)/var(--goa-line-height-3) var(--goa-font-family-number);
@@ -366,12 +373,19 @@
   --goa-typography-body-m: var(--goa-font-weight-regular) var(--goa-font-size-4)/var(--goa-line-height-3) var(--goa-font-family-sans);
   --goa-typography-body-s: var(--goa-font-weight-regular) var(--goa-font-size-3)/var(--goa-line-height-2) var(--goa-font-family-sans);
   --goa-typography-body-xs: var(--goa-font-weight-regular) var(--goa-font-size-2)/var(--goa-line-height-1) var(--goa-font-family-sans);
+  --goa-typography-heading-2xl-letter-spacing: var(--goa-letter-spacing-2xl);
   --goa-typography-heading-2xl: var(--goa-font-weight-bold) var(--goa-font-size-10)/var(--goa-line-height-8) var(--goa-font-family-sans);
+  --goa-typography-heading-xl-letter-spacing: var(--goa-letter-spacing-xl);
   --goa-typography-heading-xl: var(--goa-font-weight-bold) var(--goa-font-size-9)/var(--goa-line-height-7) var(--goa-font-family-sans);
+  --goa-typography-heading-l-letter-spacing: var(--goa-letter-spacing-l);
   --goa-typography-heading-l: var(--goa-font-weight-bold) var(--goa-font-size-8)/var(--goa-line-height-6) var(--goa-font-family-sans);
+  --goa-typography-heading-m-letter-spacing: var(--goa-letter-spacing-m);
   --goa-typography-heading-m: var(--goa-font-weight-bold) var(--goa-font-size-7)/var(--goa-line-height-5) var(--goa-font-family-sans);
+  --goa-typography-heading-s-letter-spacing: var(--goa-letter-spacing-s);
   --goa-typography-heading-s: var(--goa-font-weight-semi-bold) var(--goa-font-size-6)/var(--goa-line-height-4) var(--goa-font-family-sans);
+  --goa-typography-heading-xs-letter-spacing: var(--goa-letter-spacing-xs);
   --goa-typography-heading-xs: var(--goa-font-weight-semi-bold) var(--goa-font-size-5)/var(--goa-line-height-3) var(--goa-font-family-sans);
+  --goa-typography-heading-2xs-letter-spacing: var(--goa-letter-spacing-2xs);
   --goa-typography-heading-2xs: var(--goa-font-weight-semi-bold) var(--goa-font-size-3)/var(--goa-line-height-2) var(--goa-font-family-sans);
   --goa-color-text-disabled: var(--goa-color-greyscale-700);
   --goa-color-text-light: var(--goa-color-greyscale-white);
