@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Mar 2026 20:16:44 GMT
+ * Generated on Wed, 25 Mar 2026 15:53:56 GMT
  */
 
 :root {
@@ -251,8 +251,6 @@
   --goa-radio-border-radius: 50%;
   --goa-push-drawer-transition-time: 0.25s;
   --goa-circular-progress-color-background: rgba(255, 255, 255, 0.9);
-  --goa-modal-scrollable-padding-mobile: 0;
-  --goa-modal-scrollable-padding-desktop: 0;
   --goa-modal-content-wrapper-padding: 0;
   --goa-modal-max-width: 480px;
   --goa-modal-content-margin-mobile: 0;
@@ -615,12 +613,14 @@
   --goa-modal-callout-information-border: var(--goa-color-info-border);
   --goa-modal-callout-information-bg: var(--goa-color-info-light);
   --goa-modal-actions-padding-mobile: 0 var(--goa-space-m) var(--goa-space-m) var(--goa-space-m);
-  --goa-modal-content-padding-mobile: var(--goa-space-l) var(--goa-space-m) var(--goa-space-xl) var(--goa-space-m);
+  --goa-modal-content-padding-mobile: var(--goa-space-l) 0 var(--goa-space-xl) 0;
   --goa-modal-callout-heading-padding-mobile: var(--goa-space-m);
   --goa-modal-heading-padding-mobile: var(--goa-space-m);
   --goa-modal-callout-heading-padding: var(--goa-space-m) var(--goa-space-l);
+  --goa-modal-scrollable-padding-mobile: var(--goa-space-m);
+  --goa-modal-scrollable-padding-desktop: var(--goa-space-l);
   --goa-modal-actions-padding: 0 var(--goa-space-xl) var(--goa-space-xl) var(--goa-space-xl);
-  --goa-modal-content-padding: var(--goa-space-l) var(--goa-space-l) var(--goa-space-xl) var(--goa-space-l);
+  --goa-modal-content-padding: var(--goa-space-l) 0 var(--goa-space-xl) 0;
   --goa-modal-heading-padding: 20px var(--goa-space-l);
   --goa-modal-heading-border-bottom: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);
   --goa-modal-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);
