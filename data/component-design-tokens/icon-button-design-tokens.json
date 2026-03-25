@@ -1,4 +1,12 @@
 {
+  "icon-button-2xsmall-padding": {
+    "value": "{space.3xs}",
+    "type": "spacing"
+  },
+  "icon-button-xsmall-padding": {
+    "value": "{space.2xs}",
+    "type": "spacing"
+  },
   "icon-button-small-padding": {
     "value": "{space.2xs}",
     "type": "spacing"
@@ -14,6 +22,10 @@
   "icon-button-border-radius": {
     "value": "{borderRadius.m}",
     "type": "borderRadius"
+  },
+  "icon-button-xlarge-padding": {
+    "value": "{space.s}",
+    "type": "spacing"
   },
   "icon-button-focus-border-width": {
     "value": "{input.borderWidth.focus}",

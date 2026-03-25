@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Mar 2026 20:16:44 GMT
+ * Generated on Wed, 25 Mar 2026 20:35:05 GMT
  */
 
 :root {
@@ -689,10 +689,13 @@
   --goa-icon-button-default-color: var(--goa-color-interactive-default);
   --goa-icon-button-large-border-radius: var(--goa-border-radius-xl);
   --goa-icon-button-medium-border-radius: var(--goa-border-radius-m);
+  --goa-icon-button-xlarge-padding: var(--goa-space-s);
   --goa-icon-button-border-radius: var(--goa-border-radius-m);
   --goa-icon-button-large-padding: var(--goa-space-s);
   --goa-icon-button-medium-padding: var(--goa-space-xs);
   --goa-icon-button-small-padding: var(--goa-space-2xs);
+  --goa-icon-button-xsmall-padding: var(--goa-space-2xs);
+  --goa-icon-button-2xsmall-padding: var(--goa-space-3xs);
   --goa-hero-banner-content-gap: var(--goa-space-l) 0 0;
   --goa-hero-banner-mobile-padding: var(--goa-space-xl) 0;
   --goa-hero-banner-padding: var(--goa-space-2xl) 0;
