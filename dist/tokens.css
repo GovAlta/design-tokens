@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Mar 2026 17:47:19 GMT
+ * Generated on Tue, 31 Mar 2026 22:36:08 GMT
  */
 
 :root {
@@ -668,6 +668,7 @@
   --goa-linear-progress-color-track: var(--goa-color-greyscale-200);
   --goa-linear-progress-border-radius: var(--goa-border-radius-m);
   --goa-linear-progress-height: var(--goa-space-2xs);
+  --goa-text-input-color-icon: var(--goa-color-greyscale-600);
   --goa-text-input-space-btw-icon-text-compact: var(--goa-space-xs);
   --goa-text-input-padding-compact: var(--goa-space-2xs) var(--goa-text-input-padding-compact-lr);
   --goa-text-input-padding-compact-lr: var(--goa-space-s);
