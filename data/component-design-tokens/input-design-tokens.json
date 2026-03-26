@@ -106,5 +106,9 @@
   "text-input-lt-content-color-bg-readonly": {
     "value": "{input.color.background.readonly-content}",
     "type": "color"
+  },
+  "text-input-color-icon": {
+    "value": "{color.greyscale.600}",
+    "type": "color"
   }
 }
