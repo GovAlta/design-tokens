@@ -868,7 +868,7 @@
   --goa-container-info-heading-bg-color: var(--goa-color-info-default);
   --goa-container-info-bg-color: var(--goa-color-info-background);
   --goa-container-non-interactive-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
-  --goa-container-non-interactive-heading-bg-color: var(--goa-color-greyscale-50);
+  --goa-container-non-interactive-heading-bg-color: var(--goa-color-greyscale-100);
   --goa-container-non-interactive-bg-color: var(--goa-color-greyscale-50);
   --goa-container-interactive-border: var(--goa-border-width-s) solid var(--goa-color-brand-default);
   --goa-container-interactive-heading-bg-color: var(--goa-color-brand-default);
