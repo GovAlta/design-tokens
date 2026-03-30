@@ -111,7 +111,7 @@
     "description": "Heading section padding"
   },
   "modal-content-padding": {
-    "value": "{space.l} {space.l} {space.xl} {space.l}",
+    "value": "{space.l} 0 {space.xl} 0",
     "type": "spacing",
     "description": "Content section padding"
   },
@@ -126,12 +126,12 @@
     "description": "Outer content wrapper padding"
   },
   "modal-scrollable-padding-desktop": {
-    "value": "0",
+    "value": "{space.l}",
     "type": "spacing",
     "description": "Scrollable component horizontal padding for desktop"
   },
   "modal-scrollable-padding-mobile": {
-    "value": "0",
+    "value": "{space.m}",
     "type": "spacing",
     "description": "Scrollable component horizontal padding for mobile"
   },
@@ -151,7 +151,7 @@
     "description": "Callout variant heading padding for mobile (16px all around)"
   },
   "modal-content-padding-mobile": {
-    "value": "{space.l} {space.m} {space.xl} {space.m}",
+    "value": "{space.l} 0 {space.xl} 0",
     "type": "spacing",
     "description": "Content section padding for mobile (24px top, 16px sides, 32px bottom)"
   },
