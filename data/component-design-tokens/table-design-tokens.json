@@ -121,6 +121,11 @@
     "type": "spacing",
     "description": "Vertical padding for checkbox cells in relaxed variant (10px for 64px height)"
   },
+  "table-padding-cell-checkbox-bottom": {
+    "value": "calc({space.m} - 1px)",
+    "type": "spacing",
+    "description": "Vertical padding for checkbox cells in normal variant (16px for 48px height)"
+  },
   "table-padding-cell-form-field": {
     "value": "3px",
     "type": "spacing",

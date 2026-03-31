@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 25 Mar 2026 15:53:56 GMT
+ * Generated on Mon, 30 Mar 2026 21:15:34 GMT
  */
 
 :root {
@@ -451,6 +451,7 @@
   --goa-table-sort-header-gap: var(--goa-space-xs);
   --goa-table-padding-cell-text-supporting-relaxed: var(--goa-space-xs);
   --goa-table-padding-cell-badge: var(--goa-space-s);
+  --goa-table-padding-cell-checkbox-bottom: calc(var(--goa-space-m) - 1px);
   --goa-table-padding-cell-checkbox: var(--goa-space-3xs);
   --goa-table-padding-cell-text: var(--goa-space-s);
   --goa-table-padding-data-relaxed: 18px var(--goa-space-m) 18px var(--goa-space-m);
