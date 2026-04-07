@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Apr 2026 14:58:40 GMT
+ * Generated on Thu, 16 Apr 2026 15:24:12 GMT
  */
 
 :root {
@@ -226,6 +226,7 @@
   --goa-tooltip-max-width: 400px;
   --goa-temporary-notification-animation-distance: 100px;
   --goa-temporary-notification-transition-duration: 0.3s;
+  --goa-temporary-notification-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3), 0px 16px 32px -8px rgba(0,0,0,0.35);
   --goa-temporary-notification-progress-bar-height: 6px;
   --goa-temporary-notification-min-width-desktop: 360px;
   --goa-temporary-notification-max-width: 640px;
@@ -255,6 +256,8 @@
   --goa-radio-border-radius: 50%;
   --goa-push-drawer-transition-time: 0.25s;
   --goa-circular-progress-color-background: rgba(255, 255, 255, 0.9);
+  --goa-notification-banner-padding-tb-compact: 0.9375rem;
+  --goa-notification-banner-padding-tb: 1.4375rem;
   --goa-modal-content-wrapper-padding: 0;
   --goa-modal-max-width: 480px;
   --goa-modal-content-margin-mobile: 0;
@@ -305,6 +308,7 @@
   --goa-date-input-day-color-bg: transparent;
   --goa-date-input-day-size: 2.5rem;
   --goa-date-input-calendar-width: 280px;
+  --goa-container-shadow: none;
   --goa-callout-l-with-heading-body-padding: 0 1.25rem 1.25rem;
   --goa-callout-body-padding: 1.25rem;
   --goa-button-tertiary-text-decoration: none;
@@ -558,8 +562,8 @@
   --goa-pagination-gap: var(--goa-space-m);
   --goa-notification-banner-emergency-low-close-bg-hover: var(--goa-color-emergency-border);
   --goa-notification-banner-emergency-high-close-bg-hover: var(--goa-color-emergency-dark);
-  --goa-notification-banner-important-low-close-bg-hover: var(--goa-color-important-default);
-  --goa-notification-banner-important-high-close-bg-hover: var(--goa-color-important-border);
+  --goa-notification-banner-important-low-close-bg-hover: var(--goa-color-important-border);
+  --goa-notification-banner-important-high-close-bg-hover: var(--goa-color-important-default);
   --goa-notification-banner-information-low-close-bg-hover: var(--goa-color-info-border);
   --goa-notification-banner-information-high-close-bg-hover: var(--goa-color-info-dark);
   --goa-notification-banner-emergency-low-focus-border: 0 0 0 3px var(--goa-color-emergency-dark);
@@ -590,12 +594,10 @@
   --goa-notification-banner-padding-lr-large-screen-compact: var(--goa-space-2xl);
   --goa-notification-banner-padding-lr-medium-screen-compact: var(--goa-space-m);
   --goa-notification-banner-padding-lr-small-screen-compact: var(--goa-space-xs);
-  --goa-notification-banner-padding-tb-compact: var(--goa-space-m);
   --goa-notification-banner-gap-compact: var(--goa-space-xs);
   --goa-notification-banner-custom-color-icon: var(--goa-color-greyscale-white);
   --goa-notification-banner-custom-color-bg: var(--goa-color-info-default);
   --goa-notification-banner-size-icon: var(--goa-icon-size-4);
-  --goa-notification-banner-padding-tb: var(--goa-space-l);
   --goa-notification-banner-padding-lr-small-screen: var(--goa-space-m);
   --goa-notification-banner-padding-lr-medium-screen: var(--goa-space-l);
   --goa-notification-banner-padding-lr-large-screen: var(--goa-space-3xl);
@@ -608,6 +610,10 @@
   --goa-notification-banner-event-color-bg: var(--goa-color-info-default);
   --goa-notification-banner-emergency-color-icon: var(--goa-color-greyscale-white);
   --goa-notification-banner-emergency-color-bg: var(--goa-color-emergency-default);
+  --goa-modal-callout-emergency-close-bg-hover: var(--goa-color-emergency-border);
+  --goa-modal-callout-important-close-bg-hover: var(--goa-color-important-border);
+  --goa-modal-callout-success-close-bg-hover: var(--goa-color-success-border);
+  --goa-modal-callout-information-close-bg-hover: var(--goa-color-info-border);
   --goa-modal-callout-event-icon: var(--goa-color-info-default);
   --goa-modal-callout-event-border: var(--goa-color-info-border);
   --goa-modal-callout-event-bg: var(--goa-color-info-light);
@@ -829,7 +835,7 @@
   --goa-drawer-padding: var(--goa-space-m);
   --goa-drawer-actions-padding-bottom: var(--goa-space-l);
   --goa-drawer-actions-padding-top: var(--goa-space-m);
-  --goa-drawer-content-padding-vertical: var(--goa-space-m);
+  --goa-drawer-content-padding-vertical: var(--goa-space-l);
   --goa-drawer-content-padding-horizontal: var(--goa-space-l);
   --goa-drawer-offset: var(--goa-space-m);
   --goa-drawer-border-radius: var(--goa-border-radius-3xl);
@@ -881,7 +887,6 @@
   --goa-container-heading-padding: var(--goa-space-s);
   --goa-container-padding-compact: var(--goa-space-m);
   --goa-container-padding: var(--goa-space-xl);
-  --goa-container-shadow: var(--goa-shadow-200);
   --goa-container-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-container-border-radius: var(--goa-border-radius-xl);
   --goa-checkbox-size: var(--goa-space-l);
@@ -1054,12 +1059,12 @@
   --goa-accordion-color-bg-heading-hover: var(--goa-color-greyscale-50);
   --goa-accordion-padding-content-narrow: var(--goa-space-l);
   --goa-accordion-padding-content-wide: var(--goa-space-l) var(--goa-space-l) var(--goa-space-xl) 56px;
-  --goa-accordion-padding-heading-m-icon-right: var(--goa-space-s) 0 var(--goa-space-s) var(--goa-space-m);
-  --goa-accordion-padding-heading-m-icon-left: var(--goa-space-s) var(--goa-space-m) var(--goa-space-s) 0;
-  --goa-accordion-padding-heading-icon-right: var(--goa-space-xs) 0 var(--goa-space-xs) var(--goa-space-m);
-  --goa-accordion-padding-heading-icon-left: var(--goa-space-xs) var(--goa-space-m) var(--goa-space-xs) 0;
-  --goa-accordion-border-radius-focus: var(--goa-border-radius-xl) var(--goa-border-radius-xl) var(--goa-border-radius-xs) var(--goa-border-radius-xs);
-  --goa-accordion-border-radius: var(--goa-border-radius-xl);
+  --goa-accordion-padding-heading-m-icon-right: calc(var(--goa-space-s) - var(--goa-border-width-s)) 0 calc(var(--goa-space-s) - var(--goa-border-width-s)) var(--goa-space-m);
+  --goa-accordion-padding-heading-m-icon-left: calc(var(--goa-space-s) - var(--goa-border-width-s)) var(--goa-space-m) calc(var(--goa-space-s) - var(--goa-border-width-s)) 0;
+  --goa-accordion-padding-heading-icon-right: calc(var(--goa-space-xs) - var(--goa-border-width-s)) 0 calc(var(--goa-space-xs) - var(--goa-border-width-s)) var(--goa-space-m);
+  --goa-accordion-padding-heading-icon-left: calc(var(--goa-space-xs) - var(--goa-border-width-s)) var(--goa-space-m) calc(var(--goa-space-xs) - var(--goa-border-width-s)) 0;
+  --goa-accordion-border-radius-focus: var(--goa-border-radius-2xl) var(--goa-border-radius-2xl) var(--goa-border-radius-xs) var(--goa-border-radius-xs);
+  --goa-accordion-border-radius: var(--goa-border-radius-2xl);
   --goa-accordion-divider-hover: var(--goa-border-width-s) solid var(--goa-color-greyscale-black);
   --goa-accordion-divider: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
@@ -1183,7 +1188,7 @@
   --goa-dropdown-item-color-text-selected-hover: var(--goa-color-text-light);
   --goa-dropdown-item-color-text-hover: var(--goa-color-text-default);
   --goa-dropdown-item-color-text-disabled: var(--goa-color-text-disabled);
-  --goa-dropdown-item-color-text: var(--goa-color-text-default);
+  --goa-dropdown-item-color-text: var(--goa-color-text-secondary);
   --goa-dropdown-item-color-bg-disabled: var(--goa-input-color-background-disabled);
   --goa-dropdown-item-color-bg: var(--goa-input-color-background-default);
   --goa-dropdown-color-text-error: var(--goa-input-color-text-error);
