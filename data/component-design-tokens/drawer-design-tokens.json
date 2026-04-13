@@ -20,7 +20,7 @@
     "description": "Horizontal padding for content section"
   },
   "drawer-content-padding-vertical": {
-    "value": "{space.m}",
+    "value": "{space.l}",
     "type": "spacing",
     "description": "Vertical padding for content section"
   },
