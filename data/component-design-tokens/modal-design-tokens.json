@@ -234,5 +234,25 @@
     "value": "{color.info.default}",
     "type": "color",
     "description": "Event callout icon color"
+  },
+  "modal-callout-information-close-bg-hover": {
+    "value": "{color.info.border}",
+    "type": "color",
+    "description": "Information callout close button hover background"
+  },
+  "modal-callout-success-close-bg-hover": {
+    "value": "{color.success.border}",
+    "type": "color",
+    "description": "Success callout close button hover background"
+  },
+  "modal-callout-important-close-bg-hover": {
+    "value": "{color.important.border}",
+    "type": "color",
+    "description": "Important callout close button hover background"
+  },
+  "modal-callout-emergency-close-bg-hover": {
+    "value": "{color.emergency.border}",
+    "type": "color",
+    "description": "Emergency callout close button hover background"
   }
 }
