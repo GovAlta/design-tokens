@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 Apr 2026 19:30:52 GMT
+ * Generated on Mon, 13 Apr 2026 14:47:40 GMT
  */
 
 :root {
@@ -222,6 +222,7 @@
   --goa-work-side-menu-color-bg: transparent;
   --goa-work-side-menu-width-closed: 4.5rem;
   --goa-work-side-menu-width-open: 17.5rem;
+  --goa-work-side-menu-height: 100vh;
   --goa-tooltip-max-width: 400px;
   --goa-temporary-notification-animation-distance: 100px;
   --goa-temporary-notification-transition-duration: 0.3s;
