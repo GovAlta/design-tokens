@@ -64,7 +64,7 @@
     "type": "spacing"
   },
   "notification-banner-padding-tb": {
-    "value": "{space.l}",
+    "value": "1.4375rem",
     "type": "spacing"
   },
   "notification-banner-size-icon": {
@@ -92,7 +92,7 @@
     "type": "spacing"
   },
   "notification-banner-padding-tb-compact": {
-    "value": "{space.m}",
+    "value": "0.9375rem",
     "type": "spacing"
   },
   "notification-banner-padding-lr-small-screen-compact": {
@@ -224,11 +224,11 @@
     "type": "color"
   },
   "notification-banner-important-high-close-bg-hover": {
-    "value": "{color.important.border}",
+    "value": "{color.important.default}",
     "type": "color"
   },
   "notification-banner-important-low-close-bg-hover": {
-    "value": "{color.important.default}",
+    "value": "{color.important.border}",
     "type": "color"
   },
   "notification-banner-emergency-high-close-bg-hover": {
