@@ -12,7 +12,7 @@
     "type": "border"
   },
   "container-shadow": {
-    "value": "{shadow.200}",
+    "value": "none",
     "type": "other"
   },
   "container-padding": {
