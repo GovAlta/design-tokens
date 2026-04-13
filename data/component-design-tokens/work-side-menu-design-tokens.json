@@ -1,4 +1,8 @@
 {
+  "work-side-menu-height": {
+    "value": "100vh",
+    "type": "spacing"
+  },
   "work-side-menu-width-open": {
     "value": "17.5rem",
     "type": "spacing"
