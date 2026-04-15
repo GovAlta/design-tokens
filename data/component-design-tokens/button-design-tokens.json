@@ -309,7 +309,7 @@
     "type": "color"
   },
   "button-tertiary-color-bg-mobile": {
-    "value": "{color.greyscale.100}",
+    "value": "transparent",
     "type": "color"
   },
   "button-tertiary-color-text": {
