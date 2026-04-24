@@ -27,6 +27,10 @@
     "value": "{shadow.500}",
     "type": "other"
   },
+  "work-side-menu-account-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
   "work-side-menu-text-color": {
     "value": "{color.greyscale.600}",
     "type": "color"
