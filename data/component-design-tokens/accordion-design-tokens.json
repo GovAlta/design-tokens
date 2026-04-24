@@ -3,6 +3,10 @@
     "value": "{color.greyscale.white}",
     "type": "color"
   },
+  "accordion-color-filled-bg-heading": {
+    "value": "{color.greyscale.100}",
+    "type": "color"
+  },
   "accordion-color-bg-content": {
     "value": "{color.greyscale.white}",
     "type": "color"
@@ -74,6 +78,10 @@
   },
   "accordion-color-bg-heading-hover": {
     "value": "{color.greyscale.50}",
+    "type": "color"
+  },
+  "accordion-color-filled-bg-heading-hover": {
+    "value": "{color.greyscale.150}",
     "type": "color"
   },
   "accordion-color-heading-hover": {
