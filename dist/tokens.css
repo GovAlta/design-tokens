@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Apr 2026 15:24:12 GMT
+ * Generated on Thu, 23 Apr 2026 22:36:01 GMT
  */
 
 :root {
@@ -1056,6 +1056,7 @@
   --goa-accordion-heading: var(--goa-font-weight-medium) var(--goa-font-size-4)/var(--goa-line-height-4) var(--goa-font-family-sans);
   --goa-accordion-border-hover: var(--goa-border-width-s) solid var(--goa-color-greyscale-black);
   --goa-accordion-border-focus: 3px solid var(--goa-color-interactive-focus);
+  --goa-accordion-color-filled-bg-heading-hover: var(--goa-color-greyscale-150);
   --goa-accordion-color-bg-heading-hover: var(--goa-color-greyscale-50);
   --goa-accordion-padding-content-narrow: var(--goa-space-l);
   --goa-accordion-padding-content-wide: var(--goa-space-l) var(--goa-space-l) var(--goa-space-xl) 56px;
@@ -1069,6 +1070,7 @@
   --goa-accordion-divider: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-color-bg-content: var(--goa-color-greyscale-white);
+  --goa-accordion-color-filled-bg-heading: var(--goa-color-greyscale-100);
   --goa-accordion-color-bg-heading: var(--goa-color-greyscale-white);
   --goa-input-color-text-default: var(--goa-color-text-default);
   --goa-work-side-menu-item-text-size: var(--goa-typography-body-s);
