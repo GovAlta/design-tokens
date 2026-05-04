@@ -12,9 +12,10 @@ describe("GoA Design Tokens", () => {
     SC.generate("./tmp");
 
     const cssfiles = fs.readdirSync("./tmp/dist");
-    expect(cssfiles.length).toBe(2);
-    expect(cssfiles[0]).toBe(`tokens.css`);
-    expect(cssfiles[1]).toBe(`tokens.scss`);
+    expect(cssfiles.length).toBe(3);
+    expect(cssfiles[0]).toBe(`dark-theme.css`);
+    expect(cssfiles[1]).toBe(`tokens.css`);
+    expect(cssfiles[2]).toBe(`tokens.scss`);
   });
 
   it("should create valid css output", async () => {

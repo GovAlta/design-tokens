@@ -109,6 +109,7 @@
   },
   "text-input-color-icon": {
     "value": "{color.greyscale.600}",
+    "dark": "#aaaaaa",
     "type": "color"
   }
 }

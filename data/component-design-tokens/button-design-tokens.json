@@ -90,6 +90,7 @@
   },
   "button-primary-hover-color-bg": {
     "value": "{color.interactive.hover}",
+    "dark": "#4a7a9a",
     "type": "color"
   },
   "button-primary-hover-color-text": {
@@ -126,6 +127,7 @@
   },
   "button-primary-destructive-hover-color-bg": {
     "value": "{color.emergency.dark}",
+    "dark": "#a06060",
     "type": "color"
   },
   "button-primary-destructive-hover-color-text": {
@@ -170,6 +172,7 @@
   },
   "button-secondary-color-text": {
     "value": "{color.interactive.hover}",
+    "dark": "#85b5d8",
     "type": "color"
   },
   "button-secondary-border": {
@@ -182,10 +185,12 @@
   },
   "button-secondary-hover-color-bg": {
     "value": "{color.interactive.secondary-hover}",
+    "dark": "#293d50",
     "type": "color"
   },
   "button-secondary-hover-color-text": {
     "value": "{color.interactive.hover}",
+    "dark": "#85b5d8",
     "type": "color"
   },
   "button-secondary-hover-border": {
@@ -202,6 +207,7 @@
   },
   "button-secondary-focus-color-text": {
     "value": "{color.interactive.hover}",
+    "dark": "#85b5d8",
     "type": "color"
   },
   "button-secondary-focus-border": {
@@ -254,6 +260,7 @@
   },
   "button-secondary-disabled-color-text": {
     "value": "{color.greyscale.400}",
+    "dark": "#888888",
     "type": "color"
   },
   "button-secondary-inverse-color-text": {
@@ -306,6 +313,7 @@
   },
   "button-tertiary-color-bg": {
     "value": "transparent",
+    "dark": "var(--goa-color-surface-100)",
     "type": "color"
   },
   "button-tertiary-color-bg-mobile": {
@@ -326,6 +334,7 @@
   },
   "button-tertiary-hover-color-bg": {
     "value": "transparent",
+    "dark": "var(--goa-color-surface-250)",
     "type": "color"
   },
   "button-tertiary-hover-color-text": {
@@ -342,9 +351,16 @@
   },
   "button-tertiary-hover-border": {
     "value": {
-      "color": "{color.greyscale.black}",
-      "width": "{borderWidth.s}",
-      "style": "solid"
+      "light": {
+        "color": "{color.greyscale.black}",
+        "width": "{borderWidth.s}",
+        "style": "solid"
+      },
+      "dark": {
+        "color": "#666666",
+        "width": "1px",
+        "style": "solid"
+      }
     },
     "type": "border"
   },
@@ -386,6 +402,7 @@
   },
   "button-tertiary-disabled-color-text": {
     "value": "{color.interactive.disabled}",
+    "dark": "#888888",
     "type": "color"
   },
     "button-tertiary-inverse-border": {

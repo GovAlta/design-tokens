@@ -19,20 +19,29 @@
     "value": "{color.greyscale.100}",
     "type": "color"
   },
+  "footer-color-text": {
+    "value": "{color.text.default}",
+    "dark": "#909090",
+    "type": "color"
+  },
   "footer-color-links": {
     "value": "{color.greyscale.black}",
+    "dark": "#909090",
     "type": "color"
   },
   "footer-color-links-hover": {
     "value": "{color.greyscale.700}",
+    "dark": "#aaaaaa",
     "type": "color"
   },
   "footer-color-links-secondary": {
     "value": "{color.text.secondary}",
+    "dark": "#808080",
     "type": "color"
   },
   "footer-color-links-secondary-hover": {
     "value": "{color.greyscale.800}",
+    "dark": "#999999",
     "type": "color"
   },
   "footer-link-focus": {

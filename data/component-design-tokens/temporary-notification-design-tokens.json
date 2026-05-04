@@ -1,6 +1,7 @@
 {
   "temporary-notification-color-bg-basic": {
     "value": "#333333",
+    "dark": "var(--goa-color-surface-heading)",
     "type": "color",
     "description": "Background color for basic, indeterminate, and progress notifications"
   },

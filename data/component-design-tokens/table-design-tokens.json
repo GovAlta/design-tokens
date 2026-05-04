@@ -11,6 +11,7 @@
   },
   "table-color-bg-heading-hover": {
     "value": "{color.greyscale.100}",
+    "dark": "var(--goa-color-surface-heading-hover)",
     "type": "color",
     "description": "Header background color on hover"
   },
@@ -21,11 +22,13 @@
   },
   "table-color-bg-heading": {
     "value": "{color.greyscale.50}",
+    "dark": "var(--goa-color-surface-heading)",
     "type": "color",
     "description": "Header cell background color"
   },
   "table-color-bg-data": {
     "value": "{color.greyscale.white}",
+    "dark": "var(--goa-color-surface-table-data)",
     "type": "color",
     "description": "Data cell background color"
   },

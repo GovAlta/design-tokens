@@ -85,6 +85,7 @@
   },
   "checkbox-color-label": {
     "value": "{input.color.text.secondary}",
+    "dark": "var(--goa-color-text-default)",
     "type": "color"
   },
   "checkbox-color-label-disabled": {

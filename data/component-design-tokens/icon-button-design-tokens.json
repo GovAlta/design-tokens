@@ -41,6 +41,7 @@
   },
   "icon-button-default-hover-color-bg": {
     "value": "{color.greyscale.100}",
+    "dark": "#3a3a3a",
     "type": "color"
   },
   "icon-button-default-disabled-color": {
@@ -65,6 +66,7 @@
   },
   "icon-button-dark-hover-color-bg": {
     "value": "{color.greyscale.100}",
+    "dark": "#3a3a3a",
     "type": "color"
   },
   "icon-button-dark-disabled-color": {
