@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Apr 2026 04:24:43 GMT
+ * Generated on Thu, 30 Apr 2026 19:23:54 GMT
  */
 
 :root {
@@ -312,6 +312,11 @@
   --goa-callout-l-with-heading-body-padding: 0 1.25rem 1.25rem;
   --goa-callout-body-padding: 1.25rem;
   --goa-button-tertiary-text-decoration: none;
+  --goa-button-text-compact-disabled-text-decoration: underline;
+  --goa-button-text-compact-letter-spacing: 0.0125rem;
+  --goa-button-text-letter-spacing: 0.0125rem;
+  --goa-button-text-disabled-text-decoration: underline;
+  --goa-button-text-text-decoration: underline;
   --goa-button-letter-spacing: 0.0125rem;
   --goa-button-tertiary-focus-color-bg: transparent;
   --goa-button-tertiary-hover-color-bg: transparent;
@@ -947,6 +952,21 @@
   --goa-callout-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);
   --goa-button-group-compact-gap: var(--goa-space-s);
   --goa-button-group-gap: var(--goa-space-m);
+  --goa-button-text-dark-focus-color-text: var(--goa-color-greyscale-black);
+  --goa-button-text-dark-hover-color-text: var(--goa-color-interactive-hover);
+  --goa-button-text-dark-color-text: var(--goa-color-greyscale-black);
+  --goa-button-text-inverse-hover-color-text: var(--goa-color-greyscale-200);
+  --goa-button-text-destructive-focus-color-text: var(--goa-color-emergency-default);
+  --goa-button-text-destructive-hover-color-text: var(--goa-color-emergency-dark);
+  --goa-button-text-destructive-color-text: var(--goa-color-emergency-default);
+  --goa-button-text-compact-font: var(--goa-font-weight-medium) var(--goa-font-size-4)/var(--goa-line-height-05) var(--goa-font-family-sans);
+  --goa-button-text-font: var(--goa-font-weight-medium) var(--goa-font-size-5)/var(--goa-line-height-1) var(--goa-font-family-sans);
+  --goa-button-text-focus-color-text: var(--goa-color-interactive-default);
+  --goa-button-text-hover-color-text: var(--goa-color-interactive-hover);
+  --goa-button-text-color-text: var(--goa-color-interactive-default);
+  --goa-button-text-compact-padding: 0 var(--goa-space-2xs);
+  --goa-button-text-padding: 0 var(--goa-space-2xs);
+  --goa-button-text-border-radius: var(--goa-border-radius-s);
   --goa-button-tertiary-inverse-hover-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-button-tertiary-inverse-hover-color-text: var(--goa-color-greyscale-200);
   --goa-button-tertiary-inverse-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-white);
@@ -1057,6 +1077,7 @@
   --goa-accordion-heading: var(--goa-font-weight-medium) var(--goa-font-size-4)/var(--goa-line-height-4) var(--goa-font-family-sans);
   --goa-accordion-border-hover: var(--goa-border-width-s) solid var(--goa-color-greyscale-black);
   --goa-accordion-border-focus: 3px solid var(--goa-color-interactive-focus);
+  --goa-accordion-color-filled-bg-heading-hover: var(--goa-color-greyscale-150);
   --goa-accordion-color-bg-heading-hover: var(--goa-color-greyscale-50);
   --goa-accordion-padding-content-narrow: var(--goa-space-l);
   --goa-accordion-padding-content-wide: var(--goa-space-l) var(--goa-space-l) var(--goa-space-xl) 56px;
@@ -1070,6 +1091,7 @@
   --goa-accordion-divider: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-color-bg-content: var(--goa-color-greyscale-white);
+  --goa-accordion-color-filled-bg-heading: var(--goa-color-greyscale-100);
   --goa-accordion-color-bg-heading: var(--goa-color-greyscale-white);
   --goa-input-color-text-default: var(--goa-color-text-default);
   --goa-work-side-menu-item-text-size: var(--goa-typography-body-s);
@@ -1240,6 +1262,10 @@
   --goa-callout-body-color: var(--goa-color-text-secondary);
   --goa-callout-body-typography: var(--goa-typography-body-s);
   --goa-callout-heading-color: var(--goa-color-text-default);
+  --goa-button-text-inverse-focus-color-text: var(--goa-color-text-light);
+  --goa-button-text-inverse-color-text: var(--goa-color-text-light);
+  --goa-button-text-compact-disabled-color-text: var(--goa-color-interactive-disabled);
+  --goa-button-text-disabled-color-text: var(--goa-color-interactive-disabled);
   --goa-button-tertiary-inverse-focus-color-text: var(--goa-color-text-light);
   --goa-button-tertiary-inverse-color-text: var(--goa-color-text-light);
   --goa-button-tertiary-disabled-color-text: var(--goa-color-interactive-disabled);

@@ -421,6 +421,104 @@
     "type": "letterSpacing",
     "description": "subtle letter spacing in the button for better readability"
   },
+  "button-text-border-radius": {
+    "value": "{borderRadius.s}",
+    "type": "borderRadius"
+  },
+  "button-text-padding": {
+    "value": "0 {space.2xs}",
+    "type": "spacing"
+  },
+  "button-text-compact-padding": {
+    "value": "0 {space.2xs}",
+    "type": "spacing"
+  },
+  "button-text-color-text": {
+    "value": "{color.interactive.default}",
+    "type": "color"
+  },
+  "button-text-hover-color-text": {
+    "value": "{color.interactive.hover}",
+    "type": "color"
+  },
+  "button-text-focus-color-text": {
+    "value": "{color.interactive.default}",
+    "type": "color"
+  },
+  "button-text-disabled-color-text": {
+    "value": "{color.interactive.disabled}",
+    "type": "color"
+  },
+  "button-text-text-decoration": {
+    "value": "underline",
+    "type": "textDecoration"
+  },
+  "button-text-disabled-text-decoration": {
+    "value": "underline",
+    "type": "textDecoration"
+  },
+  "button-text-font": {
+    "value": "{fontWeight.medium} {fontSize.5}/{lineHeight.1} {fontFamily.sans}",
+    "type": "other"
+  },
+  "button-text-letter-spacing": {
+    "value": "0.0125rem",
+    "type": "letterSpacing",
+    "description": "subtle letter spacing in the text button for better readability"
+  },
+  "button-text-compact-font": {
+    "value": "{fontWeight.medium} {fontSize.4}/{lineHeight.05} {fontFamily.sans}",
+    "type": "other"
+  },
+  "button-text-compact-letter-spacing": {
+    "value": "0.0125rem",
+    "type": "letterSpacing",
+    "description": "subtle letter spacing in the compact text button for better readability"
+  },
+  "button-text-compact-disabled-color-text": {
+    "value": "{color.interactive.disabled}",
+    "type": "color"
+  },
+  "button-text-compact-disabled-text-decoration": {
+    "value": "underline",
+    "type": "textDecoration"
+  },
+  "button-text-destructive-color-text": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "button-text-destructive-hover-color-text": {
+    "value": "{color.emergency.dark}",
+    "type": "color"
+  },
+  "button-text-destructive-focus-color-text": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "button-text-inverse-color-text": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "button-text-inverse-hover-color-text": {
+    "value": "{color.greyscale.200}",
+    "type": "color"
+  },
+  "button-text-inverse-focus-color-text": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "button-text-dark-color-text": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
+  "button-text-dark-hover-color-text": {
+    "value": "{color.interactive.hover}",
+    "type": "color"
+  },
+  "button-text-dark-focus-color-text": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
   "button-tertiary-text-decoration": {
     "value": "none",
     "type": "textDecoration",
