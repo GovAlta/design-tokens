@@ -47,10 +47,12 @@
   },
   "container-interactive-bg-color": {
     "value": "{color.greyscale.white}",
+    "dark": "var(--goa-color-surface-widget)",
     "type": "color"
   },
   "container-interactive-heading-bg-color": {
     "value": "{color.brand.default}",
+    "dark": "var(--goa-color-surface-container-heading)",
     "type": "color"
   },
   "container-interactive-heading-text-color": {
@@ -67,10 +69,12 @@
   },
   "container-non-interactive-bg-color": {
     "value": "{color.greyscale.50}",
+    "dark": "var(--goa-color-surface-widget)",
     "type": "color"
   },
   "container-non-interactive-heading-bg-color": {
     "value": "{color.greyscale.100}",
+    "dark": "var(--goa-color-surface-container-heading)",
     "type": "color"
   },
   "container-non-interactive-heading-text-color": {

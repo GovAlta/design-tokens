@@ -15,6 +15,7 @@
   },
   "popover-color-bg": {
     "value": "{color.greyscale.white}",
+    "dark": "var(--goa-color-surface-popover)",
     "type": "color",
     "description": "Background color for popover container"
   },

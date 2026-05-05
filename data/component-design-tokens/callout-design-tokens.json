@@ -109,6 +109,7 @@
   },
   "callout-h-info-heading-bg-color": {
     "value": "{color.info.default}",
+    "dark": "#386590",
     "type": "color"
   },
   "callout-important-heading-bg-color": {
@@ -117,6 +118,7 @@
   },
   "callout-h-important-heading-bg-color": {
     "value": "{color.warning.default}",
+    "dark": "#5e4e20",
     "type": "color"
   },
   "callout-success-heading-bg-color": {
@@ -125,6 +127,7 @@
   },
   "callout-h-success-heading-bg-color": {
     "value": "{color.success.default}",
+    "dark": "#386030",
     "type": "color"
   },
   "callout-emergency-heading-bg-color": {
@@ -133,54 +136,67 @@
   },
   "callout-h-emergency-heading-bg-color": {
     "value": "{color.emergency.default}",
+    "dark": "#6e4242",
     "type": "color"
   },
   "callout-info-content-bg-color": {
     "value": "{color.greyscale.white}",
+    "dark": "#1e2830",
     "type": "color"
   },
   "callout-h-info-content-bg-color": {
     "value": "{color.info.background}",
+    "dark": "#1e2830",
     "type": "color"
   },
   "callout-l-info-content-bg-color": {
     "value": "{color.info.background}",
+    "dark": "#1e2830",
     "type": "color"
   },
   "callout-important-content-bg-color": {
     "value": "{color.greyscale.white}",
+    "dark": "#28251e",
     "type": "color"
   },
   "callout-h-important-content-bg-color": {
     "value": "{color.warning.background}",
+    "dark": "#28251e",
     "type": "color"
   },
   "callout-l-important-content-bg-color": {
     "value": "{color.warning.background}",
+    "dark": "#28251e",
     "type": "color"
   },
   "callout-success-content-bg-color": {
     "value": "{color.greyscale.white}",
+    "dark": "#1e2820",
     "type": "color"
   },
   "callout-h-success-content-bg-color": {
     "value": "{color.success.background}",
+    "dark": "#1e2820",
     "type": "color"
   },
   "callout-l-success-content-bg-color": {
     "value": "{color.success.background}",
+    "dark": "#1e2820",
     "type": "color"
   },
   "callout-emergency-content-bg-color": {
     "value": "{color.greyscale.white}",
+    "dark": "#2a1c1c",
     "type": "color"
   },
   "callout-h-emergency-content-bg-color": {
     "value": "{color.emergency.background}",
+    "dark": "#352020",
     "type": "color"
   },
   "callout-l-emergency-content-bg-color": {
     "value": "{color.emergency.background}",
+    "dark": "#352020",
     "type": "color"
   },
   "callout-info-icon-color": {

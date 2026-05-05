@@ -225,18 +225,22 @@
   },
   "notification-banner-important-high-close-bg-hover": {
     "value": "{color.important.default}",
+    "dark": "#a88520",
     "type": "color"
   },
   "notification-banner-important-low-close-bg-hover": {
     "value": "{color.important.border}",
+    "dark": "#a88520",
     "type": "color"
   },
   "notification-banner-emergency-high-close-bg-hover": {
     "value": "{color.emergency.dark}",
+    "dark": "#b06060",
     "type": "color"
   },
   "notification-banner-emergency-low-close-bg-hover": {
     "value": "{color.emergency.border}",
+    "dark": "#b06060",
     "type": "color"
   }
 }

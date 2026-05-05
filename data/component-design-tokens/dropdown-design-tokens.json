@@ -29,6 +29,7 @@
   },
   "dropdown-color-bg": {
     "value": "{input.color.background.default}",
+    "dark": "var(--goa-color-surface-input)",
     "type": "color"
   },
   "dropdown-color-bg-disabled": {

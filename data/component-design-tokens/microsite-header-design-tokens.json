@@ -5,6 +5,7 @@
   },
   "microsite-header-alpha-badge-color-text": {
     "value": "{color.text.default}",
+    "dark": "#4d3700",
     "type": "color"
   },
   "microsite-header-beta-badge-color": {
@@ -13,6 +14,7 @@
   },
   "microsite-header-beta-badge-color-text": {
     "value": "{color.text.light}",
+    "dark": "#00527c",
     "type": "color"
   },
   "microsite-header-color-bg": {

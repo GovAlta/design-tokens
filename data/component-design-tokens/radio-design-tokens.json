@@ -57,9 +57,16 @@
   },
   "radio-border-disabled": {
     "value": {
-      "width": "{borderWidth.s}",
-      "style": "solid",
-      "color": "#b1b1b1"
+      "light": {
+        "width": "{borderWidth.s}",
+        "style": "solid",
+        "color": "#b1b1b1"
+      },
+      "dark": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#555555"
+      }
     },
     "type": "border"
   },
@@ -109,6 +116,7 @@
   },
   "radio-color-bg": {
     "value": "{color.greyscale.white}",
+    "dark": "var(--goa-color-surface-input)",
     "type": "color"
   },
   "radio-color-bg-disabled": {
@@ -120,7 +128,7 @@
     "type": "color"
   },
   "radio-color-bg-error-hover": {
-    "value": "#f4c8c5",
+    "value": { "light": "#f4c8c5", "dark": "#3a1818" },
     "type": "color"
   },
   "radio-description": {
@@ -185,7 +193,7 @@
     "type": "typography"
   },
   "radio-label-color-disabled": {
-    "value": "#bab7b7",
+    "value": { "light": "#bab7b7", "dark": "#6a6a6a" },
     "type": "color"
   },
   "radio-label-compact": {

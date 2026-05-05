@@ -116,6 +116,7 @@
   },
   "badge-important-subtle-color-content": {
     "value": "{color.warning.textDark}",
+    "dark": "var(--goa-color-important-text)",
     "type": "color"
   },
   "badge-important-subtle-border": {
@@ -152,6 +153,7 @@
   },
   "badge-default-subtle-color-bg": {
     "value": "{color.greyscale.100}",
+    "dark": "var(--goa-color-surface-heading)",
     "type": "color"
   },
   "badge-default-subtle-color-content": {
@@ -160,6 +162,7 @@
   },
   "badge-default-subtle-border": {
     "value": "inset 0 0 0 {borderWidth.s} {color.greyscale.200}",
+    "dark": "inset 0 0 0 1px #4a4a4a",
     "type": "dropShadow"
   },
   "badge-archived-color-bg": {

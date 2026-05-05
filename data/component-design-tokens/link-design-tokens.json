@@ -98,6 +98,7 @@
   },
   "link-color-light-visited": {
     "value": "#9D8EBB",
+    "dark": "#9b8ec9",
     "type": "color"
   },
   "link-border-radius-focus": {

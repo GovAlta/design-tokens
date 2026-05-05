@@ -1,6 +1,7 @@
 {
   "accordion-color-bg-heading": {
     "value": "{color.greyscale.white}",
+    "dark": "var(--goa-color-surface-heading)",
     "type": "color"
   },
   "accordion-color-filled-bg-heading": {
@@ -9,6 +10,7 @@
   },
   "accordion-color-bg-content": {
     "value": "{color.greyscale.white}",
+    "dark": "var(--goa-color-surface-table-data)",
     "type": "color"
   },
   "accordion-color-heading": {
@@ -33,9 +35,16 @@
   },
   "accordion-divider-hover": {
     "value": {
-      "color": "{color.greyscale.black}",
-      "width": "{borderWidth.s}",
-      "style": "solid"
+      "light": {
+        "color": "{color.greyscale.black}",
+        "width": "{borderWidth.s}",
+        "style": "solid"
+      },
+      "dark": {
+        "color": "#555555",
+        "width": "1px",
+        "style": "solid"
+      }
     },
     "type": "border"
   },
@@ -78,6 +87,7 @@
   },
   "accordion-color-bg-heading-hover": {
     "value": "{color.greyscale.50}",
+    "dark": "var(--goa-color-surface-heading-hover)",
     "type": "color"
   },
   "accordion-color-filled-bg-heading-hover": {
@@ -98,9 +108,16 @@
   },
   "accordion-border-hover": {
     "value": {
-      "color": "{color.greyscale.black}",
-      "width": "{borderWidth.s}",
-      "style": "solid"
+      "light": {
+        "color": "{color.greyscale.black}",
+        "width": "{borderWidth.s}",
+        "style": "solid"
+      },
+      "dark": {
+        "color": "#555555",
+        "width": "1px",
+        "style": "solid"
+      }
     },
     "type": "border"
   },
@@ -128,12 +145,22 @@
   },
   "accordion-shadow": {
     "value": {
-      "x": "0",
-      "y": "0",
-      "blur": "0",
-      "spread": "0",
-      "color": "#000000",
-      "type": "dropShadow"
+      "light": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
+      "dark": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "transparent",
+        "type": "dropShadow"
+      }
     },
     "type": "boxShadow"
   },

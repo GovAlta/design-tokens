@@ -53,10 +53,12 @@
   },
   "file-upload-color-bg-focus": {
     "value": "{color.greyscale.100}",
+    "dark": "#252d35",
     "type": "color"
   },
   "file-upload-color-bg-hover": {
     "value": "{color.greyscale.100}",
+    "dark": "#252d35",
     "type": "color"
   },
   "file-upload-help-text": {
