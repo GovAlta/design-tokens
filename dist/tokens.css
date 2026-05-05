@@ -423,6 +423,7 @@
   --goa-work-side-menu-transition-duration-medium: var(--goa-motion-duration-medium-2);
   --goa-work-side-menu-mobile-bg: var(--goa-color-greyscale-50);
   --goa-work-side-menu-text-color: var(--goa-color-greyscale-600);
+  --goa-work-side-menu-account-bg: var(--goa-color-greyscale-white);
   --goa-work-side-menu-account-shadow: var(--goa-shadow-500);
   --goa-work-side-menu-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-work-side-menu-border-radius: var(--goa-border-radius-m);
