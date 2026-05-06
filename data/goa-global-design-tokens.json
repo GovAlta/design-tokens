@@ -414,108 +414,132 @@
     "extended": {
       "sky": {
         "default": {
-          "value": "#90ebe7",
+          "value": { "light": "#90ebe7", "dark": "#5cbfba" },
           "type": "color"
         },
         "light": {
-          "value": "#e2f9f8",
+          "value": { "light": "#e2f9f8", "dark": "#1c3a39" },
           "type": "color"
         },
         "border": {
-          "value": "#bff0ee",
+          "value": { "light": "#bff0ee", "dark": "#2c5b59" },
           "type": "color"
         },
         "text": {
+          "value": { "light": "#093937", "dark": "#bff0ee" },
+          "type": "color"
+        },
+        "text-dark": {
           "value": "#093937",
           "type": "color"
         }
       },
       "pasture": {
         "default": {
-          "value": "#afe274",
+          "value": { "light": "#afe274", "dark": "#7fb050" },
           "type": "color"
         },
         "light": {
-          "value": "#f0f59b",
+          "value": { "light": "#f0f59b", "dark": "#2d3520" },
           "type": "color"
         },
         "border": {
-          "value": "#dee563",
+          "value": { "light": "#dee563", "dark": "#5a6230" },
           "type": "color"
         },
         "text": {
+          "value": { "light": "#174c38", "dark": "#a9d9a3" },
+          "type": "color"
+        },
+        "text-dark": {
           "value": "#174c38",
           "type": "color"
         }
       },
       "sunset": {
         "default": {
-          "value": "#f7ac71",
+          "value": { "light": "#f7ac71", "dark": "#d18a4d" },
           "type": "color"
         },
         "light": {
-          "value": "#fcefd5",
+          "value": { "light": "#fcefd5", "dark": "#3a2c1a" },
           "type": "color"
         },
         "border": {
-          "value": "#f5ddad",
+          "value": { "light": "#f5ddad", "dark": "#6e4a25" },
           "type": "color"
         },
         "text": {
+          "value": { "light": "#7a141a", "dark": "#f5c8a0" },
+          "type": "color"
+        },
+        "text-dark": {
           "value": "#7a141a",
           "type": "color"
         }
       },
       "dawn": {
         "default": {
-          "value": "#ff9ac1",
+          "value": { "light": "#ff9ac1", "dark": "#d97394" },
           "type": "color"
         },
         "light": {
-          "value": "#f4cde4",
+          "value": { "light": "#f4cde4", "dark": "#3a1f2c" },
           "type": "color"
         },
         "border": {
-          "value": "#e9b8d5",
+          "value": { "light": "#e9b8d5", "dark": "#5e3340" },
           "type": "color"
         },
         "text": {
+          "value": { "light": "#310c46", "dark": "#e9b8d5" },
+          "type": "color"
+        },
+        "text-dark": {
           "value": "#310c46",
           "type": "color"
         }
       },
       "lilac": {
         "default": {
-          "value": "#d4c2ff",
+          "value": { "light": "#d4c2ff", "dark": "#9c8bcc" },
           "type": "color"
         },
         "light": {
-          "value": "#efe2fb",
+          "value": { "light": "#efe2fb", "dark": "#2a223d" },
           "type": "color"
         },
         "border": {
-          "value": "#e2d2fd",
+          "value": { "light": "#e2d2fd", "dark": "#4a3d65" },
           "type": "color"
         },
         "text": {
+          "value": { "light": "#151d83", "dark": "#c4b8e8" },
+          "type": "color"
+        },
+        "text-dark": {
           "value": "#151d83",
           "type": "color"
         }
       },
       "prairie": {
         "default": {
-          "value": "#ffda77",
+          "value": { "light": "#ffda77", "dark": "#d4ad4a" },
           "type": "color"
         },
         "light": {
-          "value": "#fff2c8",
+          "value": { "light": "#fff2c8", "dark": "#3a2f1a" },
           "type": "color"
         },
         "border": {
-          "value": "#ecd386",
+          "value": { "light": "#ecd386", "dark": "#5e4825" },
           "type": "color"
         },
         "text": {
+          "value": { "light": "#47372a", "dark": "#e8d8a0" },
+          "type": "color"
+        },
+        "text-dark": {
           "value": "#47372a",
           "type": "color"
         }
