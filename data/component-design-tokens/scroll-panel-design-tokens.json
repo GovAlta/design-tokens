@@ -1,0 +1,14 @@
+{
+  "scroll-panel-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "scroll-panel-header-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "scroll-panel-footer-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  }
+}
