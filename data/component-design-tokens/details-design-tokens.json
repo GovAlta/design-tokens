@@ -46,7 +46,7 @@
   },
   "details-focus-border": {
     "value": {
-      "width": "{borderWidth.xl}",
+      "width": "{borderWidth.l}",
       "style": "solid",
       "color": "{color.interactive.focus}"
     },
