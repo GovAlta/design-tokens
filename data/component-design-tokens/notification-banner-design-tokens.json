@@ -192,27 +192,27 @@
     "type": "color"
   },
   "notification-banner-information-high-focus-border": {
-    "value": "0 0 0 3px {color.greyscale.white}",
+    "value": "0 0 0 {borderWidth.l} {color.greyscale.white}",
     "type": "other"
   },
   "notification-banner-information-low-focus-border": {
-    "value": "0 0 0 3px {color.info.dark}",
+    "value": "0 0 0 {borderWidth.l} {color.info.dark}",
     "type": "other"
   },
   "notification-banner-important-high-focus-border": {
-    "value": "0 0 0 3px {color.important.text-dark}",
+    "value": "0 0 0 {borderWidth.l} {color.important.text-dark}",
     "type": "other"
   },
   "notification-banner-important-low-focus-border": {
-    "value": "0 0 0 3px {color.important.text-dark}",
+    "value": "0 0 0 {borderWidth.l} {color.important.text-dark}",
     "type": "other"
   },
   "notification-banner-emergency-high-focus-border": {
-    "value": "0 0 0 3px {color.greyscale.white}",
+    "value": "0 0 0 {borderWidth.l} {color.greyscale.white}",
     "type": "other"
   },
   "notification-banner-emergency-low-focus-border": {
-    "value": "0 0 0 3px {color.emergency.dark}",
+    "value": "0 0 0 {borderWidth.l} {color.emergency.dark}",
     "type": "other"
   },
   "notification-banner-information-high-close-bg-hover": {
