@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 May 2026 15:56:06 GMT
+ * Generated on Wed, 20 May 2026 19:38:56 GMT
  */
 
 :root {
@@ -274,6 +274,9 @@
   --goa-side-menu-item-focus-outline-offset: -3px;
   --goa-scrollable-padding-mobile: 1.5rem;
   --goa-scrollable-padding-desktop: 2rem;
+  --goa-scroll-panel-content-shadow-top-bottom: inset 0px 4px 8px -4px rgba(0,0,0,0.175), inset 0px -4px 8px -4px rgba(0,0,0,0.175);
+  --goa-scroll-panel-content-shadow-top: inset 0px 4px 8px -4px rgba(0,0,0,0.25);
+  --goa-scroll-panel-content-shadow-bottom: inset 0px -4px 8px -4px rgba(0,0,0,0.25);
   --goa-radio-label-color-disabled: #bab7b7;
   --goa-radio-inner-size: 16px;
   --goa-radio-inner-color-error-hover: #ba0000;

@@ -1,0 +1,26 @@
+{
+  "scroll-panel-content-shadow-bottom": {
+    "value": {
+      "light": "inset 0px -4px 8px -4px rgba(0,0,0,0.25)",
+      "dark": "inset 0px -4px 8px -4px rgba(0,0,0,0.5)"
+    },
+    "type": "other",
+    "description": "Inset shadow on scroll-panel content when scrolled to the top (more content below the visible edge)."
+  },
+  "scroll-panel-content-shadow-top": {
+    "value": {
+      "light": "inset 0px 4px 8px -4px rgba(0,0,0,0.25)",
+      "dark": "inset 0px 4px 8px -4px rgba(0,0,0,0.5)"
+    },
+    "type": "other",
+    "description": "Inset shadow on scroll-panel content when scrolled to the bottom (more content above the visible edge)."
+  },
+  "scroll-panel-content-shadow-top-bottom": {
+    "value": {
+      "light": "inset 0px 4px 8px -4px rgba(0,0,0,0.175), inset 0px -4px 8px -4px rgba(0,0,0,0.175)",
+      "dark": "inset 0px 4px 8px -4px rgba(0,0,0,0.4), inset 0px -4px 8px -4px rgba(0,0,0,0.4)"
+    },
+    "type": "other",
+    "description": "Inset shadows on both edges of scroll-panel content when scrolled to the middle (more content above and below)."
+  }
+}

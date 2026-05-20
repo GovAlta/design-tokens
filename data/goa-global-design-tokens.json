@@ -770,66 +770,27 @@
   "shadow": {
     "100": {
       "value": {
-        "light": {
-          "x": "0",
-          "y": "1",
-          "blur": "0",
-          "spread": "0",
-          "color": "#1a1a1a12",
-          "type": "dropShadow"
-        },
-        "dark": {
-          "x": "0",
-          "y": "1",
-          "blur": "0",
-          "spread": "0",
-          "color": "rgba(255,255,255,0.05)",
-          "type": "dropShadow"
-        }
+        "light": "0px 1px 0px 0px #1a1a1a12",
+        "dark": "inset 0px 1px 0px 0px rgba(255,255,255,0.08)"
       },
-      "type": "boxShadow"
+      "type": "other",
+      "description": "Subtle 1px elevation. Light: bottom-edge line. Dark: top-edge inner rim (1px-line shadows don't read on dark, inverted to a thin highlight at the top edge instead)."
     },
     "150": {
       "value": {
-        "light": {
-          "x": "0",
-          "y": "1",
-          "blur": "0",
-          "spread": "0",
-          "color": "#1a1a1a40",
-          "type": "dropShadow"
-        },
-        "dark": {
-          "x": "0",
-          "y": "1",
-          "blur": "0",
-          "spread": "0",
-          "color": "rgba(255,255,255,0.08)",
-          "type": "dropShadow"
-        }
+        "light": "0px 1px 0px 0px #1a1a1a40",
+        "dark": "inset 0px 1px 0px 0px rgba(255,255,255,0.14)"
       },
-      "type": "boxShadow"
+      "type": "other",
+      "description": "Stronger 1px elevation divider. Same rim pattern as 100 but more visible."
     },
     "200": {
       "value": {
-        "light": {
-          "x": "0",
-          "y": "3",
-          "blur": "1",
-          "spread": "-1",
-          "color": "#1a1a1a12",
-          "type": "dropShadow"
-        },
-        "dark": {
-          "x": "0",
-          "y": "3",
-          "blur": "1",
-          "spread": "-1",
-          "color": "rgba(255,255,255,0.05)",
-          "type": "dropShadow"
-        }
+        "light": "0px 3px 1px -1px #1a1a1a12",
+        "dark": "inset 0px 1px 0px 0px rgba(255,255,255,0.08), 0px 3px 4px -1px rgba(0,0,0,0.4)"
       },
-      "type": "boxShadow"
+      "type": "other",
+      "description": "Stat card / subtle lift. Light: small drop. Dark: top-edge inner rim + small drop shadow underneath."
     },
     "300": {
       "value": {
