@@ -17,8 +17,9 @@
   },
   "temporary-notification-color-text": {
     "value": "{color.text.light}",
+    "dark": "#ffffff",
     "type": "color",
-    "description": "Text color for notification messages"
+    "description": "Text color for notification messages. Static white in dark mode because the notification background stays dark in both modes; cascading through {color.text.light} would flip to #1e1e1e (page bg) and become unreadable."
   },
   "temporary-notification-color-border": {
     "value": "{color.greyscale.700}",
