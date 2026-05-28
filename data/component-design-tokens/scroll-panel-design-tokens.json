@@ -1,4 +1,19 @@
 {
+  "scroll-panel-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color for the scroll-panel host."
+  },
+  "scroll-panel-header-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color for the scroll-panel header slot."
+  },
+  "scroll-panel-footer-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color for the scroll-panel footer slot."
+  },
   "scroll-panel-content-shadow-bottom": {
     "value": {
       "light": "inset 0px -4px 8px -4px rgba(0,0,0,0.25)",
