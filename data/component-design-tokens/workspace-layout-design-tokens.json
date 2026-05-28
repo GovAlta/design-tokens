@@ -1,0 +1,66 @@
+{
+  "workspace-layout-bg-color": {
+    "value": "{color.greyscale.100}",
+    "type": "color",
+    "description": "Background color of the workspace layout shell (visible around the main card)."
+  },
+  "workspace-layout-card-bg-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color of the workspace layout's main scrollable card."
+  },
+  "workspace-layout-header-bg-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color of the sticky page header inside the workspace layout card."
+  },
+  "workspace-layout-header-border-bottom": {
+    "value": {
+      "width": "{borderWidth.s}",
+      "style": "solid",
+      "color": "{color.greyscale.200}"
+    },
+    "type": "border",
+    "description": "Divider line under the sticky page header."
+  },
+  "workspace-layout-header-scroll-shadow": {
+    "value": {
+      "light": "0px 4px 8px -4px rgba(0,0,0,0.25)",
+      "dark": "0px 4px 8px -4px rgba(0,0,0,0.5)"
+    },
+    "type": "other",
+    "description": "Soft drop shadow cast below the sticky page header when content is scrolled past it."
+  },
+  "workspace-layout-footer-bg-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color of the sticky page footer inside the workspace layout card."
+  },
+  "workspace-layout-footer-border-top": {
+    "value": {
+      "width": "{borderWidth.s}",
+      "style": "solid",
+      "color": "{color.greyscale.200}"
+    },
+    "type": "border",
+    "description": "Divider line above the sticky page footer."
+  },
+  "workspace-layout-footer-scroll-shadow": {
+    "value": {
+      "light": "0px -4px 8px -4px rgba(0,0,0,0.25)",
+      "dark": "0px -4px 8px -4px rgba(0,0,0,0.5)"
+    },
+    "type": "other",
+    "description": "Soft drop shadow cast above the sticky page footer when content is scrolled past it."
+  },
+  "workspace-layout-mobile-toggle-top": {
+    "value": "{space.l}",
+    "type": "spacing",
+    "description": "Vertical offset of the auto-rendered mobile hamburger button from the top of the layout."
+  },
+  "workspace-layout-mobile-toggle-left": {
+    "value": "{space.s}",
+    "type": "spacing",
+    "description": "Horizontal offset of the auto-rendered mobile hamburger button from the left of the layout."
+  }
+}
