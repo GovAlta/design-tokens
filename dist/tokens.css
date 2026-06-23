@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 May 2026 23:13:44 GMT
+ * Generated on Tue, 23 Jun 2026 20:54:29 GMT
  */
 
 :root {
@@ -294,6 +294,7 @@
   --goa-modal-content-margin: 0;
   --goa-modal-pane-width: 90%;
   --goa-modal-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1), 0px 8px 40px 0px rgba(0,0,0,0.2);
+  --goa-modal-overlay-color: #000000;
   --goa-modal-content-gap-small-screen: 0;
   --goa-modal-content-gap: 0;
   --goa-link-color-light-visited: #9D8EBB;
@@ -704,7 +705,6 @@
   --goa-modal-overlay-opacity: var(--goa-opacity-background-modal);
   --goa-modal-padding-small-screen: var(--goa-space-l);
   --goa-modal-padding: var(--goa-space-xl);
-  --goa-modal-overlay-color: var(--goa-color-greyscale-black);
   --goa-modal-header-typography: var(--goa-font-weight-semi-bold) var(--goa-font-size-4)/var(--goa-line-height-4) var(--goa-font-family-sans);
   --goa-modal-callout-bar-padding-small-screen: var(--goa-space-s) var(--goa-space-s) var(--goa-space-s) var(--goa-space-l);
   --goa-modal-callout-bar-padding: var(--goa-space-xl);
