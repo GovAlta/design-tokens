@@ -1,6 +1,6 @@
 {
   "workspace-layout-bg-color": {
-    "value": "{color.greyscale.100}",
+    "value": "{color.greyscale.50}",
     "type": "color",
     "description": "Background color of the workspace layout shell (visible around the main card)."
   },
@@ -23,11 +23,13 @@
     "type": "border",
     "description": "Divider line under the sticky page header."
   },
+  "workspace-layout-header-scroll-border-color": {
+    "value": "{color.greyscale.200}",
+    "type": "color",
+    "description": "Border color under the sticky page header when content is scrolled past it."
+  },
   "workspace-layout-header-scroll-shadow": {
-    "value": {
-      "light": "0px 4px 8px -4px rgba(0,0,0,0.25)",
-      "dark": "0px 4px 8px -4px rgba(0,0,0,0.5)"
-    },
+    "value": "{shadow.shallow-below}",
     "type": "other",
     "description": "Soft drop shadow cast below the sticky page header when content is scrolled past it."
   },
@@ -45,11 +47,13 @@
     "type": "border",
     "description": "Divider line above the sticky page footer."
   },
+  "workspace-layout-footer-scroll-border-color": {
+    "value": "{color.greyscale.200}",
+    "type": "color",
+    "description": "Border color above the sticky page footer when content is scrolled past it."
+  },
   "workspace-layout-footer-scroll-shadow": {
-    "value": {
-      "light": "0px -4px 8px -4px rgba(0,0,0,0.25)",
-      "dark": "0px -4px 8px -4px rgba(0,0,0,0.5)"
-    },
+    "value": "{shadow.shallow-above}",
     "type": "other",
     "description": "Soft drop shadow cast above the sticky page footer when content is scrolled past it."
   },
@@ -62,5 +66,20 @@
     "value": "{space.s}",
     "type": "spacing",
     "description": "Horizontal offset of the auto-rendered mobile hamburger button from the left of the layout."
+  },
+  "workspace-layout-mobile-toggle-size": {
+    "value": "{iconSize.xl}",
+    "type": "sizing",
+    "description": "Width and height of the auto-rendered mobile hamburger button."
+  },
+  "workspace-layout-mobile-toggle-color": {
+    "value": "{color.text.default}",
+    "type": "color",
+    "description": "Color of the auto-rendered mobile hamburger button icon."
+  },
+  "workspace-layout-mobile-header-padding-left": {
+    "value": "{space.2xl}",
+    "type": "spacing",
+    "description": "Left padding of the sticky page header on mobile, reserving space so the header content clears the auto-rendered hamburger button."
   }
 }

@@ -101,7 +101,7 @@
     "description": "Modal maximum width"
   },
   "modal-heading-border-bottom": {
-    "value": "{borderWidth.s} solid {color.greyscale.150}",
+    "value": "none",
     "type": "other",
     "description": "Heading section bottom border separator"
   },
@@ -111,12 +111,12 @@
     "description": "Heading section padding"
   },
   "modal-content-padding": {
-    "value": "{space.l} 0 {space.xl} 0",
+    "value": "{space.xl} 0 {space.xl} 0",
     "type": "spacing",
     "description": "Content section padding"
   },
   "modal-actions-padding": {
-    "value": "0 {space.xl} {space.xl} {space.xl}",
+    "value": "{space.xs} {space.xl} {space.xl} {space.xl}",
     "type": "spacing",
     "description": "Actions section padding"
   },
@@ -151,14 +151,19 @@
     "description": "Callout variant heading padding for mobile (16px all around)"
   },
   "modal-content-padding-mobile": {
-    "value": "{space.l} 0 {space.xl} 0",
+    "value": "{space.xl} {space.m} {space.xl} {space.m}",
     "type": "spacing",
-    "description": "Content section padding for mobile (24px top, 16px sides, 32px bottom)"
+    "description": "Content section padding for mobile (32px top, 16px sides, 32px bottom)"
+  },
+  "modal-content-padding-desktop": {
+    "value": "{space.l} {space.l} {space.xl} {space.l}",
+    "type": "spacing",
+    "description": "Content section padding for desktop (24px top, 24px sides, 32px bottom)"
   },
   "modal-actions-padding-mobile": {
-    "value": "0 {space.m} {space.m} {space.m}",
+    "value": "{space.xs} {space.m} {space.m} {space.m}",
     "type": "spacing",
-    "description": "Actions section padding for mobile (0 top, 16px sides and bottom)"
+    "description": "Actions section padding for mobile (8px top, 16px sides and bottom)"
   },
   "modal-callout-information-bg": {
     "value": "{color.info.light}",
