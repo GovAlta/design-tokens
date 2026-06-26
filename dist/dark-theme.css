@@ -49,6 +49,7 @@
   --goa-drawer-overlay-color: rgba(0, 0, 0, 0.6);
   --goa-drawer-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3), 0 8px 40px 0 rgba(0, 0, 0, 0.4);
   --goa-dropdown-color-bg: var(--goa-color-surface-input);
+  --goa-dropdown-multiselect-color-bg: var(--goa-color-surface-input);
   --goa-file-upload-color-bg-focus: #252d35;
   --goa-file-upload-color-bg-hover: #252d35;
   --goa-footer-color-text: #909090;
