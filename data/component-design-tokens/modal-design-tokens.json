@@ -116,9 +116,9 @@
     "description": "Content section padding"
   },
   "modal-actions-padding": {
-    "value": "{space.xs} {space.xl} {space.xl} {space.xl}",
+    "value": "{space.l}",
     "type": "spacing",
-    "description": "Actions section padding"
+    "description": "Actions section padding, symmetric and matching content edges (24px all sides)"
   },
   "modal-content-wrapper-padding": {
     "value": "0",
@@ -161,9 +161,9 @@
     "description": "Content section padding for desktop (24px top, 24px sides, 32px bottom)"
   },
   "modal-actions-padding-mobile": {
-    "value": "{space.xs} {space.m} {space.m} {space.m}",
+    "value": "{space.m}",
     "type": "spacing",
-    "description": "Actions section padding for mobile (8px top, 16px sides and bottom)"
+    "description": "Actions section padding for mobile, symmetric and matching content edges (16px all sides)"
   },
   "modal-callout-information-bg": {
     "value": "{color.info.light}",
