@@ -88,5 +88,17 @@
   "icon-button-destructive-disabled-color": {
     "value": "{color.greyscale.500}",
     "type": "color"
+  },
+  "icon-button-tertiary-border-width": {
+    "value": "{borderWidth.s}",
+    "type": "borderWidth"
+  },
+  "icon-button-tertiary-border-color": {
+    "value": "{color.greyscale.200}",
+    "type": "color"
+  },
+  "icon-button-tertiary-destructive-border-color": {
+    "value": "{color.emergency.light}",
+    "type": "color"
   }
 }
