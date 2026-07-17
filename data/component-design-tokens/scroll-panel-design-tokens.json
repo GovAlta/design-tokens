@@ -38,6 +38,14 @@
     "type": "other",
     "description": "Inset shadows on both edges of scroll-panel content when scrolled to the middle (more content above and below)."
   },
+    "scroll-panel-content-shadow-horizontal": {
+    "value": {
+      "light": "rgba(0,0,0,0.1)",
+      "dark": "rgba(0,0,0,0.4)"
+    },
+    "type": "other",
+    "description": "Edge gradient color shown on the left/right of scroll-panel content when it overflows horizontally, indicating more content in that direction."
+  },
   "scroll-panel-header-scroll-border": {
     "value": "{color.greyscale.150}",
     "type": "color",
