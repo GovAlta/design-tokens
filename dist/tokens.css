@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Jul 2026 17:42:22 GMT
+ * Generated on Fri, 17 Jul 2026 18:30:19 GMT
  */
 
 :root {
@@ -270,6 +270,7 @@
   --goa-side-menu-item-focus-outline-offset: -3px;
   --goa-scrollable-padding-mobile: 1.5rem;
   --goa-scrollable-padding-desktop: 2rem;
+  --goa-scroll-panel-content-shadow-horizontal: rgba(0,0,0,0.1);
   --goa-scroll-panel-content-shadow-top-bottom: inset 0px 4px 8px -4px rgba(0,0,0,0.175), inset 0px -4px 8px -4px rgba(0,0,0,0.175);
   --goa-scroll-panel-content-shadow-top: inset 0px 4px 8px -4px rgba(0,0,0,0.25);
   --goa-scroll-panel-content-shadow-bottom: inset 0px -4px 8px -4px rgba(0,0,0,0.25);

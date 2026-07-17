@@ -80,6 +80,7 @@
   --goa-scroll-panel-content-shadow-bottom: inset 0px -4px 8px -4px rgba(0,0,0,0.5);
   --goa-scroll-panel-content-shadow-top: inset 0px 4px 8px -4px rgba(0,0,0,0.5);
   --goa-scroll-panel-content-shadow-top-bottom: inset 0px 4px 8px -4px rgba(0,0,0,0.4), inset 0px -4px 8px -4px rgba(0,0,0,0.4);
+  --goa-scroll-panel-content-shadow-horizontal: rgba(0,0,0,0.4);
   --goa-table-color-bg-heading-hover: var(--goa-color-surface-heading-hover);
   --goa-table-color-bg-heading: var(--goa-color-surface-heading);
   --goa-table-color-bg-data: var(--goa-color-surface-table-data);
