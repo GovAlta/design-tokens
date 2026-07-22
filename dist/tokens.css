@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Jul 2026 17:42:22 GMT
+ * Generated on Wed, 22 Jul 2026 20:44:19 GMT
  */
 
 :root {
@@ -1319,10 +1319,10 @@
   --goa-dropdown-color-bg-disabled: var(--goa-input-color-background-disabled);
   --goa-dropdown-color-bg: var(--goa-input-color-background-default);
   --goa-dropdown-border-radius: var(--goa-input-border-radius-input);
-  --goa-dropdown-border-error-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error-hover);
-  --goa-dropdown-border-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-hover);
+  --goa-dropdown-border-error-hover: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-error-hover);
+  --goa-dropdown-border-hover: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-hover);
   --goa-dropdown-border-focus: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-focus);
-  --goa-dropdown-border-error: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error);
+  --goa-dropdown-border-error: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-error);
   --goa-dropdown-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
   --goa-dropdown-border: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-default);
   --goa-drawer-heading-typography: var(--goa-typography-heading-s);
