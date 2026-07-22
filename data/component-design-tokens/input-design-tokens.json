@@ -8,7 +8,7 @@
     "type": "other"
   },
   "text-input-border-error": {
-    "value": "inset 0 0 0 {input.borderWidth.hover} {input.color.border.error}",
+    "value": "inset 0 0 0 {input.borderWidth.focus} {input.color.border.error}",
     "type": "other"
   },
   "text-input-border-focus": {
