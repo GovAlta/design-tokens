@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 17 Jul 2026 18:30:19 GMT
+ * Generated on Tue, 28 Jul 2026 23:51:30 GMT
  */
 
 :root {
@@ -693,7 +693,7 @@
   --goa-modal-callout-information-icon: var(--goa-color-info-default);
   --goa-modal-callout-information-border: var(--goa-color-info-border);
   --goa-modal-callout-information-bg: var(--goa-color-info-light);
-  --goa-modal-actions-padding-mobile: var(--goa-space-xs) var(--goa-space-m) var(--goa-space-m) var(--goa-space-m);
+  --goa-modal-actions-padding-mobile: var(--goa-space-m);
   --goa-modal-content-padding-desktop: var(--goa-space-l) var(--goa-space-l) var(--goa-space-xl) var(--goa-space-l);
   --goa-modal-content-padding-mobile: var(--goa-space-xl) var(--goa-space-m) var(--goa-space-xl) var(--goa-space-m);
   --goa-modal-callout-heading-padding-mobile: var(--goa-space-m);
@@ -701,7 +701,7 @@
   --goa-modal-callout-heading-padding: var(--goa-space-m) var(--goa-space-l);
   --goa-modal-scrollable-padding-mobile: var(--goa-space-m);
   --goa-modal-scrollable-padding-desktop: var(--goa-space-l);
-  --goa-modal-actions-padding: var(--goa-space-xs) var(--goa-space-xl) var(--goa-space-xl) var(--goa-space-xl);
+  --goa-modal-actions-padding: var(--goa-space-l);
   --goa-modal-content-padding: var(--goa-space-xl) 0 var(--goa-space-xl) 0;
   --goa-modal-heading-padding: 20px var(--goa-space-l);
   --goa-modal-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-150);

@@ -38,7 +38,7 @@
     "type": "other",
     "description": "Inset shadows on both edges of scroll-panel content when scrolled to the middle (more content above and below)."
   },
-    "scroll-panel-content-shadow-horizontal": {
+  "scroll-panel-content-shadow-horizontal": {
     "value": {
       "light": "rgba(0,0,0,0.1)",
       "dark": "rgba(0,0,0,0.4)"
