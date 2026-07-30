@@ -35,7 +35,7 @@
   "modal-overlay-color": {
     "value": "#000000",
     "type": "color",
-    "description": "Black scrim behind the modal. Literal value rather than the greyscale-black token, because greyscale-black inverts to light grey in dark mode and the scrim must stay dark in both themes; the light/dark dimming is handled by modal-overlay-opacity. Longer term this should reference a shared semantic overlay color token (which would also cover the drawer overlay)."
+    "description": "Black modal scrim that stays dark in both themes; theme-specific dimming is controlled by modal-overlay-opacity."
   },
   "modal-padding": {
     "value": "{space.xl}",
