@@ -16,7 +16,7 @@
     "type": "other"
   },
   "dropdown-border-hover": {
-    "value": "inset 0 0 0 {input.borderWidth.focus} {input.color.border.hover}",
+    "value": "inset 0 0 0 {input.borderWidth.hover} {input.color.border.hover}",
     "type": "other"
   },
   "dropdown-border-error-hover": {

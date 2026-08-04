@@ -1190,7 +1190,7 @@
   --goa-text-area-border-radius: var(--goa-input-border-radius-input);
   --goa-text-area-border-hover: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-hover);
   --goa-text-area-border-focus: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-focus);
-  --goa-text-area-border-error: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-error);
+  --goa-text-area-border-error: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error);
   --goa-text-area-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
   --goa-text-area-border: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-default);
   --goa-temporary-notification-typography: var(--goa-typography-body-m);
@@ -1239,7 +1239,7 @@
   --goa-text-input-border-radius: var(--goa-input-border-radius-input);
   --goa-text-input-border-hover: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-hover);
   --goa-text-input-border-focus: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-focus);
-  --goa-text-input-border-error: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-error);
+  --goa-text-input-border-error: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error);
   --goa-text-input-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
   --goa-text-input-border: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-default);
   --goa-icon-button-default-disabled-color: var(--goa-color-interactive-disabled);
@@ -1297,7 +1297,7 @@
   --goa-dropdown-multiselect-color-bg: var(--goa-input-color-background-default);
   --goa-dropdown-multiselect-border-radius: var(--goa-input-border-radius-input);
   --goa-dropdown-multiselect-border-error-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error-hover);
-  --goa-dropdown-multiselect-border-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-hover);
+  --goa-dropdown-multiselect-border-hover: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-hover);
   --goa-dropdown-multiselect-border-focus: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-focus);
   --goa-dropdown-multiselect-border-error: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error);
   --goa-dropdown-multiselect-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
@@ -1321,7 +1321,7 @@
   --goa-dropdown-color-bg: var(--goa-input-color-background-default);
   --goa-dropdown-border-radius: var(--goa-input-border-radius-input);
   --goa-dropdown-border-error-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error-hover);
-  --goa-dropdown-border-hover: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-hover);
+  --goa-dropdown-border-hover: inset 0 0 0 var(--goa-input-border-width-hover) var(--goa-input-color-border-hover);
   --goa-dropdown-border-focus: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-focus);
   --goa-dropdown-border-error: inset 0 0 0 var(--goa-input-border-width-focus) var(--goa-input-color-border-error);
   --goa-dropdown-border-disabled: inset 0 0 0 var(--goa-input-border-width-default) var(--goa-input-color-border-disabled);
