@@ -1074,9 +1074,9 @@
       "description": "-0.5px"
     },
     "xs": {
-      "value": "-0.046875rem",
+      "value": "-0.03125rem",
       "type": "letterSpacing",
-      "description": "-0.75px"
+      "description": "-0.5px"
     },
     "s": {
       "value": "-0.046875rem",
@@ -1115,9 +1115,9 @@
         "description": "-0.5px"
       },
       "xs": {
-        "value": "-0.046875rem",
+        "value": "-0.03125rem",
         "type": "letterSpacing",
-        "description": "-0.75px"
+        "description": "-0.5px"
       },
       "s": {
         "value": "-0.046875rem",
