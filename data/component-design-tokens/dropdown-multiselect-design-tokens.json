@@ -45,7 +45,7 @@
     "type": "color"
   },
   "dropdown-multiselect-color-text-placeholder": {
-    "value": "{input.color.text.default}",
+    "value": "{input.color.text.placeholder}",
     "type": "color"
   },
   "dropdown-multiselect-color-text-error": {

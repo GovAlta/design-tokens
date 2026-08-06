@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Jul 2026 00:02:36 GMT
+ * Generated on Wed, 05 Aug 2026 16:49:19 GMT
  */
 
 :root {
@@ -1292,6 +1292,7 @@
   --goa-dropdown-multiselect-item-color-bg-disabled: var(--goa-input-color-background-disabled);
   --goa-dropdown-multiselect-item-color-bg: var(--goa-input-color-background-default);
   --goa-dropdown-multiselect-color-text-error: var(--goa-input-color-text-error);
+  --goa-dropdown-multiselect-color-text-placeholder: var(--goa-input-color-text-placeholder);
   --goa-dropdown-multiselect-color-text-disabled: var(--goa-input-color-text-disabled);
   --goa-dropdown-multiselect-color-bg-disabled: var(--goa-input-color-background-disabled);
   --goa-dropdown-multiselect-color-bg: var(--goa-input-color-background-default);
@@ -1311,10 +1312,11 @@
   --goa-dropdown-item-color-text-selected-hover: var(--goa-color-text-light);
   --goa-dropdown-item-color-text-hover: var(--goa-color-text-default);
   --goa-dropdown-item-color-text-disabled: var(--goa-color-text-disabled);
-  --goa-dropdown-item-color-text: var(--goa-color-text-secondary);
+  --goa-dropdown-item-color-text: var(--goa-color-text-default);
   --goa-dropdown-item-color-bg-disabled: var(--goa-input-color-background-disabled);
   --goa-dropdown-item-color-bg: var(--goa-input-color-background-default);
   --goa-dropdown-color-text-error: var(--goa-input-color-text-error);
+  --goa-dropdown-color-text-placeholder: var(--goa-input-color-text-placeholder);
   --goa-dropdown-color-text-disabled: var(--goa-input-color-text-disabled);
   --goa-dropdown-color-bg-error: var(--goa-input-color-background-error);
   --goa-dropdown-color-bg-disabled: var(--goa-input-color-background-disabled);
@@ -1389,9 +1391,7 @@
   --goa-accordion-color-heading-hover: var(--goa-color-text-default);
   --goa-accordion-color-heading: var(--goa-color-text-default);
   --goa-text-input-color-text: var(--goa-input-color-text-default);
-  --goa-dropdown-multiselect-color-text-placeholder: var(--goa-input-color-text-default);
   --goa-dropdown-multiselect-color-text: var(--goa-input-color-text-default);
-  --goa-dropdown-color-text-placeholder: var(--goa-input-color-text-default);
   --goa-dropdown-color-text: var(--goa-input-color-text-default);
   --goa-date-input-day-color-text-hover: var(--goa-input-color-text-default);
   --goa-date-input-day-color-text: var(--goa-input-color-text-default);
