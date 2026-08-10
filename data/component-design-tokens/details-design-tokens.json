@@ -56,6 +56,10 @@
     "value": "{space.xs}",
     "type": "spacing"
   },
+  "details-margin-top": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
   "details-padding-bottom": {
     "value": "{space.xs}",
     "type": "spacing"
