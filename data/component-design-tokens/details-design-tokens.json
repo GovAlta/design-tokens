@@ -57,7 +57,7 @@
     "type": "spacing"
   },
   "details-margin-top": {
-    "value": "{space.xs}",
+    "value": "{space.2xs}",
     "type": "spacing"
   },
   "details-padding-bottom": {
