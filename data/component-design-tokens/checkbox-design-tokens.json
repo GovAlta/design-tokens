@@ -75,6 +75,10 @@
     "value": "{color.interactive.error}",
     "type": "color"
   },
+  "checkbox-color-bg-checked-error-disabled": {
+    "value": "{color.interactive.error-disabled}",
+    "type": "color"
+  },
   "checkbox-color-bg-checked-hover": {
     "value": "{color.interactive.hover}",
     "type": "color"
