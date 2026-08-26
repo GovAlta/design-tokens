@@ -39,7 +39,7 @@
     "description": "Work side menu logo. Light mode falls back to component-internal default; dark mode uses #0084BB blue + #C2C6CE 'A' shape tuned for dark backgrounds."
   },
   "work-side-menu-popover-shadow": {
-    "value": "{shadow.raised-light}",
+    "value": "{shadow.raised-heavy}",
     "dark": "0 4px 6px rgba(0,0,0,0.4)",
     "type": "other",
     "description": "Box shadow applied to popovers (account, item) inside the work side menu"

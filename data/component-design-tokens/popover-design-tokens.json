@@ -25,7 +25,7 @@
     "description": "Content padding inside popover"
   },
   "popover-box-shadow": {
-    "value": "{shadow.raised-light}",
+    "value": "{shadow.raised-heavy}",
     "type": "other",
     "description": "Shadow for popover container"
   },
