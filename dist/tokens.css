@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 13 Aug 2026 23:42:16 GMT
+ * Generated on Wed, 26 Aug 2026 20:55:40 GMT
  */
 
 :root {
@@ -70,7 +70,7 @@
   --goa-line-height-1: 1.25rem;
   --goa-shadow-shallow-below: 0px 1px 8px 0px rgba(0,0,0,0.07);
   --goa-shadow-shallow-above: 0px -2px 16px 0px rgba(0,0,0,0.1);
-  --goa-shadow-raised-heavy: 0px 0px 1px 0px rgba(0,0,0,0.2), 0px 16px 32px -20px rgba(0,0,0,0.22);
+  --goa-shadow-raised-heavy: 0px 0px 1px 0px rgba(0,0,0,0.2), 0px 16px 32px 0px rgba(0,0,0,0.22);
   --goa-shadow-raised-light: 0px 12px 16px -4px rgba(16,29,40,0.08), 0px 4px 6px -2px rgba(16,29,40,0.03);
   --goa-shadow-modal: 0px 0px 4px 0px rgba(0,0,0,0.1), 0px 8px 40px 0px rgba(0,0,0,0.2);
   --goa-shadow-600: 0px 20px 20px -8px #1a1a1a47;
@@ -474,7 +474,7 @@
   --goa-work-side-menu-transition-duration-medium: var(--goa-motion-duration-medium-2);
   --goa-work-side-menu-mobile-bg: var(--goa-color-greyscale-50);
   --goa-work-side-menu-text-color: var(--goa-color-greyscale-600);
-  --goa-work-side-menu-popover-shadow: var(--goa-shadow-raised-light);
+  --goa-work-side-menu-popover-shadow: var(--goa-shadow-raised-heavy);
   --goa-work-side-menu-account-bg: var(--goa-color-greyscale-white);
   --goa-work-side-menu-account-shadow: var(--goa-shadow-500);
   --goa-work-side-menu-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
@@ -619,7 +619,7 @@
   --goa-circular-progress-small-margin-top: var(--goa-space-l);
   --goa-circular-progress-large-margin-top: var(--goa-space-xl);
   --goa-popover-border: var(--goa-border-width-2xs) solid var(--goa-color-greyscale-150);
-  --goa-popover-box-shadow: var(--goa-shadow-raised-light);
+  --goa-popover-box-shadow: var(--goa-shadow-raised-heavy);
   --goa-popover-padding: var(--goa-space-xs);
   --goa-popover-color-bg: var(--goa-color-greyscale-white);
   --goa-popover-border-radius: var(--goa-border-radius-xl);
