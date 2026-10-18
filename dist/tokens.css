@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 Aug 2026 20:55:40 GMT
+ * Generated on Sun, 18 Oct 2026 00:23:09 GMT
  */
 
 :root {
@@ -235,6 +235,7 @@
   --goa-color-interactive-hover: #045092;
   --goa-color-interactive-secondary: #e0f1ff;
   --goa-color-interactive-default: #006dcc;
+  --goa-work-side-notification-item-urgent-color-bg-hover: #f5ecdb;
   --goa-work-side-menu-item-min-height: 2.5rem;
   --goa-work-side-menu-item-icon-display: flex;
   --goa-work-side-menu-group-item-min-height: 1.75rem;
@@ -459,6 +460,7 @@
   --goa-workspace-layout-header-bg-color: var(--goa-color-greyscale-white);
   --goa-workspace-layout-card-bg-color: var(--goa-color-greyscale-white);
   --goa-workspace-layout-bg-color: var(--goa-color-greyscale-50);
+  --goa-work-side-notification-item-color-bg: var(--goa-color-greyscale-white);
   --goa-work-side-menu-item-text-color: var(--goa-color-greyscale-600);
   --goa-work-side-menu-item-padding: var(--goa-space-xs) var(--goa-space-xs) var(--goa-space-xs) 0.625rem;
   --goa-work-side-menu-item-color-bg-hover: var(--goa-color-greyscale-100);

@@ -1,0 +1,12 @@
+{
+  "work-side-notification-item-color-bg": {
+    "value": "{color.greyscale.white}",
+    "dark": "var(--goa-color-surface-popover)",
+    "type": "color"
+  },
+  "work-side-notification-item-urgent-color-bg-hover": {
+    "value": "#f5ecdb",
+    "dark": "var(--goa-color-warning-border)",
+    "type": "color"
+  }
+}
